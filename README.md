@@ -112,7 +112,7 @@ For optimal performance, the bf_size parameter in `bt count` should be approxima
 ```bash
 get_bfsize.sh fastalistfile
 ```
-Given a list of gzipped fasta files, report the distribution of kmer abundance. If the default cutoff of _c_ is to be used, the sum of the kmer counts for abundances _c_ and higher should be used for bf_size.
+Given a list of gzipped fasta files, report the distribution of kmer abundance. If the default cutoff of _c_ is to be used, the kmer count for abundances _c_ should be used for bf_size.
 
 
 # Building a ROAR-compressed tree
