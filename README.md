@@ -28,6 +28,7 @@ To install SBT-AS using the source:
 * Jellyfish (Version 2.2.0 or later)
 * SDSL-lite (Version 2.0 or later)
 * CRoaring (https://github.com/RoaringBitmap/CRoaring)
+* TCLAP (Version 1.2.x, http://tclap.sourceforge.net/)
 
 
 The PREQ_INSTALL file contains some helpful information for installing the prerequisites.
