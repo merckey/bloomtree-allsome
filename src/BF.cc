@@ -425,6 +425,7 @@ UncompressedBF::UncompressedBF(const std::string & f, HashPair hp, int nh, uint6
     BF(f, hp, nh),
     bv(nullptr)
 {
+    hash_function_modulus = num_filter_bits;
     if (num_filter_bits > 0) {
         bv = new sdsl::bit_vector(num_filter_bits);
     }
