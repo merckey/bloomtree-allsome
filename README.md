@@ -52,7 +52,7 @@ Then, to query the SBT-AS, either the `bt query` or `squery` is used.
 # Usage Details
 
 
-To build an SBT-AS, follow these steps:
+To build an RRR-compressed SBT-AS, follow these steps:
 
 
 1.  `bt hashes [-k 20] hashfile`  
@@ -112,7 +112,7 @@ For optimal performance, the bf_size parameter in `bt count` should be approxima
 ```bash
 get_bfsize.sh fastalistfile
 ```
-Given a list of gzipped fasta files, report the distribution of kmer abundance. If the default cutoff of _c_ is to be used, the kmer count for abundances _c_ should be used for bf_size.
+Given a list of gzipped fasta files, report the distribution of kmer abundance. If a cutoff of _c_ is to be used for `bt count`, then the kmer count for abundances _c_ or greater should be used for bf_size.
 
 
 # Building a ROAR-compressed tree
