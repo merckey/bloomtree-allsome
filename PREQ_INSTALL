@@ -1,0 +1,46 @@
+#!/bin/bash
+
+
+# hopefully these steps will run automatically without problem, but in case the script stops somewhere, at least you know what are roughly the steps to install the dependencies
+# tested on centos 7, gcc 4.8.6
+
+
+mkdir deps
+cd deps
+set -e
+
+
+# jellyfish
+
+
+wget https://github.com/gmarcais/Jellyfish/releases/download/v2.2.6/jellyfish-2.2.6.tar.gz
+tar xf jellyfish-2.2.6.tar.gz
+cd jellyfish-2.2.6
+./configure --prefix=$HOME
+make -j 4
+make install
+cd ..
+
+
+# sdsl lite
+
+git clone --recursive https://github.com/simongog/sdsl-lite.git
+cd sdsl-lite
+patch  -p1 -i ../../INSTALL.sdsl-lite.patch # apply a special patch to support more operations, coded by Bob, but not commited to SDSL-lite yet
+./install.sh
+cd ..
+
+# roaring
+
+git clone https://github.com/RoaringBitmap/CRoaring.git
+cd CRoaring
+mkdir build
+cd build
+cmake -DCMAKE_INSTALL_PREFIX:PATH=$HOME .. 
+make install
+cd ..
+cd ..
+
+
+echo  "don't forget to type (or add to ~/.bashrc): "
+echo  "export LD_LIBRARY_PATH=$HOME/lib:\$LD_LIBRARY_PATH"
