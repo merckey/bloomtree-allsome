@@ -1,6 +1,6 @@
 # Tutorial, Creating an Allsome Bloomtree
 
-Initialize the hash function ...
+Initialize the hash function.
 
 ```bash  
 bt hashes --k 20 example.hashfile
@@ -45,7 +45,7 @@ Build the SBT.
 
 ```bash  
 ls experiment*.bf.bv | sed "s/\.bf\.bv//" > bitvectornames
-sbuild -f example.hashfile -p . -l bitvectornames -o . -b sbt.txt
+../bfcluster/sbuild -f example.hashfile -p . -l bitvectornames -o . -b sbt.txt
 ```
 
 Split the SBT nodes to create an SBT-AS.
@@ -78,7 +78,7 @@ cat sbt.txt \
   > sbt-rrr-allsome.txt
 ```
 
-Run the a batch of queries.
+Run a batch of queries.
 
 ```bash  
 bt query -t 0.5 sbt-rrr-allsome.txt queries queryresults
