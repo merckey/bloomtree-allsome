@@ -8,7 +8,7 @@ This package implements the SBT-AS data structure presented in [1]. SBT-AS is a 
 
 
 To install SBT-AS using the source:  
-1. Download the latest version of bloomtree-allsome using Github
+1. Download the latest version of bloomtree-allsome using Github  
     ```bash  
      git clone https://github.com/medvedevgroup/bloomtree-allsome  
     ```  
