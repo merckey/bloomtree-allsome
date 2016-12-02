@@ -7,6 +7,7 @@
 #include <set>
 #include <vector>
 #include <cassert>
+#include <fstream>
 
 
 //
@@ -64,5 +65,10 @@ int SplitString(const std::string &, char, std::vector<std::string> &);
 std::string SetAsString(const std::set<std::string> &,  const std::string & = " ");
 
 std::string VectorAsString(const std::vector<std::string> &, const std::string & = " ");
+
+bool starts_with(const std::string& haystack, const std::string& needle);
+bool ends_with(const std::string& haystack, const std::string& needle);
+
+std::ifstream::pos_type filesize(std::string filename);
 
 #endif

@@ -60,7 +60,7 @@ void convert_jfbloom_to_rrr(const std::string & jfbloom_file, const std::string 
     
     // covert that raw bit vector into an rrr compressed vector & save it.
     sdsl::rrr_vector<255> rrr(*b); 
-    std::cerr << "Compressed RRR vector is " << sdsl::size_in_mega_bytes(rrr) << std::endl; 
+    std::cerr << "Compressed RRR vector is " << sdsl::size_in_mega_bytes(rrr) << "MB" << std::endl; 
     sdsl::store_to_file(rrr, out_file);
 
     delete b;
@@ -192,7 +192,7 @@ sdsl::bit_vector* build_filters(
         std::cerr << "Compressing to " << union_name << std::endl;
         sdsl::rrr_vector<255> rrr(*u);
         sdsl::store_to_file(rrr, union_name);
-        std::cerr << "Compressed RRR vector is " << sdsl::size_in_mega_bytes(rrr) << std::endl; 
+        std::cerr << "Compressed RRR vector is " << sdsl::size_in_mega_bytes(rrr) << "MB" << std::endl; 
     } else {
         check.close();
         std::cerr << "Skipping compression because " << union_name << " already exists." << std::endl;
@@ -255,6 +255,7 @@ sdsl::bit_vector* build_filters_parallel(
 }
 
 
+// note: this function is only used when jfbloom's are given as input, i.e. not in the normal SBT behavior
 void build_bt_from_jfbloom(
     const std::vector<std::string> & leaves, 
     const std::string & outf,
@@ -313,8 +314,17 @@ BloomTree* insert_bloom_tree(BloomTree* T, BloomTree* N, int type) {
             // represents an SRA file, and so it has to stay a leaf. So what we
             // must do is replace T by a new union fiilter T -->
             // NewNode{child0=T, child1=N}
+
+            // RSH changed name creation to be aware of names for compressed nodes
+            //  was oss << nosuffix(N->name(), std::string(".bf.bv")) << "_union.bf.bv";
             std::ostringstream oss;
-            oss << nosuffix(N->name(), std::string(".bf.bv")) << "_union.bf.bv";
+            std::string N_name = N->name();
+            size_t suffix_ix = N_name.rfind(".bf.bv");
+            if (suffix_ix == std::string::npos) {
+                suffix_ix = N_name.length();
+            }
+            oss << N_name.substr(0,suffix_ix) + "_union" + N_name.substr(suffix_ix);
+
             std::cerr << "Splitting leaf into " << oss.str() 
                 << " at depth " << depth << std::endl;
 
@@ -351,13 +361,13 @@ BloomTree* insert_bloom_tree(BloomTree* T, BloomTree* N, int type) {
             for (int i = 0; i < 2; i++) {
                 T->child(i)->increment_usage();
                 uint64_t sim = T->child(i)->similarity(N,type);
-                std::cerr << "Child " << i << " sim =" << sim << std::endl;
+                std::cerr << "Child " << i << " sim=" << sim << std::endl;
                 if (sim >= best_sim) {
                     best_sim = sim;
                     best_child = i;
                 }
             }
-            
+
             // union the new filter with this node
             T->union_into(N);
 
@@ -418,7 +428,7 @@ void dynamic_build(
         //  insert this new leaf
         root = insert_bloom_tree(root, N, type);
 
-	/*
+    /*
         count++;
         if (count % 100 == 0){
             std::string temp_out = outf;
@@ -426,7 +436,7 @@ void dynamic_build(
             temp_out.append(std::to_string(count));
             draw_bt(root, temp_out);
         }
-	*/
+    */
     }
     
     // write the tree file

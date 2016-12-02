@@ -123,3 +123,23 @@ std::string VectorAsString(const std::vector<std::string> & in, const std::strin
     }
     return oss.str();
 }
+
+
+// from http://stackoverflow.com/questions/8095088/how-to-check-string-start-in-c
+bool starts_with(const std::string& haystack, const std::string& needle) {
+    return (needle.length() <= haystack.length())
+        && (equal(needle.begin(), needle.end(), haystack.begin()));
+}
+
+// http://stackoverflow.com/questions/874134/find-if-string-ends-with-another-string-in-c
+bool ends_with(const std::string& haystack, const std::string& needle) {
+    if (needle.size() > haystack.size()) return false;
+    return std::equal(needle.rbegin(), needle.rend(), haystack.rbegin());
+}
+
+// http://stackoverflow.com/questions/5840148/how-can-i-get-a-files-size-in-c
+std::ifstream::pos_type filesize(std::string filename)
+{
+    std::ifstream in(filename, std::ifstream::ate | std::ifstream::binary);
+    return in.tellg(); 
+}
