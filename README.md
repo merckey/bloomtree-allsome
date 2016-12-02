@@ -7,17 +7,17 @@ This package implements the SBT-AS data structure presented in [1]. SBT-AS is a 
 # Installation
 
 
-To install SBT-AS using the source: 
+To install SBT-AS using the source:  
 1. Download the latest version of bloomtree-allsome using Github
-    ```bash
-     git clone https://github.com/medvedevgroup/bloomtree-allsome
-    ```
-2. Compile:
-    ```bash
-    cd bloomtree-allsome/src
-    make
-    cd ../bfcluster
-    make
+    ```bash  
+     git clone https://github.com/medvedevgroup/bloomtree-allsome  
+    ```  
+2. Compile:  
+    ```bash  
+    cd bloomtree-allsome/src  
+    make  
+    cd ../bfcluster  
+    make  
     ```
 
 
@@ -36,16 +36,16 @@ The PREQ_INSTALL file contains some helpful information for installing the prere
 # Usage Overview
 
 
-First, an SBT-AS must be built using the following pipeline:
-1. Initialize a hash function (`bt hashes` command).
-2. Analyze the database’s fasta files to determine the bloom filter size (`get_bfsize.sh`).
-3. Convert the fasta files to bloom filter bit vectors (`bt count` command).
-4. Build the SBT of the bit vectors (using `sbuild` command)
-5. Convert the SBT to SBT-AS (`bt split` command)
-6. Compress the SBT-AS bit vectors (`bt compress-rrr-double` command)
+First, an SBT-AS must be built using the following pipeline:  
+1. Initialize a hash function (`bt hashes`)  
+2. Analyze the database’s fasta files to determine the bloom filter size (`get_bfsize.sh`)  
+3. Convert the fasta files to bloom filter bit vectors (`bt count`)  
+4. Build the SBT of the bit vectors ( `sbuild`)  
+5. Convert the SBT to SBT-AS (`bt split`)  
+6. Compress the SBT-AS bit vectors (`bt compress-rrr-double`)
 
 
-Then, to query the SBT-AS, the `query` command is used. 
+Then, to query the SBT-AS, either the `bt query` or `squery` is used. 
 
 
 # Usage Details
@@ -54,15 +54,15 @@ Then, to query the SBT-AS, the `query` command is used.
 To build an SBT-AS, follow these steps:
 
 
-1.  `bt hashes [-k 20] hashfile`
+1.  `bt hashes [-k 20] hashfile`  
 &nbsp;&nbsp;&nbsp;&nbsp;Creates a file describing the hash function to be used for bloom filters.
 
 
-2.  `bt count [--cutoff 3] [--threads 16] hashfile bf_size fasta_in filter_out.bf.bv`
+2.  `bt count [--cutoff 3] [--threads 16] hashfile bf_size fasta_in filter_out.bf.bv`  
 &nbsp;&nbsp;&nbsp;&nbsp;Given an input file from the database, create an uncompressed bitvector file containing the input’s bloom filter.  The size of the bloom filter is given by bf_size. See section “Determining the Bloom Filter size” for how to determine the bf_size. Note that all bloom filters must have the same size.
 
 
-3. `bfcluster/sbuild -f hashfile -p leaf_bloom_filter_directory -l bloom_filter_name.list  -o output_directory -b bloom_filter_tree_topology_file`
+3. `bfcluster/sbuild -f hashfile -p leaf_bloom_filter_directory -l bloom_filter_name.list  -o output_directory -b bloom_filter_tree_topology_file`  
 &nbsp;&nbsp;&nbsp;&nbsp; Building sequence bloom tree by hierarchical clustering leaf bloom filters.
     - `-f` hash file used to generate leaf bloom filters
     - `-p` directory of leaf bloom filters
@@ -72,35 +72,32 @@ To build an SBT-AS, follow these steps:
     - `-b` filename of tree topology
 
 
-4. `bt split bloomtreefile outfile`
+4. `bt split bloomtreefile outfile`  
 &nbsp;&nbsp;&nbsp;&nbsp;Given a bloomtreefile describing the tree topology, and bitvector files for the leaves in the tree (*see note below), build the all+some version of the tree, with each node occupying two files. *note: the current implementation inadvertently requires existing files for the internal nodes, which are read (but not actually used internally)
 
 
-5. `bt compress-rrr-double hashfile filter1_in.bf.bv filter2_in.bf.bv filter_out.bf.bv.rrr`
+5. `bt compress-rrr-double hashfile filter1_in.bf.bv filter2_in.bf.bv filter_out.bf.bv.rrr`  
 &nbsp;&nbsp;&nbsp;&nbsp;Given a pair of bitvector files representing the uncompressed all and some parts of a node, make an rrr-compressed version of that node as a single file.
 
 
 We note that commands 1 and, 2, and 3 are inherited from the original Solomon and Kinsgford base implementation [2] and further details can be found in user_manual-SK/sbt-manual.pdf.
 
 
+To query the SBT-AS, you can use one of two functions. The `bt query` function implements the regular query algorithm described in Section 4.1 of [1], while the `squery` function implements the large heuristic and large exact query algorithms described in Section 4.3. For large queries,`squery` is orders of magnitude faster and is recommended. For instance, a sequencing experiment, which is a FASTA file that contains many reads, can be considered as a large query. For queries that contain on the order of thousands kmers, no significant performance improvement is expected. The disadvantage of `squery` is that it requires a ROAR compressed tree and will not work with an RRR compressed tree.
 
 
-To query the SBT-AS, you can use one of two functions. The `bt query` function implements the “regular query algorithm” described in Section 4.1 of [1], while the `squery` function implements the large heuristic and large exact algorithm described in Section 4.3. 
-
-
-1. `bt query [--query-threshold 0.9] bloomtreefile queryfile outfile`
+1. `bt query [--query-threshold 0.9] bloomtreefile queryfile outfile`  
 &nbsp;&nbsp;&nbsp;&nbsp;Given a bloomtreefile describing the tree topology, bitvector files for every node in the tree, and a batch of queries (one per line), find the leaves that are "hits" for each query.
 
 
-2. `bfcluster/squery -b tree_topology_file -f hashfile -q query.fasta -o output_directory -t threshold [-E]`
-&nbsp;&nbsp;&nbsp;&nbsp; Querying bloom filter converted from all sequences in query file, instead of querying kmers in query file.  When the query is large, `squery` uses an order of magnitude less querying time than `bt query` while getting the same matching results. So In SBT-AS, `squery` is used to query large sequencing data. For instance, a sequencing experiment, which is a FASTA file that contains many reads, can be considered as a large query. In contrast, `squery` can not gain a significant performance improvement if the query contains only tens or hundreds of short reads.  
-To get better query performance for large queries, use `squery` instead of `bt query` in the pipeline. `squery` by default employs a heuristic match strategy which leads to an even better querying performance, but it might miss few matching results. To disable heuristic matching strategy, simply use `-E` parameter.
-    - `-b` sequence bloom tree topology file
+2. `bfcluster/squery -b tree_topology_file -f hashfile -q query.fasta -o output_directory -t threshold [-E]`  
+&nbsp;&nbsp;&nbsp;&nbsp; `squery` by default implements the large heuristic algorithm from [1], meaning that the result may not always include all the hits. To instead use the large exact algorithm (which is slightly slower), use the -E option.
+    - `-b` sequence bloom tree topology file, it must represent a ROAR compressed tree (see Section X)
     - `-f` hash file used to generate bloom filters
     - `-q` query sequences in FASTA file format
     - `-o` query output directory
     - `-t` query threshold
-    - `-E` disable heuristic query strategy
+    - `-E` enable exact algorithm 
 
 
 
@@ -144,17 +141,17 @@ bfcluster/pcompress -l bloom_filter_file_list -c compress_type -t thread
 The following commands are not needed for standard usage, but may be useful for developers.
 
 
-`bt compress-rrr bloomtreefile outfile`
-`bt compress-roar bloomtreefile outfile`
+`bt compress-rrr bloomtreefile outfile`  
+`bt compress-roar bloomtreefile outfile`  
 &nbsp;&nbsp;&nbsp;&nbsp;Given a bloomtreefile describing the tree topology, and bitvector files for every node in the tree, make a compressed copy of each node in the tree, and create a topology file describing the compressed-node tree.
 
 
-`bt compress-rrr-single hashfile filter_in.bf.bv`
-`bt compress-roar-single hashfile filter_in.bf.bv`
+`bt compress-rrr-single hashfile filter_in.bf.bv`  
+`bt compress-roar-single hashfile filter_in.bf.bv`  
 &nbsp;&nbsp;&nbsp;&nbsp;Given a single node’s bitvector file, make a compressed copy of it.  The resulting file will be named filter_in.bf.bv.rrr or filter_in.bf.bv.roar.
 
 
-`bt rebuild bloomtreefile`
+`bt rebuild bloomtreefile`  
 &nbsp;&nbsp;&nbsp;&nbsp;Given a bloomtreefile describing the tree topology, and bitvector files for the leaves in the tree, build the internal nodes according to the topology.
 
 
@@ -175,4 +172,3 @@ If using SBT-AS, please cite [1]. This project has been supported in part by NSF
 
 [1] Chen Sun, Robert S. Harris, Rayan Chikhi, and Paul Medvedev. AllSome Sequence Bloom Trees, bioRxiv.  
 [2] Brad Solomon and Carl Kingsford. Fast search of thousands of short-read sequencing experiments. Nature biotechnology, 2016.
-
