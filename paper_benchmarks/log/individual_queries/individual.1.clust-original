@@ -1,0 +1,43 @@
+Starting Bloom Tree
+Kmer size = 20 (but we will use the k from a hashfile if we read one)
+Loading bloom tree topology: /mnt/assemblage/sbt/clusteringSBT.conversion/sbt-rrr.txt
+Loading hashes from /mnt/assemblage/sbt/clusteringSBT.conversion/hashfile
+# Hash applications=1
+Read hashes for k=20
+Read 5303 nodes in union Bloom Tree
+In memory limit = 1
+Querying...
+Read 1 queries.
+[BF load] 0.0799 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2651.union.bf.bv.rrr 24 MB, 311.1784 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2651.union.bf.bv.rrr internal 1
+[BF load] 0.1212 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2649.union.bf.bv.rrr 38 MB, 320.1361 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2649.union.bf.bv.rrr internal 1
+[BF load] 0.7367 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2648.union.bf.bv.rrr 232 MB, 315.5081 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2648.union.bf.bv.rrr internal 0
+[BF load] 0.1965 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2647.union.bf.bv.rrr 61 MB, 313.5929 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2647.union.bf.bv.rrr internal 1
+[BF load] 0.5274 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2644.union.bf.bv.rrr 240 MB, 455.9006 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2644.union.bf.bv.rrr internal 0
+[BF load] 0.2337 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2646.union.bf.bv.rrr 96 MB, 411.9548 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2646.union.bf.bv.rrr internal 1
+[BF load] 0.5792 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2643.union.bf.bv.rrr 229 MB, 396.9666 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2643.union.bf.bv.rrr internal 0
+[BF load] 0.5200 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2645.union.bf.bv.rrr 169 MB, 325.5449 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2645.union.bf.bv.rrr internal 1
+[BF load] 0.6480 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2641.union.bf.bv.rrr 242 MB, 374.7849 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2641.union.bf.bv.rrr internal 0
+[BF load] 0.6066 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2642.union.bf.bv.rrr 219 MB, 361.3589 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2642.union.bf.bv.rrr internal 1
+[BF load] 0.4963 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2640.union.bf.bv.rrr 243 MB, 489.8009 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2640.union.bf.bv.rrr internal 1
+[BF load] 0.4785 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2629.union.bf.bv.rrr 224 MB, 468.9231 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2629.union.bf.bv.rrr internal 0
+[BF load] 1.1188 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2626.union.bf.bv.rrr 228 MB, 204.1488 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2626.union.bf.bv.rrr internal 0
+[BF load] 0.4732 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2635.union.bf.bv.rrr 242 MB, 512.2464 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2635.union.bf.bv.rrr internal 0
+[BF load] 0.6401 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2650.union.bf.bv.rrr 228 MB, 356.2227 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2650.union.bf.bv.rrr internal 0
+(main program) Done.
+0.02user 1.41system 0:07.56elapsed 19%CPU (0avgtext+0avgdata 260120maxresident)k
+5581728inputs+16outputs (4major+10638minor)pagefaults 0swaps

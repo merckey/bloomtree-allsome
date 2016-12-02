@@ -1,0 +1,31 @@
+Starting Bloom Tree
+Kmer size = 20 (but we will use the k from a hashfile if we read one)
+Loading bloom tree topology: /mnt/assemblage/sbt/compressedSBT.allsome/sbt-rrr-allsome.txt
+Loading hashes from /mnt/assemblage/sbt/compressedSBT.allsome/SRR1186053.bf
+# Hash applications=1
+Read hashes for k=20
+Read 5303 nodes in concatenated allsome Bloom Tree
+In memory limit = 1
+Querying...
+Read 1 queries.
+[BF load] 0.2447 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR805782_union.bf-allsome.bv.rrr 34 MB, 139.2441 MB/sec
+[search 1] /mnt/assemblage/sbt/compressedSBT.allsome/SRR805782_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1721 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR387777_union.bf-allsome.bv.rrr 96 MB, 558.6352 MB/sec
+[search 2] /mnt/assemblage/sbt/compressedSBT.allsome/SRR387777_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 1.1766 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR403014_union.bf-allsome.bv.rrr 187 MB, 159.4561 MB/sec
+[search 3] /mnt/assemblage/sbt/compressedSBT.allsome/SRR403014_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 1.3036 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR393766_union.bf-allsome.bv.rrr 246 MB, 189.1656 MB/sec
+[search 4] /mnt/assemblage/sbt/compressedSBT.allsome/SRR393766_union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.3413 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR037705_union.bf-allsome.bv.rrr 244 MB, 716.5454 MB/sec
+[search 5] /mnt/assemblage/sbt/compressedSBT.allsome/SRR037705_union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.9496 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR403018_union.bf-allsome.bv.rrr 187 MB, 197.4231 MB/sec
+[search 6] /mnt/assemblage/sbt/compressedSBT.allsome/SRR403018_union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.4199 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR837459_union.bf-allsome.bv.rrr 96 MB, 228.6303 MB/sec
+[search 7] /mnt/assemblage/sbt/compressedSBT.allsome/SRR837459_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.2806 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR1106199_union.bf-allsome.bv.rrr 187 MB, 669.4826 MB/sec
+[search 8] /mnt/assemblage/sbt/compressedSBT.allsome/SRR1106199_union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.6520 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR837458_union.bf-allsome.bv.rrr 187 MB, 287.0145 MB/sec
+[search 9] /mnt/assemblage/sbt/compressedSBT.allsome/SRR837458_union.bf-allsome.bv.rrr internal 0/1
+(main program) Done.
+0.02user 0.76system 0:05.60elapsed 14%CPU (0avgtext+0avgdata 265624maxresident)k
+3011792inputs+16outputs (4major+8906minor)pagefaults 0swaps

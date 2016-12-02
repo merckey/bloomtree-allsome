@@ -1,0 +1,14 @@
+Starting Bloom Tree
+Kmer size = 20 (but we will use the k from a hashfile if we read one)
+Loading bloom tree topology: /mnt/assemblage/sbt/compressedSBT/SBT_list.txt
+Loading hashes from /mnt/assemblage/sbt/compressedSBT/SRR1186053.bf
+# Hash applications=1
+Read hashes for k=20
+Read 5303 nodes in union Bloom Tree
+In memory limit = 1
+Querying...
+Read 0 queries.
+[search 1] /mnt/assemblage/sbt/compressedSBT/SRR805782_union.bf.bv.rrr internal 0/0
+(main program) Done.
+0.01user 0.00system 0:00.02elapsed 55%CPU (0avgtext+0avgdata 11244maxresident)k
+6680inputs+8outputs (4major+2357minor)pagefaults 0swaps

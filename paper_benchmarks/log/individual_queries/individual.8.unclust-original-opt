@@ -1,0 +1,71 @@
+Starting Bloom Tree
+Kmer size = 20 (but we will use the k from a hashfile if we read one)
+Loading bloom tree topology: /mnt/assemblage/sbt/compressedSBT/SBT_list.txt
+Loading hashes from /mnt/assemblage/sbt/compressedSBT/SRR1186053.bf
+# Hash applications=1
+Read hashes for k=20
+Read 5303 nodes in union Bloom Tree
+In memory limit = 1
+Querying...
+Read 1 queries.
+[BF load] 0.1484 secs /mnt/assemblage/sbt/compressedSBT/SRR805782_union.bf.bv.rrr 24 MB, 167.5452 MB/sec
+[search 1] /mnt/assemblage/sbt/compressedSBT/SRR805782_union.bf.bv.rrr internal 1/1
+[BF load] 0.1329 secs /mnt/assemblage/sbt/compressedSBT/SRR387777_union.bf.bv.rrr 86 MB, 653.6817 MB/sec
+[search 2] /mnt/assemblage/sbt/compressedSBT/SRR387777_union.bf.bv.rrr internal 1/1
+[BF load] 0.1936 secs /mnt/assemblage/sbt/compressedSBT/SRR403014_union.bf.bv.rrr 178 MB, 921.1013 MB/sec
+[search 3] /mnt/assemblage/sbt/compressedSBT/SRR403014_union.bf.bv.rrr internal 1/1
+[BF load] 0.2793 secs /mnt/assemblage/sbt/compressedSBT/SRR393766_union.bf.bv.rrr 237 MB, 849.4141 MB/sec
+[search 4] /mnt/assemblage/sbt/compressedSBT/SRR393766_union.bf.bv.rrr internal 1/1
+[BF load] 0.2430 secs /mnt/assemblage/sbt/compressedSBT/SRR1060762_union.bf.bv.rrr 238 MB, 982.3150 MB/sec
+[search 5] /mnt/assemblage/sbt/compressedSBT/SRR1060762_union.bf.bv.rrr internal 1/1
+[BF load] 0.2594 secs /mnt/assemblage/sbt/compressedSBT/SRR567007_union.bf.bv.rrr 200 MB, 772.6070 MB/sec
+[search 6] /mnt/assemblage/sbt/compressedSBT/SRR567007_union.bf.bv.rrr internal 0/1
+[BF load] 0.2132 secs /mnt/assemblage/sbt/compressedSBT/SRR1024156_union.bf.bv.rrr 204 MB, 959.5007 MB/sec
+[search 7] /mnt/assemblage/sbt/compressedSBT/SRR1024156_union.bf.bv.rrr internal 0/1
+[BF load] 0.3675 secs /mnt/assemblage/sbt/compressedSBT/SRR962597_union.bf.bv.rrr 234 MB, 639.2973 MB/sec
+[search 8] /mnt/assemblage/sbt/compressedSBT/SRR962597_union.bf.bv.rrr internal 0/1
+[BF load] 0.2784 secs /mnt/assemblage/sbt/compressedSBT/SRR037705_union.bf.bv.rrr 235 MB, 844.8250 MB/sec
+[search 9] /mnt/assemblage/sbt/compressedSBT/SRR037705_union.bf.bv.rrr internal 1/1
+[BF load] 0.2651 secs /mnt/assemblage/sbt/compressedSBT/SRR764792_union.bf.bv.rrr 239 MB, 903.6994 MB/sec
+[search 10] /mnt/assemblage/sbt/compressedSBT/SRR764792_union.bf.bv.rrr internal 0/1
+[BF load] 0.2421 secs /mnt/assemblage/sbt/compressedSBT/SRR1012319_union.bf.bv.rrr 238 MB, 986.0461 MB/sec
+[search 11] /mnt/assemblage/sbt/compressedSBT/SRR1012319_union.bf.bv.rrr internal 0/1
+[BF load] 0.3321 secs /mnt/assemblage/sbt/compressedSBT/SRR403018_union.bf.bv.rrr 178 MB, 536.4570 MB/sec
+[search 12] /mnt/assemblage/sbt/compressedSBT/SRR403018_union.bf.bv.rrr internal 1/1
+[BF load] 0.2481 secs /mnt/assemblage/sbt/compressedSBT/SRR403019_union.bf.bv.rrr 234 MB, 944.0964 MB/sec
+[search 13] /mnt/assemblage/sbt/compressedSBT/SRR403019_union.bf.bv.rrr internal 0/1
+[BF load] 0.2818 secs /mnt/assemblage/sbt/compressedSBT/SRR192534_union.bf.bv.rrr 238 MB, 846.0031 MB/sec
+[search 14] /mnt/assemblage/sbt/compressedSBT/SRR192534_union.bf.bv.rrr internal 1/1
+[BF load] 0.3015 secs /mnt/assemblage/sbt/compressedSBT/SRR567128_union.bf.bv.rrr 233 MB, 775.2193 MB/sec
+[search 15] /mnt/assemblage/sbt/compressedSBT/SRR567128_union.bf.bv.rrr internal 0/1
+[BF load] 0.2949 secs /mnt/assemblage/sbt/compressedSBT/SRR972715_union.bf.bv.rrr 236 MB, 801.4810 MB/sec
+[search 16] /mnt/assemblage/sbt/compressedSBT/SRR972715_union.bf.bv.rrr internal 1/1
+[BF load] 0.2190 secs /mnt/assemblage/sbt/compressedSBT/SRR497709_union.bf.bv.rrr 199 MB, 911.9133 MB/sec
+[search 17] /mnt/assemblage/sbt/compressedSBT/SRR497709_union.bf.bv.rrr internal 0/1
+[BF load] 0.2915 secs /mnt/assemblage/sbt/compressedSBT/SRR972716_union.bf.bv.rrr 195 MB, 671.2970 MB/sec
+[search 18] /mnt/assemblage/sbt/compressedSBT/SRR972716_union.bf.bv.rrr internal 1/1
+[BF load] 0.2033 secs /mnt/assemblage/sbt/compressedSBT/SRR578251_union.bf.bv.rrr 126 MB, 623.0822 MB/sec
+[search 19] /mnt/assemblage/sbt/compressedSBT/SRR578251_union.bf.bv.rrr internal 0/1
+[BF load] 0.1866 secs /mnt/assemblage/sbt/compressedSBT/SRR972717_union.bf.bv.rrr 164 MB, 880.0356 MB/sec
+[search 20] /mnt/assemblage/sbt/compressedSBT/SRR972717_union.bf.bv.rrr internal 0/1
+[BF load] 0.1511 secs /mnt/assemblage/sbt/compressedSBT/SRR837459_union.bf.bv.rrr 86 MB, 573.8562 MB/sec
+[search 21] /mnt/assemblage/sbt/compressedSBT/SRR837459_union.bf.bv.rrr internal 1/1
+[BF load] 0.2450 secs /mnt/assemblage/sbt/compressedSBT/SRR1106199_union.bf.bv.rrr 178 MB, 728.6577 MB/sec
+[search 22] /mnt/assemblage/sbt/compressedSBT/SRR1106199_union.bf.bv.rrr internal 1/1
+[BF load] 0.3178 secs /mnt/assemblage/sbt/compressedSBT/SRR403016_union.bf.bv.rrr 238 MB, 749.2132 MB/sec
+[search 23] /mnt/assemblage/sbt/compressedSBT/SRR403016_union.bf.bv.rrr internal 1/1
+[BF load] 0.2884 secs /mnt/assemblage/sbt/compressedSBT/SRR805728_union.bf.bv.rrr 235 MB, 816.4232 MB/sec
+[search 24] /mnt/assemblage/sbt/compressedSBT/SRR805728_union.bf.bv.rrr internal 0/1
+[BF load] 0.2755 secs /mnt/assemblage/sbt/compressedSBT/SRR567014_union.bf.bv.rrr 236 MB, 858.4808 MB/sec
+[search 25] /mnt/assemblage/sbt/compressedSBT/SRR567014_union.bf.bv.rrr internal 0/1
+[BF load] 0.2560 secs /mnt/assemblage/sbt/compressedSBT/SRR403017_union.bf.bv.rrr 233 MB, 912.3191 MB/sec
+[search 26] /mnt/assemblage/sbt/compressedSBT/SRR403017_union.bf.bv.rrr internal 0/1
+[BF load] 0.2518 secs /mnt/assemblage/sbt/compressedSBT/SRR837458_union.bf.bv.rrr 177 MB, 706.0052 MB/sec
+[search 27] /mnt/assemblage/sbt/compressedSBT/SRR837458_union.bf.bv.rrr internal 1/1
+[BF load] 0.2430 secs /mnt/assemblage/sbt/compressedSBT/SRR837453_union.bf.bv.rrr 237 MB, 978.8966 MB/sec
+[search 28] /mnt/assemblage/sbt/compressedSBT/SRR837453_union.bf.bv.rrr internal 0/1
+[BF load] 0.2267 secs /mnt/assemblage/sbt/compressedSBT/SRR837451_union.bf.bv.rrr 235 MB, 1037.3350 MB/sec
+[search 29] /mnt/assemblage/sbt/compressedSBT/SRR837451_union.bf.bv.rrr internal 0/1
+(main program) Done.
+0.05user 2.93system 0:07.35elapsed 40%CPU (0avgtext+0avgdata 257480maxresident)k
+11857072inputs+32outputs (4major+28249minor)pagefaults 0swaps

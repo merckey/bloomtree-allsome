@@ -1,0 +1,79 @@
+Starting Bloom Tree
+Kmer size = 20 (but we will use the k from a hashfile if we read one)
+Loading bloom tree topology: /mnt/assemblage/sbt/compressedSBT/SBT_list.txt
+Loading hashes from /mnt/assemblage/sbt/compressedSBT/SRR1186053.bf
+# Hash applications=1
+Read hashes for k=20
+Read 5303 nodes in union Bloom Tree
+In memory limit = 1
+Querying...
+Read 1 queries.
+[BF load] 0.0918 secs /mnt/assemblage/sbt/compressedSBT/SRR805782_union.bf.bv.rrr 24 MB, 270.9661 MB/sec
+[search 1] /mnt/assemblage/sbt/compressedSBT/SRR805782_union.bf.bv.rrr internal 1/1
+[BF load] 0.1222 secs /mnt/assemblage/sbt/compressedSBT/SRR387777_union.bf.bv.rrr 86 MB, 710.6901 MB/sec
+[search 2] /mnt/assemblage/sbt/compressedSBT/SRR387777_union.bf.bv.rrr internal 1/1
+[BF load] 0.2099 secs /mnt/assemblage/sbt/compressedSBT/SRR403014_union.bf.bv.rrr 178 MB, 849.4558 MB/sec
+[search 3] /mnt/assemblage/sbt/compressedSBT/SRR403014_union.bf.bv.rrr internal 1/1
+[BF load] 0.2902 secs /mnt/assemblage/sbt/compressedSBT/SRR393766_union.bf.bv.rrr 237 MB, 817.5103 MB/sec
+[search 4] /mnt/assemblage/sbt/compressedSBT/SRR393766_union.bf.bv.rrr internal 1/1
+[BF load] 0.2462 secs /mnt/assemblage/sbt/compressedSBT/SRR1060762_union.bf.bv.rrr 238 MB, 969.3403 MB/sec
+[search 5] /mnt/assemblage/sbt/compressedSBT/SRR1060762_union.bf.bv.rrr internal 0/1
+[BF load] 0.3388 secs /mnt/assemblage/sbt/compressedSBT/SRR962597_union.bf.bv.rrr 234 MB, 693.4143 MB/sec
+[search 6] /mnt/assemblage/sbt/compressedSBT/SRR962597_union.bf.bv.rrr internal 0/1
+[BF load] 0.2739 secs /mnt/assemblage/sbt/compressedSBT/SRR037705_union.bf.bv.rrr 235 MB, 858.9947 MB/sec
+[search 7] /mnt/assemblage/sbt/compressedSBT/SRR037705_union.bf.bv.rrr internal 1/1
+[BF load] 0.2522 secs /mnt/assemblage/sbt/compressedSBT/SRR764792_union.bf.bv.rrr 239 MB, 949.5868 MB/sec
+[search 8] /mnt/assemblage/sbt/compressedSBT/SRR764792_union.bf.bv.rrr internal 0/1
+[BF load] 0.2404 secs /mnt/assemblage/sbt/compressedSBT/SRR1012319_union.bf.bv.rrr 238 MB, 993.1129 MB/sec
+[search 9] /mnt/assemblage/sbt/compressedSBT/SRR1012319_union.bf.bv.rrr internal 0/1
+[BF load] 0.3494 secs /mnt/assemblage/sbt/compressedSBT/SRR403018_union.bf.bv.rrr 178 MB, 509.9159 MB/sec
+[search 10] /mnt/assemblage/sbt/compressedSBT/SRR403018_union.bf.bv.rrr internal 1/1
+[BF load] 0.2559 secs /mnt/assemblage/sbt/compressedSBT/SRR403019_union.bf.bv.rrr 234 MB, 915.4037 MB/sec
+[search 11] /mnt/assemblage/sbt/compressedSBT/SRR403019_union.bf.bv.rrr internal 0/1
+[BF load] 0.2785 secs /mnt/assemblage/sbt/compressedSBT/SRR192534_union.bf.bv.rrr 238 MB, 856.2229 MB/sec
+[search 12] /mnt/assemblage/sbt/compressedSBT/SRR192534_union.bf.bv.rrr internal 1/1
+[BF load] 0.3080 secs /mnt/assemblage/sbt/compressedSBT/SRR567128_union.bf.bv.rrr 233 MB, 758.8551 MB/sec
+[search 13] /mnt/assemblage/sbt/compressedSBT/SRR567128_union.bf.bv.rrr internal 0/1
+[BF load] 0.2886 secs /mnt/assemblage/sbt/compressedSBT/SRR972715_union.bf.bv.rrr 236 MB, 818.7556 MB/sec
+[search 14] /mnt/assemblage/sbt/compressedSBT/SRR972715_union.bf.bv.rrr internal 1/1
+[BF load] 0.2182 secs /mnt/assemblage/sbt/compressedSBT/SRR497709_union.bf.bv.rrr 199 MB, 915.2432 MB/sec
+[search 15] /mnt/assemblage/sbt/compressedSBT/SRR497709_union.bf.bv.rrr internal 1/1
+[BF load] 0.1829 secs /mnt/assemblage/sbt/compressedSBT/SRR326280_union.bf.bv.rrr 157 MB, 863.1782 MB/sec
+[search 16] /mnt/assemblage/sbt/compressedSBT/SRR326280_union.bf.bv.rrr internal 0/1
+[BF load] 0.2284 secs /mnt/assemblage/sbt/compressedSBT/SRR497708_union.bf.bv.rrr 140 MB, 615.8244 MB/sec
+[search 17] /mnt/assemblage/sbt/compressedSBT/SRR497708_union.bf.bv.rrr internal 0/1
+[BF load] 0.2745 secs /mnt/assemblage/sbt/compressedSBT/SRR972716_union.bf.bv.rrr 195 MB, 712.6905 MB/sec
+[search 18] /mnt/assemblage/sbt/compressedSBT/SRR972716_union.bf.bv.rrr internal 0/1
+[BF load] 0.1662 secs /mnt/assemblage/sbt/compressedSBT/SRR837459_union.bf.bv.rrr 86 MB, 521.8845 MB/sec
+[search 19] /mnt/assemblage/sbt/compressedSBT/SRR837459_union.bf.bv.rrr internal 1/1
+[BF load] 0.2586 secs /mnt/assemblage/sbt/compressedSBT/SRR1106199_union.bf.bv.rrr 178 MB, 690.3140 MB/sec
+[search 20] /mnt/assemblage/sbt/compressedSBT/SRR1106199_union.bf.bv.rrr internal 1/1
+[BF load] 0.3283 secs /mnt/assemblage/sbt/compressedSBT/SRR403016_union.bf.bv.rrr 238 MB, 725.1619 MB/sec
+[search 21] /mnt/assemblage/sbt/compressedSBT/SRR403016_union.bf.bv.rrr internal 1/1
+[BF load] 0.2683 secs /mnt/assemblage/sbt/compressedSBT/SRR805728_union.bf.bv.rrr 235 MB, 877.8333 MB/sec
+[search 22] /mnt/assemblage/sbt/compressedSBT/SRR805728_union.bf.bv.rrr internal 0/1
+[BF load] 0.2810 secs /mnt/assemblage/sbt/compressedSBT/SRR567014_union.bf.bv.rrr 236 MB, 841.4840 MB/sec
+[search 23] /mnt/assemblage/sbt/compressedSBT/SRR567014_union.bf.bv.rrr internal 1/1
+[BF load] 0.2311 secs /mnt/assemblage/sbt/compressedSBT/SRR578261_union.bf.bv.rrr 198 MB, 856.9036 MB/sec
+[search 24] /mnt/assemblage/sbt/compressedSBT/SRR578261_union.bf.bv.rrr internal 0/1
+[BF load] 0.2453 secs /mnt/assemblage/sbt/compressedSBT/SRR597814_union.bf.bv.rrr 206 MB, 839.9692 MB/sec
+[search 25] /mnt/assemblage/sbt/compressedSBT/SRR597814_union.bf.bv.rrr internal 0/1
+[BF load] 0.2548 secs /mnt/assemblage/sbt/compressedSBT/SRR403017_union.bf.bv.rrr 233 MB, 916.7190 MB/sec
+[search 26] /mnt/assemblage/sbt/compressedSBT/SRR403017_union.bf.bv.rrr internal 1/1
+[BF load] 0.2523 secs /mnt/assemblage/sbt/compressedSBT/SRR827474_union.bf.bv.rrr 240 MB, 954.0769 MB/sec
+[search 27] /mnt/assemblage/sbt/compressedSBT/SRR827474_union.bf.bv.rrr internal 0/1
+[BF load] 0.3097 secs /mnt/assemblage/sbt/compressedSBT/SRR827478_union.bf.bv.rrr 238 MB, 770.3953 MB/sec
+[search 28] /mnt/assemblage/sbt/compressedSBT/SRR827478_union.bf.bv.rrr internal 0/1
+[BF load] 0.2585 secs /mnt/assemblage/sbt/compressedSBT/SRR837458_union.bf.bv.rrr 177 MB, 687.8266 MB/sec
+[search 29] /mnt/assemblage/sbt/compressedSBT/SRR837458_union.bf.bv.rrr internal 1/1
+[BF load] 0.2480 secs /mnt/assemblage/sbt/compressedSBT/SRR837453_union.bf.bv.rrr 237 MB, 959.1588 MB/sec
+[search 30] /mnt/assemblage/sbt/compressedSBT/SRR837453_union.bf.bv.rrr internal 0/1
+[BF load] 0.2321 secs /mnt/assemblage/sbt/compressedSBT/SRR837451_union.bf.bv.rrr 235 MB, 1013.1116 MB/sec
+[search 31] /mnt/assemblage/sbt/compressedSBT/SRR837451_union.bf.bv.rrr internal 1/1
+[BF load] 0.2674 secs /mnt/assemblage/sbt/compressedSBT/SRR837450_union.bf.bv.rrr 240 MB, 901.2516 MB/sec
+[search 32] /mnt/assemblage/sbt/compressedSBT/SRR837450_union.bf.bv.rrr internal 0/1
+[BF load] 0.2643 secs /mnt/assemblage/sbt/compressedSBT/SRR837456_union.bf.bv.rrr 235 MB, 891.1846 MB/sec
+[search 33] /mnt/assemblage/sbt/compressedSBT/SRR837456_union.bf.bv.rrr internal 0/1
+(main program) Done.
+0.04user 3.41system 0:08.44elapsed 40%CPU (0avgtext+0avgdata 259048maxresident)k
+13828600inputs+24outputs (4major+30102minor)pagefaults 0swaps

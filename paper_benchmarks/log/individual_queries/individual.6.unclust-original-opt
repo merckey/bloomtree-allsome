@@ -1,0 +1,27 @@
+Starting Bloom Tree
+Kmer size = 20 (but we will use the k from a hashfile if we read one)
+Loading bloom tree topology: /mnt/assemblage/sbt/compressedSBT/SBT_list.txt
+Loading hashes from /mnt/assemblage/sbt/compressedSBT/SRR1186053.bf
+# Hash applications=1
+Read hashes for k=20
+Read 5303 nodes in union Bloom Tree
+In memory limit = 1
+Querying...
+Read 1 queries.
+[BF load] 0.1128 secs /mnt/assemblage/sbt/compressedSBT/SRR805782_union.bf.bv.rrr 24 MB, 220.3859 MB/sec
+[search 1] /mnt/assemblage/sbt/compressedSBT/SRR805782_union.bf.bv.rrr internal 1/1
+[BF load] 0.1350 secs /mnt/assemblage/sbt/compressedSBT/SRR387777_union.bf.bv.rrr 86 MB, 643.3748 MB/sec
+[search 2] /mnt/assemblage/sbt/compressedSBT/SRR387777_union.bf.bv.rrr internal 1/1
+[BF load] 0.2191 secs /mnt/assemblage/sbt/compressedSBT/SRR403014_union.bf.bv.rrr 178 MB, 813.6499 MB/sec
+[search 3] /mnt/assemblage/sbt/compressedSBT/SRR403014_union.bf.bv.rrr internal 0/1
+[BF load] 0.3391 secs /mnt/assemblage/sbt/compressedSBT/SRR403018_union.bf.bv.rrr 178 MB, 525.3109 MB/sec
+[search 4] /mnt/assemblage/sbt/compressedSBT/SRR403018_union.bf.bv.rrr internal 0/1
+[BF load] 0.1469 secs /mnt/assemblage/sbt/compressedSBT/SRR837459_union.bf.bv.rrr 86 MB, 590.1758 MB/sec
+[search 5] /mnt/assemblage/sbt/compressedSBT/SRR837459_union.bf.bv.rrr internal 1/1
+[BF load] 0.2414 secs /mnt/assemblage/sbt/compressedSBT/SRR1106199_union.bf.bv.rrr 178 MB, 739.6405 MB/sec
+[search 6] /mnt/assemblage/sbt/compressedSBT/SRR1106199_union.bf.bv.rrr internal 0/1
+[BF load] 0.2433 secs /mnt/assemblage/sbt/compressedSBT/SRR837458_union.bf.bv.rrr 177 MB, 730.8710 MB/sec
+[search 7] /mnt/assemblage/sbt/compressedSBT/SRR837458_union.bf.bv.rrr internal 0/1
+(main program) Done.
+0.01user 0.47system 0:01.50elapsed 32%CPU (0avgtext+0avgdata 194176maxresident)k
+1872880inputs+16outputs (4major+7599minor)pagefaults 0swaps

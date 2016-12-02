@@ -1,0 +1,359 @@
+Starting Bloom Tree
+Kmer size = 20 (but we will use the k from a hashfile if we read one)
+Loading bloom tree topology: /mnt/assemblage/sbt/compressedSBT.allsome/sbt-rrr-allsome.txt
+Loading hashes from /mnt/assemblage/sbt/compressedSBT.allsome/SRR1186053.bf
+# Hash applications=1
+Read hashes for k=20
+Read 5303 nodes in concatenated allsome Bloom Tree
+In memory limit = 1
+Querying...
+Read 1 queries.
+[BF load] 0.2399 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR805782_union.bf-allsome.bv.rrr 34 MB, 142.0054 MB/sec
+[search 1] /mnt/assemblage/sbt/compressedSBT.allsome/SRR805782_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.2206 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR387777_union.bf-allsome.bv.rrr 96 MB, 435.7868 MB/sec
+[search 2] /mnt/assemblage/sbt/compressedSBT.allsome/SRR387777_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 1.2417 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR403014_union.bf-allsome.bv.rrr 187 MB, 151.0957 MB/sec
+[search 3] /mnt/assemblage/sbt/compressedSBT.allsome/SRR403014_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 1.3364 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR393766_union.bf-allsome.bv.rrr 246 MB, 184.5280 MB/sec
+[search 4] /mnt/assemblage/sbt/compressedSBT.allsome/SRR393766_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.3357 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR1060762_union.bf-allsome.bv.rrr 247 MB, 738.6746 MB/sec
+[search 5] /mnt/assemblage/sbt/compressedSBT.allsome/SRR1060762_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.7906 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR567007_union.bf-allsome.bv.rrr 209 MB, 265.2306 MB/sec
+[search 6] /mnt/assemblage/sbt/compressedSBT.allsome/SRR567007_union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.3441 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR1024156_union.bf-allsome.bv.rrr 213 MB, 621.4916 MB/sec
+[search 7] /mnt/assemblage/sbt/compressedSBT.allsome/SRR1024156_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.6124 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR976752_union.bf-allsome.bv.rrr 143 MB, 234.1796 MB/sec
+[search 8] /mnt/assemblage/sbt/compressedSBT.allsome/SRR976752_union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.8605 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR567098_union.bf-allsome.bv.rrr 188 MB, 218.6427 MB/sec
+[search 9] /mnt/assemblage/sbt/compressedSBT.allsome/SRR567098_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.4948 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR567092_union.bf-allsome.bv.rrr 114 MB, 230.7004 MB/sec
+[search 10] /mnt/assemblage/sbt/compressedSBT.allsome/SRR567092_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.3311 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR962600_union.bf-allsome.bv.rrr 80 MB, 243.0604 MB/sec
+[search 11] /mnt/assemblage/sbt/compressedSBT.allsome/SRR962600_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.2721 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR846945_union.bf-allsome.bv.rrr 62 MB, 230.9117 MB/sec
+[search 12] /mnt/assemblage/sbt/compressedSBT.allsome/SRR846945_union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.2906 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR976750_union.bf-allsome.bv.rrr 68 MB, 234.7144 MB/sec
+[search 13] /mnt/assemblage/sbt/compressedSBT.allsome/SRR976750_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1495 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR1067917_union.bf-allsome.bv.rrr 49 MB, 333.1268 MB/sec
+[search 14] /mnt/assemblage/sbt/compressedSBT.allsome/SRR1067917_union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.2512 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR976751_union.bf-allsome.bv.rrr 59 MB, 238.7718 MB/sec
+[search 15] /mnt/assemblage/sbt/compressedSBT.allsome/SRR976751_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1098 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR1313160_union.bf-allsome.bv.rrr 48 MB, 439.9482 MB/sec
+[search 16] /mnt/assemblage/sbt/compressedSBT.allsome/SRR1313160_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1039 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR976750.bf-allsome.bv.rrr 23 MB, 223.2650 MB/sec
+[search 17] /mnt/assemblage/sbt/compressedSBT.allsome/SRR976750.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.0970 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR1313161_union.bf-allsome.bv.rrr 38 MB, 401.1068 MB/sec
+[search 18] /mnt/assemblage/sbt/compressedSBT.allsome/SRR1313161_union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.1929 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR868877_union.bf-allsome.bv.rrr 47 MB, 246.6015 MB/sec
+[search 19] /mnt/assemblage/sbt/compressedSBT.allsome/SRR868877_union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.4738 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR787330_union.bf-allsome.bv.rrr 93 MB, 196.8234 MB/sec
+[search 20] /mnt/assemblage/sbt/compressedSBT.allsome/SRR787330_union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.3049 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR346070_union.bf-allsome.bv.rrr 168 MB, 551.4542 MB/sec
+[search 21] /mnt/assemblage/sbt/compressedSBT.allsome/SRR346070_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1271 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR060905_union.bf-allsome.bv.rrr 86 MB, 677.9109 MB/sec
+[search 22] /mnt/assemblage/sbt/compressedSBT.allsome/SRR060905_union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.5140 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR962604_union.bf-allsome.bv.rrr 153 MB, 298.0020 MB/sec
+[search 23] /mnt/assemblage/sbt/compressedSBT.allsome/SRR962604_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.2853 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR925717_union.bf-allsome.bv.rrr 68 MB, 241.4047 MB/sec
+[search 24] /mnt/assemblage/sbt/compressedSBT.allsome/SRR925717_union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.5288 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR962602_union.bf-allsome.bv.rrr 144 MB, 274.1420 MB/sec
+[search 25] /mnt/assemblage/sbt/compressedSBT.allsome/SRR962602_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1720 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR1313179_union.bf-allsome.bv.rrr 140 MB, 814.7315 MB/sec
+[search 26] /mnt/assemblage/sbt/compressedSBT.allsome/SRR1313179_union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.2539 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR962601_union.bf-allsome.bv.rrr 62 MB, 244.7762 MB/sec
+[search 27] /mnt/assemblage/sbt/compressedSBT.allsome/SRR962601_union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.8691 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR962597_union.bf-allsome.bv.rrr 244 MB, 280.9960 MB/sec
+[search 28] /mnt/assemblage/sbt/compressedSBT.allsome/SRR962597_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.2685 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR1313066_union.bf-allsome.bv.rrr 204 MB, 762.2169 MB/sec
+[search 29] /mnt/assemblage/sbt/compressedSBT.allsome/SRR1313066_union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.7283 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR976743_union.bf-allsome.bv.rrr 207 MB, 285.2352 MB/sec
+[search 30] /mnt/assemblage/sbt/compressedSBT.allsome/SRR976743_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.2664 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR1012333_union.bf-allsome.bv.rrr 152 MB, 573.1044 MB/sec
+[search 31] /mnt/assemblage/sbt/compressedSBT.allsome/SRR1012333_union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.5876 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR976742_union.bf-allsome.bv.rrr 174 MB, 297.0078 MB/sec
+[search 32] /mnt/assemblage/sbt/compressedSBT.allsome/SRR976742_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.5435 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR976741_union.bf-allsome.bv.rrr 154 MB, 283.4401 MB/sec
+[search 33] /mnt/assemblage/sbt/compressedSBT.allsome/SRR976741_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.3998 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR764802_union.bf-allsome.bv.rrr 75 MB, 188.7111 MB/sec
+[search 34] /mnt/assemblage/sbt/compressedSBT.allsome/SRR764802_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1278 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR387780_union.bf-allsome.bv.rrr 51 MB, 404.6256 MB/sec
+[search 35] /mnt/assemblage/sbt/compressedSBT.allsome/SRR387780_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1471 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR976743.bf-allsome.bv.rrr 30 MB, 209.3616 MB/sec
+[search 36] /mnt/assemblage/sbt/compressedSBT.allsome/SRR976743.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.1301 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR1057991_union.bf-allsome.bv.rrr 46 MB, 355.0092 MB/sec
+[search 37] /mnt/assemblage/sbt/compressedSBT.allsome/SRR1057991_union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.2636 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR764806_union.bf-allsome.bv.rrr 58 MB, 223.0056 MB/sec
+[search 38] /mnt/assemblage/sbt/compressedSBT.allsome/SRR764806_union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.4730 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR976747_union.bf-allsome.bv.rrr 141 MB, 299.6509 MB/sec
+[search 39] /mnt/assemblage/sbt/compressedSBT.allsome/SRR976747_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.2880 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR837447_union.bf-allsome.bv.rrr 67 MB, 234.8863 MB/sec
+[search 40] /mnt/assemblage/sbt/compressedSBT.allsome/SRR837447_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.3264 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR567156_union.bf-allsome.bv.rrr 50 MB, 154.2654 MB/sec
+[search 41] /mnt/assemblage/sbt/compressedSBT.allsome/SRR567156_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1021 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR976741.bf-allsome.bv.rrr 25 MB, 244.9753 MB/sec
+[search 42] /mnt/assemblage/sbt/compressedSBT.allsome/SRR976741.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.2485 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR567156.bf-allsome.bv.rrr 37 MB, 149.1401 MB/sec
+[search 43] /mnt/assemblage/sbt/compressedSBT.allsome/SRR567156.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.2407 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR764805_union.bf-allsome.bv.rrr 54 MB, 227.3605 MB/sec
+[search 44] /mnt/assemblage/sbt/compressedSBT.allsome/SRR764805_union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.4914 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR976746_union.bf-allsome.bv.rrr 133 MB, 271.2755 MB/sec
+[search 45] /mnt/assemblage/sbt/compressedSBT.allsome/SRR976746_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1889 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR976749_union.bf-allsome.bv.rrr 43 MB, 230.7005 MB/sec
+[search 46] /mnt/assemblage/sbt/compressedSBT.allsome/SRR976749_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0871 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR976747.bf-allsome.bv.rrr 17 MB, 200.7184 MB/sec
+[search 47] /mnt/assemblage/sbt/compressedSBT.allsome/SRR976747.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.1760 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR976749.bf-allsome.bv.rrr 32 MB, 184.7817 MB/sec
+[search 48] /mnt/assemblage/sbt/compressedSBT.allsome/SRR976749.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.2242 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR1313085_union.bf-allsome.bv.rrr 127 MB, 570.7500 MB/sec
+[search 49] /mnt/assemblage/sbt/compressedSBT.allsome/SRR1313085_union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.3616 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR976740_union.bf-allsome.bv.rrr 107 MB, 296.0275 MB/sec
+[search 50] /mnt/assemblage/sbt/compressedSBT.allsome/SRR976740_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.4364 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR976744_union.bf-allsome.bv.rrr 99 MB, 227.8369 MB/sec
+[search 51] /mnt/assemblage/sbt/compressedSBT.allsome/SRR976744_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.3124 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR837463_union.bf-allsome.bv.rrr 60 MB, 192.9919 MB/sec
+[search 52] /mnt/assemblage/sbt/compressedSBT.allsome/SRR837463_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1044 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR1057990_union.bf-allsome.bv.rrr 49 MB, 477.4743 MB/sec
+[search 53] /mnt/assemblage/sbt/compressedSBT.allsome/SRR1057990_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1326 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR976742.bf-allsome.bv.rrr 26 MB, 201.4774 MB/sec
+[search 54] /mnt/assemblage/sbt/compressedSBT.allsome/SRR976742.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.0939 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR1200510_union.bf-allsome.bv.rrr 40 MB, 432.5785 MB/sec
+[search 55] /mnt/assemblage/sbt/compressedSBT.allsome/SRR1200510_union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.0938 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR353648_union.bf-allsome.bv.rrr 43 MB, 462.9342 MB/sec
+[search 56] /mnt/assemblage/sbt/compressedSBT.allsome/SRR353648_union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.3956 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR976753_union.bf-allsome.bv.rrr 93 MB, 236.7667 MB/sec
+[search 57] /mnt/assemblage/sbt/compressedSBT.allsome/SRR976753_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.4001 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR827469_union.bf-allsome.bv.rrr 87 MB, 219.5966 MB/sec
+[search 58] /mnt/assemblage/sbt/compressedSBT.allsome/SRR827469_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1020 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR976744.bf-allsome.bv.rrr 25 MB, 248.5914 MB/sec
+[search 59] /mnt/assemblage/sbt/compressedSBT.allsome/SRR976744.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.4425 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR805751_union.bf-allsome.bv.rrr 87 MB, 197.5096 MB/sec
+[search 60] /mnt/assemblage/sbt/compressedSBT.allsome/SRR805751_union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.0995 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR976753.bf-allsome.bv.rrr 25 MB, 256.9345 MB/sec
+[search 61] /mnt/assemblage/sbt/compressedSBT.allsome/SRR976753.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.2790 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR976745_union.bf-allsome.bv.rrr 60 MB, 216.2094 MB/sec
+[search 62] /mnt/assemblage/sbt/compressedSBT.allsome/SRR976745_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.2778 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR837462_union.bf-allsome.bv.rrr 49 MB, 179.7519 MB/sec
+[search 63] /mnt/assemblage/sbt/compressedSBT.allsome/SRR837462_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.2686 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR567075_union.bf-allsome.bv.rrr 50 MB, 189.3553 MB/sec
+[search 64] /mnt/assemblage/sbt/compressedSBT.allsome/SRR567075_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0857 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR976740.bf-allsome.bv.rrr 24 MB, 289.5685 MB/sec
+[search 65] /mnt/assemblage/sbt/compressedSBT.allsome/SRR976740.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.2074 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR567075.bf-allsome.bv.rrr 37 MB, 181.5364 MB/sec
+[search 66] /mnt/assemblage/sbt/compressedSBT.allsome/SRR567075.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.1133 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR837462.bf-allsome.bv.rrr 19 MB, 168.7001 MB/sec
+[search 67] /mnt/assemblage/sbt/compressedSBT.allsome/SRR837462.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.3871 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR403006_union.bf-allsome.bv.rrr 50 MB, 131.5384 MB/sec
+[search 68] /mnt/assemblage/sbt/compressedSBT.allsome/SRR403006_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1238 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR976745.bf-allsome.bv.rrr 25 MB, 204.3529 MB/sec
+[search 69] /mnt/assemblage/sbt/compressedSBT.allsome/SRR976745.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.2287 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR403006.bf-allsome.bv.rrr 37 MB, 164.7800 MB/sec
+[search 70] /mnt/assemblage/sbt/compressedSBT.allsome/SRR403006.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.3698 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR037705_union.bf-allsome.bv.rrr 244 MB, 661.3715 MB/sec
+[search 71] /mnt/assemblage/sbt/compressedSBT.allsome/SRR037705_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.9047 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR764792_union.bf-allsome.bv.rrr 248 MB, 275.0341 MB/sec
+[search 72] /mnt/assemblage/sbt/compressedSBT.allsome/SRR764792_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 1.6376 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR567082_union.bf-allsome.bv.rrr 222 MB, 136.1377 MB/sec
+[search 73] /mnt/assemblage/sbt/compressedSBT.allsome/SRR567082_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.7768 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR791578_union.bf-allsome.bv.rrr 166 MB, 214.2368 MB/sec
+[search 74] /mnt/assemblage/sbt/compressedSBT.allsome/SRR791578_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.4725 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR882028_union.bf-allsome.bv.rrr 125 MB, 266.1164 MB/sec
+[search 75] /mnt/assemblage/sbt/compressedSBT.allsome/SRR882028_union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.6442 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR805766_union.bf-allsome.bv.rrr 130 MB, 201.8500 MB/sec
+[search 76] /mnt/assemblage/sbt/compressedSBT.allsome/SRR805766_union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.9478 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR764783_union.bf-allsome.bv.rrr 186 MB, 196.9801 MB/sec
+[search 77] /mnt/assemblage/sbt/compressedSBT.allsome/SRR764783_union.bf-allsome.bv.rrr internal 0/1
+[BF load] 1.0365 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR567125_union.bf-allsome.bv.rrr 209 MB, 201.9915 MB/sec
+[search 78] /mnt/assemblage/sbt/compressedSBT.allsome/SRR567125_union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.3165 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR1012319_union.bf-allsome.bv.rrr 247 MB, 783.4725 MB/sec
+[search 79] /mnt/assemblage/sbt/compressedSBT.allsome/SRR1012319_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.2376 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR1012321_union.bf-allsome.bv.rrr 211 MB, 891.4594 MB/sec
+[search 80] /mnt/assemblage/sbt/compressedSBT.allsome/SRR1012321_union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.9883 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR764794_union.bf-allsome.bv.rrr 217 MB, 220.2678 MB/sec
+[search 81] /mnt/assemblage/sbt/compressedSBT.allsome/SRR764794_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.6942 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR764791_union.bf-allsome.bv.rrr 177 MB, 255.6921 MB/sec
+[search 82] /mnt/assemblage/sbt/compressedSBT.allsome/SRR764791_union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.6856 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR764797_union.bf-allsome.bv.rrr 173 MB, 252.9792 MB/sec
+[search 83] /mnt/assemblage/sbt/compressedSBT.allsome/SRR764797_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.4158 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR764811_union.bf-allsome.bv.rrr 117 MB, 282.4620 MB/sec
+[search 84] /mnt/assemblage/sbt/compressedSBT.allsome/SRR764811_union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.5001 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR846955_union.bf-allsome.bv.rrr 141 MB, 283.5709 MB/sec
+[search 85] /mnt/assemblage/sbt/compressedSBT.allsome/SRR846955_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.5022 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR497706_union.bf-allsome.bv.rrr 90 MB, 179.2736 MB/sec
+[search 86] /mnt/assemblage/sbt/compressedSBT.allsome/SRR497706_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1007 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR764797.bf-allsome.bv.rrr 28 MB, 278.2418 MB/sec
+[search 87] /mnt/assemblage/sbt/compressedSBT.allsome/SRR764797.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.3806 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR976738_union.bf-allsome.bv.rrr 86 MB, 226.5990 MB/sec
+[search 88] /mnt/assemblage/sbt/compressedSBT.allsome/SRR976738_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.2933 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR976771_union.bf-allsome.bv.rrr 79 MB, 271.5202 MB/sec
+[search 89] /mnt/assemblage/sbt/compressedSBT.allsome/SRR976771_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1683 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR032278_union.bf-allsome.bv.rrr 76 MB, 455.1813 MB/sec
+[search 90] /mnt/assemblage/sbt/compressedSBT.allsome/SRR032278_union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.0989 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR976771.bf-allsome.bv.rrr 28 MB, 288.7963 MB/sec
+[search 91] /mnt/assemblage/sbt/compressedSBT.allsome/SRR976771.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.1691 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR976739_union.bf-allsome.bv.rrr 42 MB, 252.0749 MB/sec
+[search 92] /mnt/assemblage/sbt/compressedSBT.allsome/SRR976739_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1357 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR976772_union.bf-allsome.bv.rrr 35 MB, 264.1109 MB/sec
+[search 93] /mnt/assemblage/sbt/compressedSBT.allsome/SRR976772_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1573 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR976738.bf-allsome.bv.rrr 24 MB, 153.8579 MB/sec
+[search 94] /mnt/assemblage/sbt/compressedSBT.allsome/SRR976738.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.1471 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR976772.bf-allsome.bv.rrr 29 MB, 202.1943 MB/sec
+[search 95] /mnt/assemblage/sbt/compressedSBT.allsome/SRR976772.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.1478 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR976770_union.bf-allsome.bv.rrr 30 MB, 206.6581 MB/sec
+[search 96] /mnt/assemblage/sbt/compressedSBT.allsome/SRR976770_union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.4322 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR846952_union.bf-allsome.bv.rrr 117 MB, 272.2687 MB/sec
+[search 97] /mnt/assemblage/sbt/compressedSBT.allsome/SRR846952_union.bf-allsome.bv.rrr internal 0/1
+[BF load] 1.0561 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR403018_union.bf-allsome.bv.rrr 187 MB, 177.5045 MB/sec
+[search 98] /mnt/assemblage/sbt/compressedSBT.allsome/SRR403018_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 1.1460 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR403019_union.bf-allsome.bv.rrr 243 MB, 212.5362 MB/sec
+[search 99] /mnt/assemblage/sbt/compressedSBT.allsome/SRR403019_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.3715 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR1294119_union.bf-allsome.bv.rrr 250 MB, 674.5116 MB/sec
+[search 100] /mnt/assemblage/sbt/compressedSBT.allsome/SRR1294119_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 1.0642 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR567065_union.bf-allsome.bv.rrr 228 MB, 214.7404 MB/sec
+[search 101] /mnt/assemblage/sbt/compressedSBT.allsome/SRR567065_union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.2658 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR1294118_union.bf-allsome.bv.rrr 212 MB, 800.2555 MB/sec
+[search 102] /mnt/assemblage/sbt/compressedSBT.allsome/SRR1294118_union.bf-allsome.bv.rrr internal 0/1
+[BF load] 1.0438 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR403010_union.bf-allsome.bv.rrr 246 MB, 235.6837 MB/sec
+[search 103] /mnt/assemblage/sbt/compressedSBT.allsome/SRR403010_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 1.0610 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR403013_union.bf-allsome.bv.rrr 198 MB, 187.1911 MB/sec
+[search 104] /mnt/assemblage/sbt/compressedSBT.allsome/SRR403013_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.5232 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR567001_union.bf-allsome.bv.rrr 115 MB, 221.6465 MB/sec
+[search 105] /mnt/assemblage/sbt/compressedSBT.allsome/SRR567001_union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.2263 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR039190_union.bf-allsome.bv.rrr 172 MB, 763.3355 MB/sec
+[search 106] /mnt/assemblage/sbt/compressedSBT.allsome/SRR039190_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.6093 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR868810_union.bf-allsome.bv.rrr 160 MB, 264.0461 MB/sec
+[search 107] /mnt/assemblage/sbt/compressedSBT.allsome/SRR868810_union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.1401 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR039191_union.bf-allsome.bv.rrr 85 MB, 610.1832 MB/sec
+[search 108] /mnt/assemblage/sbt/compressedSBT.allsome/SRR039191_union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.9538 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR567068_union.bf-allsome.bv.rrr 214 MB, 224.6904 MB/sec
+[search 109] /mnt/assemblage/sbt/compressedSBT.allsome/SRR567068_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.2411 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR1106197_union.bf-allsome.bv.rrr 172 MB, 714.0871 MB/sec
+[search 110] /mnt/assemblage/sbt/compressedSBT.allsome/SRR1106197_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.2240 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR191405_union.bf-allsome.bv.rrr 107 MB, 481.8633 MB/sec
+[search 111] /mnt/assemblage/sbt/compressedSBT.allsome/SRR191405_union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.1467 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR1106198_union.bf-allsome.bv.rrr 137 MB, 934.2877 MB/sec
+[search 112] /mnt/assemblage/sbt/compressedSBT.allsome/SRR1106198_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.4119 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR976748_union.bf-allsome.bv.rrr 115 MB, 281.0846 MB/sec
+[search 113] /mnt/assemblage/sbt/compressedSBT.allsome/SRR976748_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1994 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR191691_union.bf-allsome.bv.rrr 111 MB, 561.5700 MB/sec
+[search 114] /mnt/assemblage/sbt/compressedSBT.allsome/SRR191691_union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.0986 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR191595_union.bf-allsome.bv.rrr 31 MB, 319.9358 MB/sec
+[search 115] /mnt/assemblage/sbt/compressedSBT.allsome/SRR191595_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1408 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR976748.bf-allsome.bv.rrr 30 MB, 219.5843 MB/sec
+[search 116] /mnt/assemblage/sbt/compressedSBT.allsome/SRR976748.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.0662 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR191596_union.bf-allsome.bv.rrr 18 MB, 276.5711 MB/sec
+[search 117] /mnt/assemblage/sbt/compressedSBT.allsome/SRR191596_union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.0936 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR1012335_union.bf-allsome.bv.rrr 69 MB, 742.3611 MB/sec
+[search 118] /mnt/assemblage/sbt/compressedSBT.allsome/SRR1012335_union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.1835 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR037700_union.bf-allsome.bv.rrr 158 MB, 864.2609 MB/sec
+[search 119] /mnt/assemblage/sbt/compressedSBT.allsome/SRR037700_union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.2701 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR192534_union.bf-allsome.bv.rrr 247 MB, 917.2979 MB/sec
+[search 120] /mnt/assemblage/sbt/compressedSBT.allsome/SRR192534_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 1.3078 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR567128_union.bf-allsome.bv.rrr 243 MB, 185.8310 MB/sec
+[search 121] /mnt/assemblage/sbt/compressedSBT.allsome/SRR567128_union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.9230 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR972715_union.bf-allsome.bv.rrr 245 MB, 266.1003 MB/sec
+[search 122] /mnt/assemblage/sbt/compressedSBT.allsome/SRR972715_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 1.0244 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR497709_union.bf-allsome.bv.rrr 208 MB, 204.0059 MB/sec
+[search 123] /mnt/assemblage/sbt/compressedSBT.allsome/SRR497709_union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.7620 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR972716_union.bf-allsome.bv.rrr 204 MB, 268.9170 MB/sec
+[search 124] /mnt/assemblage/sbt/compressedSBT.allsome/SRR972716_union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.4000 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR837459_union.bf-allsome.bv.rrr 96 MB, 239.9900 MB/sec
+[search 125] /mnt/assemblage/sbt/compressedSBT.allsome/SRR837459_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.2789 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR1106199_union.bf-allsome.bv.rrr 187 MB, 673.5058 MB/sec
+[search 126] /mnt/assemblage/sbt/compressedSBT.allsome/SRR1106199_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 1.1449 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR403016_union.bf-allsome.bv.rrr 247 MB, 216.0939 MB/sec
+[search 127] /mnt/assemblage/sbt/compressedSBT.allsome/SRR403016_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.9658 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR805728_union.bf-allsome.bv.rrr 244 MB, 253.4449 MB/sec
+[search 128] /mnt/assemblage/sbt/compressedSBT.allsome/SRR805728_union.bf-allsome.bv.rrr internal 0/1
+[BF load] 1.5365 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR567014_union.bf-allsome.bv.rrr 245 MB, 159.9468 MB/sec
+[search 129] /mnt/assemblage/sbt/compressedSBT.allsome/SRR567014_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 1.0131 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR578261_union.bf-allsome.bv.rrr 207 MB, 204.6360 MB/sec
+[search 130] /mnt/assemblage/sbt/compressedSBT.allsome/SRR578261_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.8503 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR805788_union.bf-allsome.bv.rrr 153 MB, 180.9567 MB/sec
+[search 131] /mnt/assemblage/sbt/compressedSBT.allsome/SRR805788_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1761 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR038451_union.bf-allsome.bv.rrr 113 MB, 642.4535 MB/sec
+[search 132] /mnt/assemblage/sbt/compressedSBT.allsome/SRR038451_union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.6450 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR805783_union.bf-allsome.bv.rrr 123 MB, 192.0048 MB/sec
+[search 133] /mnt/assemblage/sbt/compressedSBT.allsome/SRR805783_union.bf-allsome.bv.rrr internal 0/1
+[BF load] 1.0486 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR805781_union.bf-allsome.bv.rrr 175 MB, 166.9111 MB/sec
+[search 134] /mnt/assemblage/sbt/compressedSBT.allsome/SRR805781_union.bf-allsome.bv.rrr internal 0/1
+[BF load] 1.0958 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR597814_union.bf-allsome.bv.rrr 215 MB, 196.5290 MB/sec
+[search 135] /mnt/assemblage/sbt/compressedSBT.allsome/SRR597814_union.bf-allsome.bv.rrr internal 0/1
+[BF load] 1.0047 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR403017_union.bf-allsome.bv.rrr 242 MB, 241.7315 MB/sec
+[search 136] /mnt/assemblage/sbt/compressedSBT.allsome/SRR403017_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.8845 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR827474_union.bf-allsome.bv.rrr 250 MB, 282.6667 MB/sec
+[search 137] /mnt/assemblage/sbt/compressedSBT.allsome/SRR827474_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.9743 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR567019_union.bf-allsome.bv.rrr 211 MB, 217.0766 MB/sec
+[search 138] /mnt/assemblage/sbt/compressedSBT.allsome/SRR567019_union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.4679 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR567010_union.bf-allsome.bv.rrr 221 MB, 473.6690 MB/sec
+[search 139] /mnt/assemblage/sbt/compressedSBT.allsome/SRR567010_union.bf-allsome.bv.rrr internal 0/1
+[BF load] 1.0165 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR827478_union.bf-allsome.bv.rrr 247 MB, 243.8803 MB/sec
+[search 140] /mnt/assemblage/sbt/compressedSBT.allsome/SRR827478_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.2947 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR037706_union.bf-allsome.bv.rrr 205 MB, 698.6391 MB/sec
+[search 141] /mnt/assemblage/sbt/compressedSBT.allsome/SRR037706_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.6389 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR567160_union.bf-allsome.bv.rrr 155 MB, 243.7405 MB/sec
+[search 142] /mnt/assemblage/sbt/compressedSBT.allsome/SRR567160_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.4314 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR837439_union.bf-allsome.bv.rrr 106 MB, 247.6155 MB/sec
+[search 143] /mnt/assemblage/sbt/compressedSBT.allsome/SRR837439_union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.1753 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR038300_union.bf-allsome.bv.rrr 126 MB, 720.8887 MB/sec
+[search 144] /mnt/assemblage/sbt/compressedSBT.allsome/SRR038300_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.6132 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR567117_union.bf-allsome.bv.rrr 109 MB, 178.7458 MB/sec
+[search 145] /mnt/assemblage/sbt/compressedSBT.allsome/SRR567117_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1860 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR1286930_union.bf-allsome.bv.rrr 65 MB, 350.6728 MB/sec
+[search 146] /mnt/assemblage/sbt/compressedSBT.allsome/SRR1286930_union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.1913 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR1186059_union.bf-allsome.bv.rrr 97 MB, 507.9697 MB/sec
+[search 147] /mnt/assemblage/sbt/compressedSBT.allsome/SRR1186059_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.2189 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR191469_union.bf-allsome.bv.rrr 87 MB, 401.2726 MB/sec
+[search 148] /mnt/assemblage/sbt/compressedSBT.allsome/SRR191469_union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.1080 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR191603_union.bf-allsome.bv.rrr 52 MB, 487.6280 MB/sec
+[search 149] /mnt/assemblage/sbt/compressedSBT.allsome/SRR191603_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1102 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR1186059.bf-allsome.bv.rrr 48 MB, 439.1622 MB/sec
+[search 150] /mnt/assemblage/sbt/compressedSBT.allsome/SRR1186059.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0917 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR191605_union.bf-allsome.bv.rrr 35 MB, 387.1697 MB/sec
+[search 151] /mnt/assemblage/sbt/compressedSBT.allsome/SRR191605_union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.1243 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR032277_union.bf-allsome.bv.rrr 79 MB, 639.9906 MB/sec
+[search 152] /mnt/assemblage/sbt/compressedSBT.allsome/SRR032277_union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.1916 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR353654_union.bf-allsome.bv.rrr 165 MB, 861.6252 MB/sec
+[search 153] /mnt/assemblage/sbt/compressedSBT.allsome/SRR353654_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.2228 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR1294095_union.bf-allsome.bv.rrr 134 MB, 601.6880 MB/sec
+[search 154] /mnt/assemblage/sbt/compressedSBT.allsome/SRR1294095_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1799 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR1186057_union.bf-allsome.bv.rrr 107 MB, 596.2952 MB/sec
+[search 155] /mnt/assemblage/sbt/compressedSBT.allsome/SRR1186057_union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.1983 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR1145647_union.bf-allsome.bv.rrr 80 MB, 406.8712 MB/sec
+[search 156] /mnt/assemblage/sbt/compressedSBT.allsome/SRR1145647_union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.4168 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR988510_union.bf-allsome.bv.rrr 109 MB, 263.5932 MB/sec
+[search 157] /mnt/assemblage/sbt/compressedSBT.allsome/SRR988510_union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.8631 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR827479_union.bf-allsome.bv.rrr 219 MB, 254.3294 MB/sec
+[search 158] /mnt/assemblage/sbt/compressedSBT.allsome/SRR827479_union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.6280 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR837458_union.bf-allsome.bv.rrr 187 MB, 297.9580 MB/sec
+[search 159] /mnt/assemblage/sbt/compressedSBT.allsome/SRR837458_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.9570 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR837453_union.bf-allsome.bv.rrr 247 MB, 258.3394 MB/sec
+[search 160] /mnt/assemblage/sbt/compressedSBT.allsome/SRR837453_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.9003 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR837457_union.bf-allsome.bv.rrr 246 MB, 273.6648 MB/sec
+[search 161] /mnt/assemblage/sbt/compressedSBT.allsome/SRR837457_union.bf-allsome.bv.rrr internal 0/1
+[BF load] 1.0227 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR827476_union.bf-allsome.bv.rrr 244 MB, 238.7734 MB/sec
+[search 162] /mnt/assemblage/sbt/compressedSBT.allsome/SRR827476_union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.8554 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR837451_union.bf-allsome.bv.rrr 244 MB, 285.8544 MB/sec
+[search 163] /mnt/assemblage/sbt/compressedSBT.allsome/SRR837451_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.9764 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR837450_union.bf-allsome.bv.rrr 250 MB, 256.3071 MB/sec
+[search 164] /mnt/assemblage/sbt/compressedSBT.allsome/SRR837450_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.3006 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR387779_union.bf-allsome.bv.rrr 215 MB, 716.0836 MB/sec
+[search 165] /mnt/assemblage/sbt/compressedSBT.allsome/SRR387779_union.bf-allsome.bv.rrr internal 0/1
+[BF load] 1.2294 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR567084_union.bf-allsome.bv.rrr 222 MB, 180.8854 MB/sec
+[search 166] /mnt/assemblage/sbt/compressedSBT.allsome/SRR567084_union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.7982 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR837456_union.bf-allsome.bv.rrr 244 MB, 306.7643 MB/sec
+[search 167] /mnt/assemblage/sbt/compressedSBT.allsome/SRR837456_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.8275 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR837454_union.bf-allsome.bv.rrr 204 MB, 247.7074 MB/sec
+[search 168] /mnt/assemblage/sbt/compressedSBT.allsome/SRR837454_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.2726 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR1057987_union.bf-allsome.bv.rrr 163 MB, 601.4218 MB/sec
+[search 169] /mnt/assemblage/sbt/compressedSBT.allsome/SRR1057987_union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.6837 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR567145_union.bf-allsome.bv.rrr 142 MB, 209.1337 MB/sec
+[search 170] /mnt/assemblage/sbt/compressedSBT.allsome/SRR567145_union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.1881 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR346066_union.bf-allsome.bv.rrr 105 MB, 562.5783 MB/sec
+[search 171] /mnt/assemblage/sbt/compressedSBT.allsome/SRR346066_union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.7011 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR389083_union.bf-allsome.bv.rrr 159 MB, 227.6015 MB/sec
+[search 172] /mnt/assemblage/sbt/compressedSBT.allsome/SRR389083_union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.9202 secs /mnt/assemblage/sbt/compressedSBT.allsome/SRR837455_union.bf-allsome.bv.rrr 206 MB, 224.5095 MB/sec
+[search 173] /mnt/assemblage/sbt/compressedSBT.allsome/SRR837455_union.bf-allsome.bv.rrr internal 0/1
+(main program) Done.
+0.10user 11.32system 1:21.26elapsed 14%CPU (0avgtext+0avgdata 302532maxresident)k
+46062672inputs+208outputs (4major+98603minor)pagefaults 0swaps

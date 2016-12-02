@@ -1,0 +1,1315 @@
+Starting Bloom Tree
+Kmer size = 20 (but we will use the k from a hashfile if we read one)
+Loading bloom tree topology: /mnt/assemblage/sbt/clusteringSBT.compressed/sbt-rrr-allsome.txt
+Loading hashes from /mnt/assemblage/sbt/clusteringSBT.compressed/hashfile
+# Hash applications=1
+Read hashes for k=20
+Read 5303 nodes in concatenated allsome Bloom Tree
+In memory limit = 1
+Querying...
+Read 1 queries.
+[BF load] 0.1323 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2651.union.bf-allsome.bv.rrr 34 MB, 257.5431 MB/sec
+[search 1] /mnt/assemblage/sbt/clusteringSBT.compressed/2651.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1082 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2649.union.bf-allsome.bv.rrr 48 MB, 443.9488 MB/sec
+[search 2] /mnt/assemblage/sbt/clusteringSBT.compressed/2649.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.3145 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2648.union.bf-allsome.bv.rrr 241 MB, 768.6805 MB/sec
+[search 3] /mnt/assemblage/sbt/clusteringSBT.compressed/2648.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.3004 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2639.union.bf-allsome.bv.rrr 250 MB, 833.6606 MB/sec
+[search 4] /mnt/assemblage/sbt/clusteringSBT.compressed/2639.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.3125 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2634.union.bf-allsome.bv.rrr 242 MB, 775.5354 MB/sec
+[search 5] /mnt/assemblage/sbt/clusteringSBT.compressed/2634.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.2560 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2601.union.bf-allsome.bv.rrr 189 MB, 740.4648 MB/sec
+[search 6] /mnt/assemblage/sbt/clusteringSBT.compressed/2601.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1744 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1060760.bf-allsome.bv.rrr 125 MB, 721.7974 MB/sec
+[search 7] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1060760.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.2358 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2578.union.bf-allsome.bv.rrr 150 MB, 637.1472 MB/sec
+[search 8] /mnt/assemblage/sbt/clusteringSBT.compressed/2578.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.2881 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2616.union.bf-allsome.bv.rrr 209 MB, 727.2311 MB/sec
+[search 9] /mnt/assemblage/sbt/clusteringSBT.compressed/2616.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.1116 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2647.union.bf-allsome.bv.rrr 70 MB, 635.2162 MB/sec
+[search 10] /mnt/assemblage/sbt/clusteringSBT.compressed/2647.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.3333 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2644.union.bf-allsome.bv.rrr 249 MB, 749.2133 MB/sec
+[search 11] /mnt/assemblage/sbt/clusteringSBT.compressed/2644.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.3483 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2631.union.bf-allsome.bv.rrr 230 MB, 661.7516 MB/sec
+[search 12] /mnt/assemblage/sbt/clusteringSBT.compressed/2631.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.2702 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2636.union.bf-allsome.bv.rrr 244 MB, 906.3590 MB/sec
+[search 13] /mnt/assemblage/sbt/clusteringSBT.compressed/2636.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.1523 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2646.union.bf-allsome.bv.rrr 105 MB, 693.0986 MB/sec
+[search 14] /mnt/assemblage/sbt/clusteringSBT.compressed/2646.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.2763 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2643.union.bf-allsome.bv.rrr 239 MB, 867.1076 MB/sec
+[search 15] /mnt/assemblage/sbt/clusteringSBT.compressed/2643.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.2497 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2645.union.bf-allsome.bv.rrr 178 MB, 715.4501 MB/sec
+[search 16] /mnt/assemblage/sbt/clusteringSBT.compressed/2645.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.2949 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2641.union.bf-allsome.bv.rrr 253 MB, 859.9374 MB/sec
+[search 17] /mnt/assemblage/sbt/clusteringSBT.compressed/2641.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.3351 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2642.union.bf-allsome.bv.rrr 228 MB, 681.8612 MB/sec
+[search 18] /mnt/assemblage/sbt/clusteringSBT.compressed/2642.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.2999 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2640.union.bf-allsome.bv.rrr 252 MB, 841.6739 MB/sec
+[search 19] /mnt/assemblage/sbt/clusteringSBT.compressed/2640.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.2603 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2629.union.bf-allsome.bv.rrr 233 MB, 897.6504 MB/sec
+[search 20] /mnt/assemblage/sbt/clusteringSBT.compressed/2629.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.2155 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2595.union.bf-allsome.bv.rrr 191 MB, 890.1489 MB/sec
+[search 21] /mnt/assemblage/sbt/clusteringSBT.compressed/2595.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1903 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2563.union.bf-allsome.bv.rrr 152 MB, 799.7644 MB/sec
+[search 22] /mnt/assemblage/sbt/clusteringSBT.compressed/2563.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1725 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2507.union.bf-allsome.bv.rrr 110 MB, 642.9586 MB/sec
+[search 23] /mnt/assemblage/sbt/clusteringSBT.compressed/2507.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1609 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2438.union.bf-allsome.bv.rrr 80 MB, 502.6400 MB/sec
+[search 24] /mnt/assemblage/sbt/clusteringSBT.compressed/2438.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.1448 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2437.union.bf-allsome.bv.rrr 80 MB, 558.3512 MB/sec
+[search 25] /mnt/assemblage/sbt/clusteringSBT.compressed/2437.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.1969 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2526.union.bf-allsome.bv.rrr 118 MB, 603.7271 MB/sec
+[search 26] /mnt/assemblage/sbt/clusteringSBT.compressed/2526.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1449 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2461.union.bf-allsome.bv.rrr 89 MB, 615.1937 MB/sec
+[search 27] /mnt/assemblage/sbt/clusteringSBT.compressed/2461.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.1583 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2444.union.bf-allsome.bv.rrr 83 MB, 529.9775 MB/sec
+[search 28] /mnt/assemblage/sbt/clusteringSBT.compressed/2444.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1570 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR039629.bf-allsome.bv.rrr 50 MB, 321.7030 MB/sec
+[search 29] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR039629.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.1822 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR039628.bf-allsome.bv.rrr 49 MB, 272.5608 MB/sec
+[search 30] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR039628.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.1750 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2535.union.bf-allsome.bv.rrr 128 MB, 736.0357 MB/sec
+[search 31] /mnt/assemblage/sbt/clusteringSBT.compressed/2535.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1294 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2477.union.bf-allsome.bv.rrr 94 MB, 730.4550 MB/sec
+[search 32] /mnt/assemblage/sbt/clusteringSBT.compressed/2477.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.1517 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2469.union.bf-allsome.bv.rrr 90 MB, 597.2075 MB/sec
+[search 33] /mnt/assemblage/sbt/clusteringSBT.compressed/2469.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.2198 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2606.union.bf-allsome.bv.rrr 195 MB, 890.3336 MB/sec
+[search 34] /mnt/assemblage/sbt/clusteringSBT.compressed/2606.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1918 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2556.union.bf-allsome.bv.rrr 145 MB, 760.0322 MB/sec
+[search 35] /mnt/assemblage/sbt/clusteringSBT.compressed/2556.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.2186 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2575.union.bf-allsome.bv.rrr 155 MB, 710.7015 MB/sec
+[search 36] /mnt/assemblage/sbt/clusteringSBT.compressed/2575.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1526 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2531.union.bf-allsome.bv.rrr 126 MB, 831.1181 MB/sec
+[search 37] /mnt/assemblage/sbt/clusteringSBT.compressed/2531.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1845 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2460.union.bf-allsome.bv.rrr 101 MB, 549.8467 MB/sec
+[search 38] /mnt/assemblage/sbt/clusteringSBT.compressed/2460.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1823 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2278.union.bf-allsome.bv.rrr 94 MB, 520.0492 MB/sec
+[search 39] /mnt/assemblage/sbt/clusteringSBT.compressed/2278.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1270 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2080.union.bf-allsome.bv.rrr 58 MB, 459.7986 MB/sec
+[search 40] /mnt/assemblage/sbt/clusteringSBT.compressed/2080.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.1432 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1977.union.bf-allsome.bv.rrr 65 MB, 455.4595 MB/sec
+[search 41] /mnt/assemblage/sbt/clusteringSBT.compressed/1977.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1264 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1950.union.bf-allsome.bv.rrr 51 MB, 411.1618 MB/sec
+[search 42] /mnt/assemblage/sbt/clusteringSBT.compressed/1950.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0893 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1885.union.bf-allsome.bv.rrr 46 MB, 523.3106 MB/sec
+[search 43] /mnt/assemblage/sbt/clusteringSBT.compressed/1885.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1198 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1047872.bf-allsome.bv.rrr 33 MB, 280.4640 MB/sec
+[search 44] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1047872.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0835 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1694.union.bf-allsome.bv.rrr 38 MB, 460.0718 MB/sec
+[search 45] /mnt/assemblage/sbt/clusteringSBT.compressed/1694.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0688 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1498.union.bf-allsome.bv.rrr 30 MB, 441.9956 MB/sec
+[search 46] /mnt/assemblage/sbt/clusteringSBT.compressed/1498.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.0971 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1047871.bf-allsome.bv.rrr 31 MB, 321.8541 MB/sec
+[search 47] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1047871.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0725 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1830.union.bf-allsome.bv.rrr 42 MB, 585.9850 MB/sec
+[search 48] /mnt/assemblage/sbt/clusteringSBT.compressed/1830.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.0624 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1951.union.bf-allsome.bv.rrr 53 MB, 853.6064 MB/sec
+[search 49] /mnt/assemblage/sbt/clusteringSBT.compressed/1951.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0924 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1047870.bf-allsome.bv.rrr 26 MB, 282.9863 MB/sec
+[search 50] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1047870.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.0718 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1047863.bf-allsome.bv.rrr 29 MB, 413.9039 MB/sec
+[search 51] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1047863.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.1368 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2418.union.bf-allsome.bv.rrr 70 MB, 517.4053 MB/sec
+[search 52] /mnt/assemblage/sbt/clusteringSBT.compressed/2418.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.1315 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2466.union.bf-allsome.bv.rrr 93 MB, 711.3025 MB/sec
+[search 53] /mnt/assemblage/sbt/clusteringSBT.compressed/2466.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.1469 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1292576.bf-allsome.bv.rrr 99 MB, 677.6280 MB/sec
+[search 54] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1292576.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.3116 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2626.union.bf-allsome.bv.rrr 238 MB, 764.5115 MB/sec
+[search 55] /mnt/assemblage/sbt/clusteringSBT.compressed/2626.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.2392 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2596.union.bf-allsome.bv.rrr 219 MB, 916.2415 MB/sec
+[search 56] /mnt/assemblage/sbt/clusteringSBT.compressed/2596.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1683 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1033468.bf-allsome.bv.rrr 123 MB, 733.6111 MB/sec
+[search 57] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1033468.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.2050 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2561.union.bf-allsome.bv.rrr 144 MB, 704.4097 MB/sec
+[search 58] /mnt/assemblage/sbt/clusteringSBT.compressed/2561.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.2299 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2615.union.bf-allsome.bv.rrr 204 MB, 891.2112 MB/sec
+[search 59] /mnt/assemblage/sbt/clusteringSBT.compressed/2615.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.2442 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2580.union.bf-allsome.bv.rrr 181 MB, 744.6821 MB/sec
+[search 60] /mnt/assemblage/sbt/clusteringSBT.compressed/2580.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1125 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1033466.bf-allsome.bv.rrr 85 MB, 759.2422 MB/sec
+[search 61] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1033466.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.0908 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1033467.bf-allsome.bv.rrr 100 MB, 1108.3783 MB/sec
+[search 62] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1033467.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.2120 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2579.union.bf-allsome.bv.rrr 153 MB, 722.6225 MB/sec
+[search 63] /mnt/assemblage/sbt/clusteringSBT.compressed/2579.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.2928 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2635.union.bf-allsome.bv.rrr 251 MB, 859.6356 MB/sec
+[search 64] /mnt/assemblage/sbt/clusteringSBT.compressed/2635.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.2330 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2618.union.bf-allsome.bv.rrr 226 MB, 971.7270 MB/sec
+[search 65] /mnt/assemblage/sbt/clusteringSBT.compressed/2618.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.2574 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2588.union.bf-allsome.bv.rrr 185 MB, 720.7100 MB/sec
+[search 66] /mnt/assemblage/sbt/clusteringSBT.compressed/2588.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.3223 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2538.union.bf-allsome.bv.rrr 137 MB, 427.4824 MB/sec
+[search 67] /mnt/assemblage/sbt/clusteringSBT.compressed/2538.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1562 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2508.union.bf-allsome.bv.rrr 112 MB, 722.7599 MB/sec
+[search 68] /mnt/assemblage/sbt/clusteringSBT.compressed/2508.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1264 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2424.union.bf-allsome.bv.rrr 90 MB, 716.9472 MB/sec
+[search 69] /mnt/assemblage/sbt/clusteringSBT.compressed/2424.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.1237 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2380.union.bf-allsome.bv.rrr 81 MB, 658.4366 MB/sec
+[search 70] /mnt/assemblage/sbt/clusteringSBT.compressed/2380.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1061 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2227.union.bf-allsome.bv.rrr 66 MB, 630.0017 MB/sec
+[search 71] /mnt/assemblage/sbt/clusteringSBT.compressed/2227.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1480 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2060.union.bf-allsome.bv.rrr 56 MB, 378.4843 MB/sec
+[search 72] /mnt/assemblage/sbt/clusteringSBT.compressed/2060.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0837 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1060799.bf-allsome.bv.rrr 28 MB, 340.1973 MB/sec
+[search 73] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1060799.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0936 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1060787.bf-allsome.bv.rrr 31 MB, 335.7607 MB/sec
+[search 74] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1060787.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.1035 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2121.union.bf-allsome.bv.rrr 57 MB, 556.1569 MB/sec
+[search 75] /mnt/assemblage/sbt/clusteringSBT.compressed/2121.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1416 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1060784.bf-allsome.bv.rrr 44 MB, 316.9494 MB/sec
+[search 76] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1060784.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.1097 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1961.union.bf-allsome.bv.rrr 51 MB, 467.6060 MB/sec
+[search 77] /mnt/assemblage/sbt/clusteringSBT.compressed/1961.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1092 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1060796.bf-allsome.bv.rrr 42 MB, 392.5533 MB/sec
+[search 78] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1060796.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.1172 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1698.union.bf-allsome.bv.rrr 44 MB, 375.8324 MB/sec
+[search 79] /mnt/assemblage/sbt/clusteringSBT.compressed/1698.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1014 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1264.union.bf-allsome.bv.rrr 37 MB, 366.1951 MB/sec
+[search 80] /mnt/assemblage/sbt/clusteringSBT.compressed/1264.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0603 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1097.union.bf-allsome.bv.rrr 34 MB, 571.0294 MB/sec
+[search 81] /mnt/assemblage/sbt/clusteringSBT.compressed/1097.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0827 secs /mnt/assemblage/sbt/clusteringSBT.compressed/959.union.bf-allsome.bv.rrr 30 MB, 368.1334 MB/sec
+[search 82] /mnt/assemblage/sbt/clusteringSBT.compressed/959.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.1203 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1015.union.bf-allsome.bv.rrr 31 MB, 263.5255 MB/sec
+[search 83] /mnt/assemblage/sbt/clusteringSBT.compressed/1015.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1094 secs /mnt/assemblage/sbt/clusteringSBT.compressed/920.union.bf-allsome.bv.rrr 27 MB, 252.5707 MB/sec
+[search 84] /mnt/assemblage/sbt/clusteringSBT.compressed/920.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1023 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1060793.bf-allsome.bv.rrr 19 MB, 193.6317 MB/sec
+[search 85] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1060793.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0612 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1060781.bf-allsome.bv.rrr 21 MB, 348.0355 MB/sec
+[search 86] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1060781.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.0788 secs /mnt/assemblage/sbt/clusteringSBT.compressed/731.union.bf-allsome.bv.rrr 26 MB, 339.2364 MB/sec
+[search 87] /mnt/assemblage/sbt/clusteringSBT.compressed/731.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.0751 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1201.union.bf-allsome.bv.rrr 31 MB, 418.6444 MB/sec
+[search 88] /mnt/assemblage/sbt/clusteringSBT.compressed/1201.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.0817 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1336.union.bf-allsome.bv.rrr 40 MB, 494.4345 MB/sec
+[search 89] /mnt/assemblage/sbt/clusteringSBT.compressed/1336.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0745 secs /mnt/assemblage/sbt/clusteringSBT.compressed/993.union.bf-allsome.bv.rrr 33 MB, 451.7845 MB/sec
+[search 90] /mnt/assemblage/sbt/clusteringSBT.compressed/993.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1067 secs /mnt/assemblage/sbt/clusteringSBT.compressed/970.union.bf-allsome.bv.rrr 29 MB, 276.9837 MB/sec
+[search 91] /mnt/assemblage/sbt/clusteringSBT.compressed/970.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.1413 secs /mnt/assemblage/sbt/clusteringSBT.compressed/768.union.bf-allsome.bv.rrr 29 MB, 206.2546 MB/sec
+[search 92] /mnt/assemblage/sbt/clusteringSBT.compressed/768.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.0909 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1276.union.bf-allsome.bv.rrr 35 MB, 387.8416 MB/sec
+[search 93] /mnt/assemblage/sbt/clusteringSBT.compressed/1276.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.1140 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2298.union.bf-allsome.bv.rrr 63 MB, 552.9266 MB/sec
+[search 94] /mnt/assemblage/sbt/clusteringSBT.compressed/2298.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0971 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1060765.bf-allsome.bv.rrr 41 MB, 430.1199 MB/sec
+[search 95] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1060765.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0953 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2189.union.bf-allsome.bv.rrr 50 MB, 530.1476 MB/sec
+[search 96] /mnt/assemblage/sbt/clusteringSBT.compressed/2189.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0913 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805784.bf-allsome.bv.rrr 37 MB, 409.0672 MB/sec
+[search 97] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805784.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0763 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1738.union.bf-allsome.bv.rrr 40 MB, 533.7497 MB/sec
+[search 98] /mnt/assemblage/sbt/clusteringSBT.compressed/1738.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1054 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1051.union.bf-allsome.bv.rrr 37 MB, 360.2589 MB/sec
+[search 99] /mnt/assemblage/sbt/clusteringSBT.compressed/1051.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1006 secs /mnt/assemblage/sbt/clusteringSBT.compressed/727.union.bf-allsome.bv.rrr 29 MB, 289.1042 MB/sec
+[search 100] /mnt/assemblage/sbt/clusteringSBT.compressed/727.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0729 secs /mnt/assemblage/sbt/clusteringSBT.compressed/726.union.bf-allsome.bv.rrr 24 MB, 337.4260 MB/sec
+[search 101] /mnt/assemblage/sbt/clusteringSBT.compressed/726.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0737 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR976756.bf-allsome.bv.rrr 20 MB, 272.3974 MB/sec
+[search 102] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR976756.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.0738 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR976757.bf-allsome.bv.rrr 19 MB, 268.5685 MB/sec
+[search 103] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR976757.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0825 secs /mnt/assemblage/sbt/clusteringSBT.compressed/689.union.bf-allsome.bv.rrr 26 MB, 317.6508 MB/sec
+[search 104] /mnt/assemblage/sbt/clusteringSBT.compressed/689.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.0955 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1005.union.bf-allsome.bv.rrr 25 MB, 269.7369 MB/sec
+[search 105] /mnt/assemblage/sbt/clusteringSBT.compressed/1005.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0819 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR976754.bf-allsome.bv.rrr 21 MB, 259.0117 MB/sec
+[search 106] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR976754.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0788 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR976772.bf-allsome.bv.rrr 20 MB, 261.6508 MB/sec
+[search 107] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR976772.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.0908 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1108.union.bf-allsome.bv.rrr 26 MB, 291.9159 MB/sec
+[search 108] /mnt/assemblage/sbt/clusteringSBT.compressed/1108.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.1157 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2474.union.bf-allsome.bv.rrr 100 MB, 869.9978 MB/sec
+[search 109] /mnt/assemblage/sbt/clusteringSBT.compressed/2474.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.1636 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2553.union.bf-allsome.bv.rrr 156 MB, 957.8470 MB/sec
+[search 110] /mnt/assemblage/sbt/clusteringSBT.compressed/2553.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1339 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2504.union.bf-allsome.bv.rrr 122 MB, 918.3958 MB/sec
+[search 111] /mnt/assemblage/sbt/clusteringSBT.compressed/2504.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1248 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2403.union.bf-allsome.bv.rrr 102 MB, 819.0367 MB/sec
+[search 112] /mnt/assemblage/sbt/clusteringSBT.compressed/2403.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1207 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2279.union.bf-allsome.bv.rrr 87 MB, 725.1028 MB/sec
+[search 113] /mnt/assemblage/sbt/clusteringSBT.compressed/2279.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1207 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2170.union.bf-allsome.bv.rrr 70 MB, 583.5248 MB/sec
+[search 114] /mnt/assemblage/sbt/clusteringSBT.compressed/2170.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1203 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2023.union.bf-allsome.bv.rrr 62 MB, 522.8374 MB/sec
+[search 115] /mnt/assemblage/sbt/clusteringSBT.compressed/2023.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1185 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1932.union.bf-allsome.bv.rrr 54 MB, 461.2205 MB/sec
+[search 116] /mnt/assemblage/sbt/clusteringSBT.compressed/1932.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0816 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1818.union.bf-allsome.bv.rrr 45 MB, 558.1854 MB/sec
+[search 117] /mnt/assemblage/sbt/clusteringSBT.compressed/1818.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1286 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1747.union.bf-allsome.bv.rrr 36 MB, 286.2026 MB/sec
+[search 118] /mnt/assemblage/sbt/clusteringSBT.compressed/1747.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.0656 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1719.union.bf-allsome.bv.rrr 36 MB, 559.1405 MB/sec
+[search 119] /mnt/assemblage/sbt/clusteringSBT.compressed/1719.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0891 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805744.bf-allsome.bv.rrr 26 MB, 297.7086 MB/sec
+[search 120] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805744.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.0639 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805742.bf-allsome.bv.rrr 24 MB, 376.6181 MB/sec
+[search 121] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805742.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.1014 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1863.union.bf-allsome.bv.rrr 47 MB, 467.9766 MB/sec
+[search 122] /mnt/assemblage/sbt/clusteringSBT.compressed/1863.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0753 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1767.union.bf-allsome.bv.rrr 37 MB, 491.0983 MB/sec
+[search 123] /mnt/assemblage/sbt/clusteringSBT.compressed/1767.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0974 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805741.bf-allsome.bv.rrr 26 MB, 275.6860 MB/sec
+[search 124] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805741.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0983 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805799.bf-allsome.bv.rrr 24 MB, 249.2988 MB/sec
+[search 125] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805799.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.0810 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1769.union.bf-allsome.bv.rrr 38 MB, 472.1166 MB/sec
+[search 126] /mnt/assemblage/sbt/clusteringSBT.compressed/1769.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.0552 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1933.union.bf-allsome.bv.rrr 50 MB, 916.0772 MB/sec
+[search 127] /mnt/assemblage/sbt/clusteringSBT.compressed/1933.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0773 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1803.union.bf-allsome.bv.rrr 37 MB, 490.3605 MB/sec
+[search 128] /mnt/assemblage/sbt/clusteringSBT.compressed/1803.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.0956 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1889.union.bf-allsome.bv.rrr 40 MB, 420.6995 MB/sec
+[search 129] /mnt/assemblage/sbt/clusteringSBT.compressed/1889.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0731 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805736.bf-allsome.bv.rrr 28 MB, 396.7565 MB/sec
+[search 130] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805736.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.0850 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805729.bf-allsome.bv.rrr 24 MB, 291.1894 MB/sec
+[search 131] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805729.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.1121 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1945.union.bf-allsome.bv.rrr 55 MB, 498.6596 MB/sec
+[search 132] /mnt/assemblage/sbt/clusteringSBT.compressed/1945.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1006 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1843.union.bf-allsome.bv.rrr 48 MB, 480.9486 MB/sec
+[search 133] /mnt/assemblage/sbt/clusteringSBT.compressed/1843.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.1253 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1851.union.bf-allsome.bv.rrr 47 MB, 378.8394 MB/sec
+[search 134] /mnt/assemblage/sbt/clusteringSBT.compressed/1851.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0919 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1722.union.bf-allsome.bv.rrr 35 MB, 387.0070 MB/sec
+[search 135] /mnt/assemblage/sbt/clusteringSBT.compressed/1722.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.1010 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1751.union.bf-allsome.bv.rrr 38 MB, 376.2041 MB/sec
+[search 136] /mnt/assemblage/sbt/clusteringSBT.compressed/1751.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.1342 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2218.union.bf-allsome.bv.rrr 74 MB, 554.2690 MB/sec
+[search 137] /mnt/assemblage/sbt/clusteringSBT.compressed/2218.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1256 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2039.union.bf-allsome.bv.rrr 64 MB, 511.4670 MB/sec
+[search 138] /mnt/assemblage/sbt/clusteringSBT.compressed/2039.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0803 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1973.union.bf-allsome.bv.rrr 54 MB, 674.7113 MB/sec
+[search 139] /mnt/assemblage/sbt/clusteringSBT.compressed/1973.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1014 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1900.union.bf-allsome.bv.rrr 43 MB, 427.3039 MB/sec
+[search 140] /mnt/assemblage/sbt/clusteringSBT.compressed/1900.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0747 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805778.bf-allsome.bv.rrr 26 MB, 356.3277 MB/sec
+[search 141] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805778.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.0937 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805770.bf-allsome.bv.rrr 27 MB, 292.8099 MB/sec
+[search 142] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805770.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.0777 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1878.union.bf-allsome.bv.rrr 45 MB, 587.8120 MB/sec
+[search 143] /mnt/assemblage/sbt/clusteringSBT.compressed/1878.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0859 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1805.union.bf-allsome.bv.rrr 38 MB, 447.8568 MB/sec
+[search 144] /mnt/assemblage/sbt/clusteringSBT.compressed/1805.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.0649 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1778.union.bf-allsome.bv.rrr 36 MB, 567.4201 MB/sec
+[search 145] /mnt/assemblage/sbt/clusteringSBT.compressed/1778.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0727 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805769.bf-allsome.bv.rrr 24 MB, 331.6104 MB/sec
+[search 146] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805769.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.0592 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805772.bf-allsome.bv.rrr 27 MB, 461.6128 MB/sec
+[search 147] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805772.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.1178 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1941.union.bf-allsome.bv.rrr 51 MB, 437.2716 MB/sec
+[search 148] /mnt/assemblage/sbt/clusteringSBT.compressed/1941.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0949 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1837.union.bf-allsome.bv.rrr 41 MB, 440.6010 MB/sec
+[search 149] /mnt/assemblage/sbt/clusteringSBT.compressed/1837.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0500 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805779.bf-allsome.bv.rrr 31 MB, 620.3928 MB/sec
+[search 150] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805779.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.0904 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1697.union.bf-allsome.bv.rrr 33 MB, 374.3639 MB/sec
+[search 151] /mnt/assemblage/sbt/clusteringSBT.compressed/1697.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0704 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805774.bf-allsome.bv.rrr 24 MB, 353.0620 MB/sec
+[search 152] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805774.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0451 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805773.bf-allsome.bv.rrr 25 MB, 560.7677 MB/sec
+[search 153] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805773.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.1673 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1859.union.bf-allsome.bv.rrr 41 MB, 247.7583 MB/sec
+[search 154] /mnt/assemblage/sbt/clusteringSBT.compressed/1859.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0429 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805771.bf-allsome.bv.rrr 24 MB, 581.1502 MB/sec
+[search 155] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805771.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0380 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805775.bf-allsome.bv.rrr 28 MB, 741.9573 MB/sec
+[search 156] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805775.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.1099 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2056.union.bf-allsome.bv.rrr 64 MB, 582.4722 MB/sec
+[search 157] /mnt/assemblage/sbt/clusteringSBT.compressed/2056.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1278 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1944.union.bf-allsome.bv.rrr 56 MB, 442.0780 MB/sec
+[search 158] /mnt/assemblage/sbt/clusteringSBT.compressed/1944.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1366 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1833.union.bf-allsome.bv.rrr 45 MB, 334.7075 MB/sec
+[search 159] /mnt/assemblage/sbt/clusteringSBT.compressed/1833.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.1024 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1876.union.bf-allsome.bv.rrr 47 MB, 462.6639 MB/sec
+[search 160] /mnt/assemblage/sbt/clusteringSBT.compressed/1876.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0711 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1750.union.bf-allsome.bv.rrr 38 MB, 537.0395 MB/sec
+[search 161] /mnt/assemblage/sbt/clusteringSBT.compressed/1750.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.0671 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1791.union.bf-allsome.bv.rrr 36 MB, 549.7765 MB/sec
+[search 162] /mnt/assemblage/sbt/clusteringSBT.compressed/1791.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1197 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805766.bf-allsome.bv.rrr 25 MB, 213.4843 MB/sec
+[search 163] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805766.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.1020 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805762.bf-allsome.bv.rrr 25 MB, 253.5091 MB/sec
+[search 164] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805762.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.0909 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1979.union.bf-allsome.bv.rrr 54 MB, 603.6746 MB/sec
+[search 165] /mnt/assemblage/sbt/clusteringSBT.compressed/1979.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1033 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1862.union.bf-allsome.bv.rrr 47 MB, 463.2027 MB/sec
+[search 166] /mnt/assemblage/sbt/clusteringSBT.compressed/1862.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1180 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1720.union.bf-allsome.bv.rrr 38 MB, 327.7753 MB/sec
+[search 167] /mnt/assemblage/sbt/clusteringSBT.compressed/1720.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0823 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805749.bf-allsome.bv.rrr 24 MB, 295.8866 MB/sec
+[search 168] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805749.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0747 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805747.bf-allsome.bv.rrr 26 MB, 351.8902 MB/sec
+[search 169] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805747.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0844 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1756.union.bf-allsome.bv.rrr 42 MB, 506.4954 MB/sec
+[search 170] /mnt/assemblage/sbt/clusteringSBT.compressed/1756.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.0947 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1844.union.bf-allsome.bv.rrr 44 MB, 467.2249 MB/sec
+[search 171] /mnt/assemblage/sbt/clusteringSBT.compressed/1844.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0822 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805758.bf-allsome.bv.rrr 27 MB, 336.7852 MB/sec
+[search 172] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805758.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.0484 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805768.bf-allsome.bv.rrr 25 MB, 518.4640 MB/sec
+[search 173] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805768.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.1126 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2341.union.bf-allsome.bv.rrr 86 MB, 767.1305 MB/sec
+[search 174] /mnt/assemblage/sbt/clusteringSBT.compressed/2341.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1207 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2117.union.bf-allsome.bv.rrr 66 MB, 554.4701 MB/sec
+[search 175] /mnt/assemblage/sbt/clusteringSBT.compressed/2117.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1399 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1995.union.bf-allsome.bv.rrr 57 MB, 412.8769 MB/sec
+[search 176] /mnt/assemblage/sbt/clusteringSBT.compressed/1995.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0954 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1470.union.bf-allsome.bv.rrr 43 MB, 453.9175 MB/sec
+[search 177] /mnt/assemblage/sbt/clusteringSBT.compressed/1470.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1038 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1418.union.bf-allsome.bv.rrr 35 MB, 339.8241 MB/sec
+[search 178] /mnt/assemblage/sbt/clusteringSBT.compressed/1418.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0796 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1202.union.bf-allsome.bv.rrr 27 MB, 351.5878 MB/sec
+[search 179] /mnt/assemblage/sbt/clusteringSBT.compressed/1202.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.0815 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1200503.bf-allsome.bv.rrr 24 MB, 295.0073 MB/sec
+[search 180] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1200503.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0744 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1340.union.bf-allsome.bv.rrr 41 MB, 558.9203 MB/sec
+[search 181] /mnt/assemblage/sbt/clusteringSBT.compressed/1340.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0652 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1197.union.bf-allsome.bv.rrr 38 MB, 591.4938 MB/sec
+[search 182] /mnt/assemblage/sbt/clusteringSBT.compressed/1197.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0783 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1118.union.bf-allsome.bv.rrr 36 MB, 463.7657 MB/sec
+[search 183] /mnt/assemblage/sbt/clusteringSBT.compressed/1118.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0699 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1092.union.bf-allsome.bv.rrr 32 MB, 458.5503 MB/sec
+[search 184] /mnt/assemblage/sbt/clusteringSBT.compressed/1092.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0530 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1028.union.bf-allsome.bv.rrr 28 MB, 530.7727 MB/sec
+[search 185] /mnt/assemblage/sbt/clusteringSBT.compressed/1028.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0803 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1200514.bf-allsome.bv.rrr 23 MB, 288.9143 MB/sec
+[search 186] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1200514.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.0531 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1016.union.bf-allsome.bv.rrr 24 MB, 469.6303 MB/sec
+[search 187] /mnt/assemblage/sbt/clusteringSBT.compressed/1016.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1065 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1200516.bf-allsome.bv.rrr 20 MB, 191.2470 MB/sec
+[search 188] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1200516.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0649 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1200513.bf-allsome.bv.rrr 21 MB, 328.7460 MB/sec
+[search 189] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1200513.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0998 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1062.union.bf-allsome.bv.rrr 28 MB, 289.7834 MB/sec
+[search 190] /mnt/assemblage/sbt/clusteringSBT.compressed/1062.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0872 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1200509.bf-allsome.bv.rrr 20 MB, 240.1692 MB/sec
+[search 191] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1200509.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0626 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1200507.bf-allsome.bv.rrr 21 MB, 340.2412 MB/sec
+[search 192] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1200507.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0869 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1078.union.bf-allsome.bv.rrr 32 MB, 374.0099 MB/sec
+[search 193] /mnt/assemblage/sbt/clusteringSBT.compressed/1078.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0750 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1077.union.bf-allsome.bv.rrr 25 MB, 336.8192 MB/sec
+[search 194] /mnt/assemblage/sbt/clusteringSBT.compressed/1077.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0374 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1200515.bf-allsome.bv.rrr 21 MB, 568.1347 MB/sec
+[search 195] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1200515.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.0878 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1200511.bf-allsome.bv.rrr 21 MB, 239.7633 MB/sec
+[search 196] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1200511.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.0415 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1200504.bf-allsome.bv.rrr 24 MB, 593.0200 MB/sec
+[search 197] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1200504.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.0862 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1196.union.bf-allsome.bv.rrr 34 MB, 405.0729 MB/sec
+[search 198] /mnt/assemblage/sbt/clusteringSBT.compressed/1196.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0881 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1121.union.bf-allsome.bv.rrr 28 MB, 328.9093 MB/sec
+[search 199] /mnt/assemblage/sbt/clusteringSBT.compressed/1121.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.0506 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1127.union.bf-allsome.bv.rrr 30 MB, 593.5546 MB/sec
+[search 200] /mnt/assemblage/sbt/clusteringSBT.compressed/1127.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0999 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1105.union.bf-allsome.bv.rrr 25 MB, 252.5794 MB/sec
+[search 201] /mnt/assemblage/sbt/clusteringSBT.compressed/1105.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0621 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1200501.bf-allsome.bv.rrr 21 MB, 341.7171 MB/sec
+[search 202] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1200501.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0732 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1200500.bf-allsome.bv.rrr 21 MB, 286.8847 MB/sec
+[search 203] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1200500.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0767 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1200499.bf-allsome.bv.rrr 25 MB, 329.9717 MB/sec
+[search 204] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1200499.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0693 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1291.union.bf-allsome.bv.rrr 37 MB, 535.5915 MB/sec
+[search 205] /mnt/assemblage/sbt/clusteringSBT.compressed/1291.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.0995 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1887.union.bf-allsome.bv.rrr 47 MB, 474.3482 MB/sec
+[search 206] /mnt/assemblage/sbt/clusteringSBT.compressed/1887.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0741 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805798.bf-allsome.bv.rrr 28 MB, 380.1962 MB/sec
+[search 207] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805798.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.0579 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805787.bf-allsome.bv.rrr 25 MB, 437.7816 MB/sec
+[search 208] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805787.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0999 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1966.union.bf-allsome.bv.rrr 60 MB, 603.5023 MB/sec
+[search 209] /mnt/assemblage/sbt/clusteringSBT.compressed/1966.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1065 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR644513.bf-allsome.bv.rrr 54 MB, 509.5201 MB/sec
+[search 210] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR644513.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.1092 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1838.union.bf-allsome.bv.rrr 50 MB, 465.0995 MB/sec
+[search 211] /mnt/assemblage/sbt/clusteringSBT.compressed/1838.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1098 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR643766.bf-allsome.bv.rrr 43 MB, 400.4840 MB/sec
+[search 212] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR643766.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.0960 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1685.union.bf-allsome.bv.rrr 44 MB, 464.1904 MB/sec
+[search 213] /mnt/assemblage/sbt/clusteringSBT.compressed/1685.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.2097 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2190.union.bf-allsome.bv.rrr 81 MB, 389.3503 MB/sec
+[search 214] /mnt/assemblage/sbt/clusteringSBT.compressed/2190.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1131 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2028.union.bf-allsome.bv.rrr 66 MB, 592.0716 MB/sec
+[search 215] /mnt/assemblage/sbt/clusteringSBT.compressed/2028.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0838 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1898.union.bf-allsome.bv.rrr 55 MB, 657.4111 MB/sec
+[search 216] /mnt/assemblage/sbt/clusteringSBT.compressed/1898.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0979 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1775.union.bf-allsome.bv.rrr 45 MB, 464.5423 MB/sec
+[search 217] /mnt/assemblage/sbt/clusteringSBT.compressed/1775.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0894 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1682.union.bf-allsome.bv.rrr 35 MB, 402.1659 MB/sec
+[search 218] /mnt/assemblage/sbt/clusteringSBT.compressed/1682.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0723 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805821.bf-allsome.bv.rrr 23 MB, 324.3586 MB/sec
+[search 219] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805821.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0915 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805813.bf-allsome.bv.rrr 26 MB, 291.1235 MB/sec
+[search 220] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805813.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.0963 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1706.union.bf-allsome.bv.rrr 36 MB, 377.5437 MB/sec
+[search 221] /mnt/assemblage/sbt/clusteringSBT.compressed/1706.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0721 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805818.bf-allsome.bv.rrr 24 MB, 338.8155 MB/sec
+[search 222] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805818.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.0847 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805822.bf-allsome.bv.rrr 25 MB, 304.4521 MB/sec
+[search 223] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805822.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.1269 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1816.union.bf-allsome.bv.rrr 48 MB, 383.2964 MB/sec
+[search 224] /mnt/assemblage/sbt/clusteringSBT.compressed/1816.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1004 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1700.union.bf-allsome.bv.rrr 41 MB, 415.5662 MB/sec
+[search 225] /mnt/assemblage/sbt/clusteringSBT.compressed/1700.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1054 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1639.union.bf-allsome.bv.rrr 35 MB, 338.5442 MB/sec
+[search 226] /mnt/assemblage/sbt/clusteringSBT.compressed/1639.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0408 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805814.bf-allsome.bv.rrr 25 MB, 618.5638 MB/sec
+[search 227] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805814.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0645 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805816.bf-allsome.bv.rrr 23 MB, 370.4717 MB/sec
+[search 228] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805816.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.0645 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1616.union.bf-allsome.bv.rrr 34 MB, 528.9701 MB/sec
+[search 229] /mnt/assemblage/sbt/clusteringSBT.compressed/1616.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0489 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805820.bf-allsome.bv.rrr 24 MB, 491.3479 MB/sec
+[search 230] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805820.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0575 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805823.bf-allsome.bv.rrr 24 MB, 428.8455 MB/sec
+[search 231] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805823.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.0825 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1745.union.bf-allsome.bv.rrr 39 MB, 482.0121 MB/sec
+[search 232] /mnt/assemblage/sbt/clusteringSBT.compressed/1745.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.1013 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1949.union.bf-allsome.bv.rrr 57 MB, 571.7969 MB/sec
+[search 233] /mnt/assemblage/sbt/clusteringSBT.compressed/1949.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0904 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1915.union.bf-allsome.bv.rrr 48 MB, 538.8895 MB/sec
+[search 234] /mnt/assemblage/sbt/clusteringSBT.compressed/1915.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0960 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1788.union.bf-allsome.bv.rrr 36 MB, 381.8509 MB/sec
+[search 235] /mnt/assemblage/sbt/clusteringSBT.compressed/1788.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.1190 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1790.union.bf-allsome.bv.rrr 39 MB, 335.0624 MB/sec
+[search 236] /mnt/assemblage/sbt/clusteringSBT.compressed/1790.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.0880 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1840.union.bf-allsome.bv.rrr 48 MB, 550.3856 MB/sec
+[search 237] /mnt/assemblage/sbt/clusteringSBT.compressed/1840.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0620 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1740.union.bf-allsome.bv.rrr 40 MB, 648.7275 MB/sec
+[search 238] /mnt/assemblage/sbt/clusteringSBT.compressed/1740.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0886 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805801.bf-allsome.bv.rrr 30 MB, 343.4491 MB/sec
+[search 239] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805801.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.0757 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1675.union.bf-allsome.bv.rrr 33 MB, 436.2285 MB/sec
+[search 240] /mnt/assemblage/sbt/clusteringSBT.compressed/1675.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0690 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805796.bf-allsome.bv.rrr 25 MB, 373.3605 MB/sec
+[search 241] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805796.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0616 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805800.bf-allsome.bv.rrr 23 MB, 388.7217 MB/sec
+[search 242] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805800.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.0629 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1746.union.bf-allsome.bv.rrr 39 MB, 623.2665 MB/sec
+[search 243] /mnt/assemblage/sbt/clusteringSBT.compressed/1746.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.1197 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2138.union.bf-allsome.bv.rrr 69 MB, 576.8875 MB/sec
+[search 244] /mnt/assemblage/sbt/clusteringSBT.compressed/2138.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1219 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1923.union.bf-allsome.bv.rrr 58 MB, 477.7509 MB/sec
+[search 245] /mnt/assemblage/sbt/clusteringSBT.compressed/1923.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1012 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1809.union.bf-allsome.bv.rrr 46 MB, 462.5109 MB/sec
+[search 246] /mnt/assemblage/sbt/clusteringSBT.compressed/1809.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0550 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1721.union.bf-allsome.bv.rrr 35 MB, 650.2250 MB/sec
+[search 247] /mnt/assemblage/sbt/clusteringSBT.compressed/1721.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0724 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805830.bf-allsome.bv.rrr 26 MB, 369.6081 MB/sec
+[search 248] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805830.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0685 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805831.bf-allsome.bv.rrr 23 MB, 347.8532 MB/sec
+[search 249] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805831.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0920 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1731.union.bf-allsome.bv.rrr 37 MB, 407.0040 MB/sec
+[search 250] /mnt/assemblage/sbt/clusteringSBT.compressed/1731.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.1369 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1864.union.bf-allsome.bv.rrr 47 MB, 348.3786 MB/sec
+[search 251] /mnt/assemblage/sbt/clusteringSBT.compressed/1864.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0769 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1752.union.bf-allsome.bv.rrr 38 MB, 501.7410 MB/sec
+[search 252] /mnt/assemblage/sbt/clusteringSBT.compressed/1752.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0867 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805833.bf-allsome.bv.rrr 24 MB, 280.2142 MB/sec
+[search 253] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805833.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.0780 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805829.bf-allsome.bv.rrr 26 MB, 340.9180 MB/sec
+[search 254] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805829.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0987 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1784.union.bf-allsome.bv.rrr 40 MB, 412.5695 MB/sec
+[search 255] /mnt/assemblage/sbt/clusteringSBT.compressed/1784.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1077 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805825.bf-allsome.bv.rrr 30 MB, 285.2523 MB/sec
+[search 256] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805825.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.0644 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1655.union.bf-allsome.bv.rrr 33 MB, 512.5694 MB/sec
+[search 257] /mnt/assemblage/sbt/clusteringSBT.compressed/1655.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0273 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805832.bf-allsome.bv.rrr 23 MB, 859.5058 MB/sec
+[search 258] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805832.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0333 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805834.bf-allsome.bv.rrr 26 MB, 785.3231 MB/sec
+[search 259] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805834.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.1001 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2003.union.bf-allsome.bv.rrr 62 MB, 623.0739 MB/sec
+[search 260] /mnt/assemblage/sbt/clusteringSBT.compressed/2003.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0921 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1918.union.bf-allsome.bv.rrr 55 MB, 602.2076 MB/sec
+[search 261] /mnt/assemblage/sbt/clusteringSBT.compressed/1918.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1160 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1779.union.bf-allsome.bv.rrr 45 MB, 393.9437 MB/sec
+[search 262] /mnt/assemblage/sbt/clusteringSBT.compressed/1779.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.0908 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1835.union.bf-allsome.bv.rrr 49 MB, 543.3462 MB/sec
+[search 263] /mnt/assemblage/sbt/clusteringSBT.compressed/1835.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0616 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1723.union.bf-allsome.bv.rrr 39 MB, 647.8172 MB/sec
+[search 264] /mnt/assemblage/sbt/clusteringSBT.compressed/1723.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.1104 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1798.union.bf-allsome.bv.rrr 39 MB, 360.5433 MB/sec
+[search 265] /mnt/assemblage/sbt/clusteringSBT.compressed/1798.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0708 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805815.bf-allsome.bv.rrr 25 MB, 358.4312 MB/sec
+[search 266] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805815.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.0772 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805780.bf-allsome.bv.rrr 26 MB, 340.1975 MB/sec
+[search 267] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805780.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0986 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1865.union.bf-allsome.bv.rrr 53 MB, 546.2049 MB/sec
+[search 268] /mnt/assemblage/sbt/clusteringSBT.compressed/1865.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.1337 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2462.union.bf-allsome.bv.rrr 96 MB, 718.6994 MB/sec
+[search 269] /mnt/assemblage/sbt/clusteringSBT.compressed/2462.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1071 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805753.bf-allsome.bv.rrr 68 MB, 642.0518 MB/sec
+[search 270] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805753.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.1449 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2365.union.bf-allsome.bv.rrr 68 MB, 474.1684 MB/sec
+[search 271] /mnt/assemblage/sbt/clusteringSBT.compressed/2365.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.1641 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2524.union.bf-allsome.bv.rrr 132 MB, 809.4309 MB/sec
+[search 272] /mnt/assemblage/sbt/clusteringSBT.compressed/2524.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.2637 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2599.union.bf-allsome.bv.rrr 188 MB, 713.5045 MB/sec
+[search 273] /mnt/assemblage/sbt/clusteringSBT.compressed/2599.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.2423 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2550.union.bf-allsome.bv.rrr 157 MB, 652.0671 MB/sec
+[search 274] /mnt/assemblage/sbt/clusteringSBT.compressed/2550.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1717 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2494.union.bf-allsome.bv.rrr 100 MB, 583.9733 MB/sec
+[search 275] /mnt/assemblage/sbt/clusteringSBT.compressed/2494.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1921 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805750.bf-allsome.bv.rrr 61 MB, 320.8812 MB/sec
+[search 276] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805750.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.1136 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805752.bf-allsome.bv.rrr 58 MB, 511.3848 MB/sec
+[search 277] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR805752.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.1683 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2498.union.bf-allsome.bv.rrr 106 MB, 632.8450 MB/sec
+[search 278] /mnt/assemblage/sbt/clusteringSBT.compressed/2498.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.1709 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2555.union.bf-allsome.bv.rrr 143 MB, 838.6282 MB/sec
+[search 279] /mnt/assemblage/sbt/clusteringSBT.compressed/2555.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.2997 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2622.union.bf-allsome.bv.rrr 224 MB, 750.6311 MB/sec
+[search 280] /mnt/assemblage/sbt/clusteringSBT.compressed/2622.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.3245 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2592.union.bf-allsome.bv.rrr 174 MB, 538.1719 MB/sec
+[search 281] /mnt/assemblage/sbt/clusteringSBT.compressed/2592.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.2207 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2533.union.bf-allsome.bv.rrr 128 MB, 580.7114 MB/sec
+[search 282] /mnt/assemblage/sbt/clusteringSBT.compressed/2533.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1370 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2472.union.bf-allsome.bv.rrr 103 MB, 758.2473 MB/sec
+[search 283] /mnt/assemblage/sbt/clusteringSBT.compressed/2472.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1005 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2426.union.bf-allsome.bv.rrr 84 MB, 841.3046 MB/sec
+[search 284] /mnt/assemblage/sbt/clusteringSBT.compressed/2426.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1039 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2245.union.bf-allsome.bv.rrr 56 MB, 547.3176 MB/sec
+[search 285] /mnt/assemblage/sbt/clusteringSBT.compressed/2245.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.1147 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2357.union.bf-allsome.bv.rrr 72 MB, 628.2115 MB/sec
+[search 286] /mnt/assemblage/sbt/clusteringSBT.compressed/2357.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1460 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2216.union.bf-allsome.bv.rrr 55 MB, 379.4621 MB/sec
+[search 287] /mnt/assemblage/sbt/clusteringSBT.compressed/2216.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.0872 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2254.union.bf-allsome.bv.rrr 58 MB, 672.4361 MB/sec
+[search 288] /mnt/assemblage/sbt/clusteringSBT.compressed/2254.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0707 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1555.union.bf-allsome.bv.rrr 42 MB, 600.2244 MB/sec
+[search 289] /mnt/assemblage/sbt/clusteringSBT.compressed/1555.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.1239 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR570441.bf-allsome.bv.rrr 44 MB, 360.2955 MB/sec
+[search 290] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR570441.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.1618 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2383.union.bf-allsome.bv.rrr 77 MB, 480.1636 MB/sec
+[search 291] /mnt/assemblage/sbt/clusteringSBT.compressed/2383.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.1678 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2456.union.bf-allsome.bv.rrr 89 MB, 530.3529 MB/sec
+[search 292] /mnt/assemblage/sbt/clusteringSBT.compressed/2456.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.1530 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2545.union.bf-allsome.bv.rrr 131 MB, 858.1623 MB/sec
+[search 293] /mnt/assemblage/sbt/clusteringSBT.compressed/2545.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.2032 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2587.union.bf-allsome.bv.rrr 187 MB, 923.3834 MB/sec
+[search 294] /mnt/assemblage/sbt/clusteringSBT.compressed/2587.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1627 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2544.union.bf-allsome.bv.rrr 144 MB, 889.9372 MB/sec
+[search 295] /mnt/assemblage/sbt/clusteringSBT.compressed/2544.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1938 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2489.union.bf-allsome.bv.rrr 115 MB, 593.7901 MB/sec
+[search 296] /mnt/assemblage/sbt/clusteringSBT.compressed/2489.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1700 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2395.union.bf-allsome.bv.rrr 88 MB, 521.8233 MB/sec
+[search 297] /mnt/assemblage/sbt/clusteringSBT.compressed/2395.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1423 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2307.union.bf-allsome.bv.rrr 66 MB, 467.5500 MB/sec
+[search 298] /mnt/assemblage/sbt/clusteringSBT.compressed/2307.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0762 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2200.union.bf-allsome.bv.rrr 52 MB, 689.0522 MB/sec
+[search 299] /mnt/assemblage/sbt/clusteringSBT.compressed/2200.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0732 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1901.union.bf-allsome.bv.rrr 43 MB, 593.6008 MB/sec
+[search 300] /mnt/assemblage/sbt/clusteringSBT.compressed/1901.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0807 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1652.union.bf-allsome.bv.rrr 33 MB, 409.7867 MB/sec
+[search 301] /mnt/assemblage/sbt/clusteringSBT.compressed/1652.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.1002 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1135.union.bf-allsome.bv.rrr 32 MB, 328.7324 MB/sec
+[search 302] /mnt/assemblage/sbt/clusteringSBT.compressed/1135.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.0651 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1519069.bf-allsome.bv.rrr 30 MB, 474.1508 MB/sec
+[search 303] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1519069.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0754 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2083.union.bf-allsome.bv.rrr 52 MB, 690.8397 MB/sec
+[search 304] /mnt/assemblage/sbt/clusteringSBT.compressed/2083.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.2034 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2266.union.bf-allsome.bv.rrr 76 MB, 376.3353 MB/sec
+[search 305] /mnt/assemblage/sbt/clusteringSBT.compressed/2266.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1678 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2166.union.bf-allsome.bv.rrr 65 MB, 389.3800 MB/sec
+[search 306] /mnt/assemblage/sbt/clusteringSBT.compressed/2166.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1202 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1938.union.bf-allsome.bv.rrr 53 MB, 443.9284 MB/sec
+[search 307] /mnt/assemblage/sbt/clusteringSBT.compressed/1938.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0783 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1714.union.bf-allsome.bv.rrr 44 MB, 562.5423 MB/sec
+[search 308] /mnt/assemblage/sbt/clusteringSBT.compressed/1714.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.0762 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1776.union.bf-allsome.bv.rrr 45 MB, 600.0411 MB/sec
+[search 309] /mnt/assemblage/sbt/clusteringSBT.compressed/1776.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0869 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1651.union.bf-allsome.bv.rrr 37 MB, 427.1529 MB/sec
+[search 310] /mnt/assemblage/sbt/clusteringSBT.compressed/1651.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0581 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1361.union.bf-allsome.bv.rrr 29 MB, 509.5240 MB/sec
+[search 311] /mnt/assemblage/sbt/clusteringSBT.compressed/1361.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.0951 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR934636.bf-allsome.bv.rrr 27 MB, 293.5319 MB/sec
+[search 312] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR934636.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0969 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1603.union.bf-allsome.bv.rrr 41 MB, 423.8896 MB/sec
+[search 313] /mnt/assemblage/sbt/clusteringSBT.compressed/1603.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.0946 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2001.union.bf-allsome.bv.rrr 55 MB, 592.1426 MB/sec
+[search 314] /mnt/assemblage/sbt/clusteringSBT.compressed/2001.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.0996 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2112.union.bf-allsome.bv.rrr 64 MB, 650.6520 MB/sec
+[search 315] /mnt/assemblage/sbt/clusteringSBT.compressed/2112.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.1528 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2409.union.bf-allsome.bv.rrr 93 MB, 613.4109 MB/sec
+[search 316] /mnt/assemblage/sbt/clusteringSBT.compressed/2409.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1222 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2291.union.bf-allsome.bv.rrr 77 MB, 632.1897 MB/sec
+[search 317] /mnt/assemblage/sbt/clusteringSBT.compressed/2291.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1001 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2225.union.bf-allsome.bv.rrr 65 MB, 651.0442 MB/sec
+[search 318] /mnt/assemblage/sbt/clusteringSBT.compressed/2225.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1014 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2032.union.bf-allsome.bv.rrr 57 MB, 562.7614 MB/sec
+[search 319] /mnt/assemblage/sbt/clusteringSBT.compressed/2032.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.0784 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2084.union.bf-allsome.bv.rrr 51 MB, 655.6950 MB/sec
+[search 320] /mnt/assemblage/sbt/clusteringSBT.compressed/2084.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.1078 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2164.union.bf-allsome.bv.rrr 65 MB, 611.6299 MB/sec
+[search 321] /mnt/assemblage/sbt/clusteringSBT.compressed/2164.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1020 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2015.union.bf-allsome.bv.rrr 50 MB, 493.3238 MB/sec
+[search 322] /mnt/assemblage/sbt/clusteringSBT.compressed/2015.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.1279 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1892.union.bf-allsome.bv.rrr 59 MB, 462.0011 MB/sec
+[search 323] /mnt/assemblage/sbt/clusteringSBT.compressed/1892.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1033 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1469.union.bf-allsome.bv.rrr 49 MB, 476.8317 MB/sec
+[search 324] /mnt/assemblage/sbt/clusteringSBT.compressed/1469.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.0961 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1672.union.bf-allsome.bv.rrr 51 MB, 538.3830 MB/sec
+[search 325] /mnt/assemblage/sbt/clusteringSBT.compressed/1672.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0969 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1262.union.bf-allsome.bv.rrr 49 MB, 513.1075 MB/sec
+[search 326] /mnt/assemblage/sbt/clusteringSBT.compressed/1262.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.0781 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1581.union.bf-allsome.bv.rrr 45 MB, 581.1572 MB/sec
+[search 327] /mnt/assemblage/sbt/clusteringSBT.compressed/1581.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1298 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1410.union.bf-allsome.bv.rrr 39 MB, 300.4584 MB/sec
+[search 328] /mnt/assemblage/sbt/clusteringSBT.compressed/1410.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0847 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1354.union.bf-allsome.bv.rrr 34 MB, 408.3250 MB/sec
+[search 329] /mnt/assemblage/sbt/clusteringSBT.compressed/1354.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.0806 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1245.union.bf-allsome.bv.rrr 33 MB, 420.4161 MB/sec
+[search 330] /mnt/assemblage/sbt/clusteringSBT.compressed/1245.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0555 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1113.union.bf-allsome.bv.rrr 25 MB, 466.7460 MB/sec
+[search 331] /mnt/assemblage/sbt/clusteringSBT.compressed/1113.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.0880 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR786627.bf-allsome.bv.rrr 24 MB, 282.6200 MB/sec
+[search 332] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR786627.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.1177 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1364.union.bf-allsome.bv.rrr 42 MB, 361.9862 MB/sec
+[search 333] /mnt/assemblage/sbt/clusteringSBT.compressed/1364.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.1257 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2349.union.bf-allsome.bv.rrr 76 MB, 610.3614 MB/sec
+[search 334] /mnt/assemblage/sbt/clusteringSBT.compressed/2349.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0891 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2171.union.bf-allsome.bv.rrr 56 MB, 631.0304 MB/sec
+[search 335] /mnt/assemblage/sbt/clusteringSBT.compressed/2171.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.1046 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2101.union.bf-allsome.bv.rrr 67 MB, 642.6298 MB/sec
+[search 336] /mnt/assemblage/sbt/clusteringSBT.compressed/2101.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1306 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1927.union.bf-allsome.bv.rrr 56 MB, 435.7798 MB/sec
+[search 337] /mnt/assemblage/sbt/clusteringSBT.compressed/1927.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0931 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1702.union.bf-allsome.bv.rrr 48 MB, 516.9060 MB/sec
+[search 338] /mnt/assemblage/sbt/clusteringSBT.compressed/1702.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0940 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1598.union.bf-allsome.bv.rrr 35 MB, 372.5349 MB/sec
+[search 339] /mnt/assemblage/sbt/clusteringSBT.compressed/1598.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.1155 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1558.union.bf-allsome.bv.rrr 38 MB, 334.8017 MB/sec
+[search 340] /mnt/assemblage/sbt/clusteringSBT.compressed/1558.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.0933 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1913.union.bf-allsome.bv.rrr 48 MB, 519.5933 MB/sec
+[search 341] /mnt/assemblage/sbt/clusteringSBT.compressed/1913.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0710 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1614.union.bf-allsome.bv.rrr 42 MB, 591.2519 MB/sec
+[search 342] /mnt/assemblage/sbt/clusteringSBT.compressed/1614.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.0784 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1772.union.bf-allsome.bv.rrr 40 MB, 515.8610 MB/sec
+[search 343] /mnt/assemblage/sbt/clusteringSBT.compressed/1772.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0720 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1437.union.bf-allsome.bv.rrr 29 MB, 410.3277 MB/sec
+[search 344] /mnt/assemblage/sbt/clusteringSBT.compressed/1437.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.0590 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR791043.bf-allsome.bv.rrr 31 MB, 529.1538 MB/sec
+[search 345] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR791043.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.1009 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2012.union.bf-allsome.bv.rrr 57 MB, 567.7935 MB/sec
+[search 346] /mnt/assemblage/sbt/clusteringSBT.compressed/2012.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.1368 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2465.union.bf-allsome.bv.rrr 110 MB, 806.9473 MB/sec
+[search 347] /mnt/assemblage/sbt/clusteringSBT.compressed/2465.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1968 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2345.union.bf-allsome.bv.rrr 86 MB, 440.0640 MB/sec
+[search 348] /mnt/assemblage/sbt/clusteringSBT.compressed/2345.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0945 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2205.union.bf-allsome.bv.rrr 70 MB, 750.4543 MB/sec
+[search 349] /mnt/assemblage/sbt/clusteringSBT.compressed/2205.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1093 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1888.union.bf-allsome.bv.rrr 60 MB, 552.2486 MB/sec
+[search 350] /mnt/assemblage/sbt/clusteringSBT.compressed/1888.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0655 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1729.union.bf-allsome.bv.rrr 55 MB, 849.0687 MB/sec
+[search 351] /mnt/assemblage/sbt/clusteringSBT.compressed/1729.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0804 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1499.union.bf-allsome.bv.rrr 49 MB, 611.3071 MB/sec
+[search 352] /mnt/assemblage/sbt/clusteringSBT.compressed/1499.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0867 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1433.union.bf-allsome.bv.rrr 40 MB, 466.5788 MB/sec
+[search 353] /mnt/assemblage/sbt/clusteringSBT.compressed/1433.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1049 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1283.union.bf-allsome.bv.rrr 33 MB, 323.5445 MB/sec
+[search 354] /mnt/assemblage/sbt/clusteringSBT.compressed/1283.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.0808 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1360.union.bf-allsome.bv.rrr 33 MB, 415.7931 MB/sec
+[search 355] /mnt/assemblage/sbt/clusteringSBT.compressed/1360.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0745 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313218.bf-allsome.bv.rrr 29 MB, 392.6654 MB/sec
+[search 356] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313218.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0801 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1258.union.bf-allsome.bv.rrr 26 MB, 336.1424 MB/sec
+[search 357] /mnt/assemblage/sbt/clusteringSBT.compressed/1258.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.0920 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1482.union.bf-allsome.bv.rrr 39 MB, 427.4288 MB/sec
+[search 358] /mnt/assemblage/sbt/clusteringSBT.compressed/1482.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0621 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1309.union.bf-allsome.bv.rrr 32 MB, 518.8659 MB/sec
+[search 359] /mnt/assemblage/sbt/clusteringSBT.compressed/1309.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.0667 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1234.union.bf-allsome.bv.rrr 31 MB, 478.3632 MB/sec
+[search 360] /mnt/assemblage/sbt/clusteringSBT.compressed/1234.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0929 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313196.bf-allsome.bv.rrr 25 MB, 277.4624 MB/sec
+[search 361] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313196.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0734 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1145.union.bf-allsome.bv.rrr 26 MB, 360.9760 MB/sec
+[search 362] /mnt/assemblage/sbt/clusteringSBT.compressed/1145.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.1216 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1570.union.bf-allsome.bv.rrr 51 MB, 419.7166 MB/sec
+[search 363] /mnt/assemblage/sbt/clusteringSBT.compressed/1570.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0971 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1459.union.bf-allsome.bv.rrr 45 MB, 466.8425 MB/sec
+[search 364] /mnt/assemblage/sbt/clusteringSBT.compressed/1459.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1032 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1311.union.bf-allsome.bv.rrr 40 MB, 392.2971 MB/sec
+[search 365] /mnt/assemblage/sbt/clusteringSBT.compressed/1311.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1200 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1194.union.bf-allsome.bv.rrr 32 MB, 266.9763 MB/sec
+[search 366] /mnt/assemblage/sbt/clusteringSBT.compressed/1194.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0811 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313229.bf-allsome.bv.rrr 21 MB, 259.3199 MB/sec
+[search 367] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313229.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0488 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313221.bf-allsome.bv.rrr 22 MB, 458.1280 MB/sec
+[search 368] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313221.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.0869 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1281.union.bf-allsome.bv.rrr 32 MB, 378.5758 MB/sec
+[search 369] /mnt/assemblage/sbt/clusteringSBT.compressed/1281.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0646 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313220.bf-allsome.bv.rrr 29 MB, 455.4216 MB/sec
+[search 370] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313220.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0617 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1280.union.bf-allsome.bv.rrr 26 MB, 433.5288 MB/sec
+[search 371] /mnt/assemblage/sbt/clusteringSBT.compressed/1280.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0507 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313223.bf-allsome.bv.rrr 22 MB, 452.5491 MB/sec
+[search 372] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313223.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0950 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313212.bf-allsome.bv.rrr 21 MB, 224.7013 MB/sec
+[search 373] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313212.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.0708 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1275.union.bf-allsome.bv.rrr 40 MB, 567.6722 MB/sec
+[search 374] /mnt/assemblage/sbt/clusteringSBT.compressed/1275.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0921 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1274.union.bf-allsome.bv.rrr 35 MB, 384.2716 MB/sec
+[search 375] /mnt/assemblage/sbt/clusteringSBT.compressed/1274.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0854 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313207.bf-allsome.bv.rrr 31 MB, 368.9893 MB/sec
+[search 376] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313207.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.0670 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1181.union.bf-allsome.bv.rrr 31 MB, 469.0361 MB/sec
+[search 377] /mnt/assemblage/sbt/clusteringSBT.compressed/1181.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1024 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1089.union.bf-allsome.bv.rrr 26 MB, 254.6597 MB/sec
+[search 378] /mnt/assemblage/sbt/clusteringSBT.compressed/1089.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.0686 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313199.bf-allsome.bv.rrr 29 MB, 437.3320 MB/sec
+[search 379] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313199.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0895 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1169.union.bf-allsome.bv.rrr 37 MB, 414.2319 MB/sec
+[search 380] /mnt/assemblage/sbt/clusteringSBT.compressed/1169.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.0839 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1447.union.bf-allsome.bv.rrr 47 MB, 564.0793 MB/sec
+[search 381] /mnt/assemblage/sbt/clusteringSBT.compressed/1447.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0796 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1272.union.bf-allsome.bv.rrr 42 MB, 531.5743 MB/sec
+[search 382] /mnt/assemblage/sbt/clusteringSBT.compressed/1272.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1100 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1271.union.bf-allsome.bv.rrr 28 MB, 259.4547 MB/sec
+[search 383] /mnt/assemblage/sbt/clusteringSBT.compressed/1271.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0358 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313208.bf-allsome.bv.rrr 22 MB, 622.4655 MB/sec
+[search 384] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313208.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.0628 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313205.bf-allsome.bv.rrr 22 MB, 350.7804 MB/sec
+[search 385] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313205.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.1011 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1162.union.bf-allsome.bv.rrr 29 MB, 288.5489 MB/sec
+[search 386] /mnt/assemblage/sbt/clusteringSBT.compressed/1162.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0438 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313206.bf-allsome.bv.rrr 22 MB, 510.5678 MB/sec
+[search 387] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313206.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0607 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313204.bf-allsome.bv.rrr 20 MB, 339.0060 MB/sec
+[search 388] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313204.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.0733 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1378.union.bf-allsome.bv.rrr 41 MB, 564.5812 MB/sec
+[search 389] /mnt/assemblage/sbt/clusteringSBT.compressed/1378.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0657 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1297.union.bf-allsome.bv.rrr 36 MB, 556.2191 MB/sec
+[search 390] /mnt/assemblage/sbt/clusteringSBT.compressed/1297.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.0739 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1317.union.bf-allsome.bv.rrr 39 MB, 529.7146 MB/sec
+[search 391] /mnt/assemblage/sbt/clusteringSBT.compressed/1317.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0793 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1203.union.bf-allsome.bv.rrr 36 MB, 465.3567 MB/sec
+[search 392] /mnt/assemblage/sbt/clusteringSBT.compressed/1203.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0784 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1074.union.bf-allsome.bv.rrr 26 MB, 331.9488 MB/sec
+[search 393] /mnt/assemblage/sbt/clusteringSBT.compressed/1074.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0752 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313197.bf-allsome.bv.rrr 21 MB, 281.8201 MB/sec
+[search 394] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313197.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.0598 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313191.bf-allsome.bv.rrr 21 MB, 354.0843 MB/sec
+[search 395] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313191.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0635 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313182.bf-allsome.bv.rrr 24 MB, 388.7243 MB/sec
+[search 396] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313182.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0840 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1209.union.bf-allsome.bv.rrr 34 MB, 407.7955 MB/sec
+[search 397] /mnt/assemblage/sbt/clusteringSBT.compressed/1209.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0465 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313198.bf-allsome.bv.rrr 30 MB, 648.3262 MB/sec
+[search 398] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313198.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.1096 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1098.union.bf-allsome.bv.rrr 31 MB, 284.5773 MB/sec
+[search 399] /mnt/assemblage/sbt/clusteringSBT.compressed/1098.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0878 secs /mnt/assemblage/sbt/clusteringSBT.compressed/929.union.bf-allsome.bv.rrr 27 MB, 316.1322 MB/sec
+[search 400] /mnt/assemblage/sbt/clusteringSBT.compressed/929.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0818 secs /mnt/assemblage/sbt/clusteringSBT.compressed/872.union.bf-allsome.bv.rrr 24 MB, 300.1255 MB/sec
+[search 401] /mnt/assemblage/sbt/clusteringSBT.compressed/872.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.0785 secs /mnt/assemblage/sbt/clusteringSBT.compressed/760.union.bf-allsome.bv.rrr 25 MB, 325.7796 MB/sec
+[search 402] /mnt/assemblage/sbt/clusteringSBT.compressed/760.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0573 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313210.bf-allsome.bv.rrr 20 MB, 358.7361 MB/sec
+[search 403] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313210.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0565 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313209.bf-allsome.bv.rrr 19 MB, 347.4213 MB/sec
+[search 404] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313209.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.0743 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313175.bf-allsome.bv.rrr 28 MB, 383.2641 MB/sec
+[search 405] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313175.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.0822 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1860.union.bf-allsome.bv.rrr 48 MB, 589.6909 MB/sec
+[search 406] /mnt/assemblage/sbt/clusteringSBT.compressed/1860.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1093 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1438.union.bf-allsome.bv.rrr 38 MB, 354.3331 MB/sec
+[search 407] /mnt/assemblage/sbt/clusteringSBT.compressed/1438.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0639 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313189.bf-allsome.bv.rrr 30 MB, 471.3129 MB/sec
+[search 408] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313189.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.0711 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1303.union.bf-allsome.bv.rrr 30 MB, 425.0471 MB/sec
+[search 409] /mnt/assemblage/sbt/clusteringSBT.compressed/1303.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0721 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313178.bf-allsome.bv.rrr 27 MB, 384.8685 MB/sec
+[search 410] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313178.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0535 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1010.union.bf-allsome.bv.rrr 24 MB, 459.5145 MB/sec
+[search 411] /mnt/assemblage/sbt/clusteringSBT.compressed/1010.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.0844 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1503.union.bf-allsome.bv.rrr 42 MB, 498.2413 MB/sec
+[search 412] /mnt/assemblage/sbt/clusteringSBT.compressed/1503.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0706 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1237.union.bf-allsome.bv.rrr 35 MB, 502.2376 MB/sec
+[search 413] /mnt/assemblage/sbt/clusteringSBT.compressed/1237.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0637 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313187.bf-allsome.bv.rrr 27 MB, 433.7771 MB/sec
+[search 414] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313187.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0706 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1180.union.bf-allsome.bv.rrr 29 MB, 414.4322 MB/sec
+[search 415] /mnt/assemblage/sbt/clusteringSBT.compressed/1180.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0513 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313188.bf-allsome.bv.rrr 24 MB, 479.4855 MB/sec
+[search 416] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313188.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0924 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1119.union.bf-allsome.bv.rrr 26 MB, 283.3469 MB/sec
+[search 417] /mnt/assemblage/sbt/clusteringSBT.compressed/1119.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0749 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313200.bf-allsome.bv.rrr 21 MB, 283.8897 MB/sec
+[search 418] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313200.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0770 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313180.bf-allsome.bv.rrr 21 MB, 280.4787 MB/sec
+[search 419] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313180.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.0911 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1502.union.bf-allsome.bv.rrr 32 MB, 359.3407 MB/sec
+[search 420] /mnt/assemblage/sbt/clusteringSBT.compressed/1502.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0868 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1184.union.bf-allsome.bv.rrr 28 MB, 329.3404 MB/sec
+[search 421] /mnt/assemblage/sbt/clusteringSBT.compressed/1184.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0617 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313186.bf-allsome.bv.rrr 22 MB, 358.6391 MB/sec
+[search 422] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313186.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0745 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313185.bf-allsome.bv.rrr 21 MB, 282.5410 MB/sec
+[search 423] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313185.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.0453 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313174.bf-allsome.bv.rrr 22 MB, 505.4709 MB/sec
+[search 424] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313174.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.1065 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1902.union.bf-allsome.bv.rrr 58 MB, 549.8003 MB/sec
+[search 425] /mnt/assemblage/sbt/clusteringSBT.compressed/1902.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1131 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1848.union.bf-allsome.bv.rrr 50 MB, 444.9631 MB/sec
+[search 426] /mnt/assemblage/sbt/clusteringSBT.compressed/1848.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0728 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1657.union.bf-allsome.bv.rrr 39 MB, 542.6191 MB/sec
+[search 427] /mnt/assemblage/sbt/clusteringSBT.compressed/1657.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0951 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1584.union.bf-allsome.bv.rrr 33 MB, 354.8048 MB/sec
+[search 428] /mnt/assemblage/sbt/clusteringSBT.compressed/1584.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0750 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313169.bf-allsome.bv.rrr 24 MB, 332.1222 MB/sec
+[search 429] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313169.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0757 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1404.union.bf-allsome.bv.rrr 30 MB, 397.2237 MB/sec
+[search 430] /mnt/assemblage/sbt/clusteringSBT.compressed/1404.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0483 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313168.bf-allsome.bv.rrr 21 MB, 443.8431 MB/sec
+[search 431] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313168.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0845 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313163.bf-allsome.bv.rrr 24 MB, 286.4748 MB/sec
+[search 432] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313163.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0972 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313152.bf-allsome.bv.rrr 31 MB, 320.5163 MB/sec
+[search 433] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313152.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0841 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1811.union.bf-allsome.bv.rrr 40 MB, 487.0227 MB/sec
+[search 434] /mnt/assemblage/sbt/clusteringSBT.compressed/1811.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.1036 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1762.union.bf-allsome.bv.rrr 50 MB, 488.8488 MB/sec
+[search 435] /mnt/assemblage/sbt/clusteringSBT.compressed/1762.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0939 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1612.union.bf-allsome.bv.rrr 42 MB, 454.2136 MB/sec
+[search 436] /mnt/assemblage/sbt/clusteringSBT.compressed/1612.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0562 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313165.bf-allsome.bv.rrr 35 MB, 636.7933 MB/sec
+[search 437] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313165.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0691 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1546.union.bf-allsome.bv.rrr 38 MB, 555.1951 MB/sec
+[search 438] /mnt/assemblage/sbt/clusteringSBT.compressed/1546.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0671 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1463.union.bf-allsome.bv.rrr 32 MB, 484.2140 MB/sec
+[search 439] /mnt/assemblage/sbt/clusteringSBT.compressed/1463.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0632 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313150.bf-allsome.bv.rrr 24 MB, 389.8520 MB/sec
+[search 440] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313150.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0716 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1236.union.bf-allsome.bv.rrr 30 MB, 427.2122 MB/sec
+[search 441] /mnt/assemblage/sbt/clusteringSBT.compressed/1236.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0881 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313157.bf-allsome.bv.rrr 25 MB, 288.5613 MB/sec
+[search 442] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313157.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0825 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1159.union.bf-allsome.bv.rrr 26 MB, 315.7336 MB/sec
+[search 443] /mnt/assemblage/sbt/clusteringSBT.compressed/1159.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.0607 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313139.bf-allsome.bv.rrr 33 MB, 559.5535 MB/sec
+[search 444] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313139.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.1081 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1641.union.bf-allsome.bv.rrr 46 MB, 427.2765 MB/sec
+[search 445] /mnt/assemblage/sbt/clusteringSBT.compressed/1641.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0801 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1485.union.bf-allsome.bv.rrr 31 MB, 395.4997 MB/sec
+[search 446] /mnt/assemblage/sbt/clusteringSBT.compressed/1485.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0769 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313161.bf-allsome.bv.rrr 24 MB, 318.1734 MB/sec
+[search 447] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313161.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0653 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313160.bf-allsome.bv.rrr 22 MB, 341.6207 MB/sec
+[search 448] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313160.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0822 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1537.union.bf-allsome.bv.rrr 34 MB, 420.0823 MB/sec
+[search 449] /mnt/assemblage/sbt/clusteringSBT.compressed/1537.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.0918 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2220.union.bf-allsome.bv.rrr 73 MB, 803.8495 MB/sec
+[search 450] /mnt/assemblage/sbt/clusteringSBT.compressed/2220.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0882 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2042.union.bf-allsome.bv.rrr 61 MB, 700.5487 MB/sec
+[search 451] /mnt/assemblage/sbt/clusteringSBT.compressed/2042.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0916 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1907.union.bf-allsome.bv.rrr 48 MB, 525.3198 MB/sec
+[search 452] /mnt/assemblage/sbt/clusteringSBT.compressed/1907.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0940 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1773.union.bf-allsome.bv.rrr 37 MB, 399.7816 MB/sec
+[search 453] /mnt/assemblage/sbt/clusteringSBT.compressed/1773.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1105 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313122.bf-allsome.bv.rrr 27 MB, 249.1401 MB/sec
+[search 454] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313122.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.0763 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1539.union.bf-allsome.bv.rrr 31 MB, 415.0572 MB/sec
+[search 455] /mnt/assemblage/sbt/clusteringSBT.compressed/1539.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0650 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313135.bf-allsome.bv.rrr 22 MB, 343.6794 MB/sec
+[search 456] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313135.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0778 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313098.bf-allsome.bv.rrr 25 MB, 324.7692 MB/sec
+[search 457] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313098.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.0816 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1659.union.bf-allsome.bv.rrr 40 MB, 490.7283 MB/sec
+[search 458] /mnt/assemblage/sbt/clusteringSBT.compressed/1659.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0855 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313127.bf-allsome.bv.rrr 27 MB, 320.8830 MB/sec
+[search 459] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313127.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0775 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1500.union.bf-allsome.bv.rrr 30 MB, 393.6915 MB/sec
+[search 460] /mnt/assemblage/sbt/clusteringSBT.compressed/1500.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0544 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313123.bf-allsome.bv.rrr 22 MB, 412.1308 MB/sec
+[search 461] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313123.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0619 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313092.bf-allsome.bv.rrr 24 MB, 393.9130 MB/sec
+[search 462] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313092.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.1030 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1921.union.bf-allsome.bv.rrr 54 MB, 528.9249 MB/sec
+[search 463] /mnt/assemblage/sbt/clusteringSBT.compressed/1921.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0837 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1726.union.bf-allsome.bv.rrr 48 MB, 579.7183 MB/sec
+[search 464] /mnt/assemblage/sbt/clusteringSBT.compressed/1726.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0816 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1574.union.bf-allsome.bv.rrr 39 MB, 482.8871 MB/sec
+[search 465] /mnt/assemblage/sbt/clusteringSBT.compressed/1574.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.0919 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1554.union.bf-allsome.bv.rrr 41 MB, 448.0130 MB/sec
+[search 466] /mnt/assemblage/sbt/clusteringSBT.compressed/1554.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0572 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1413.union.bf-allsome.bv.rrr 36 MB, 629.5390 MB/sec
+[search 467] /mnt/assemblage/sbt/clusteringSBT.compressed/1413.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0504 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1298.union.bf-allsome.bv.rrr 29 MB, 589.3042 MB/sec
+[search 468] /mnt/assemblage/sbt/clusteringSBT.compressed/1298.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.1012 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1352.union.bf-allsome.bv.rrr 30 MB, 296.8096 MB/sec
+[search 469] /mnt/assemblage/sbt/clusteringSBT.compressed/1352.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.0996 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1446.union.bf-allsome.bv.rrr 35 MB, 352.3112 MB/sec
+[search 470] /mnt/assemblage/sbt/clusteringSBT.compressed/1446.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0923 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313114.bf-allsome.bv.rrr 26 MB, 291.8718 MB/sec
+[search 471] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313114.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0640 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1257.union.bf-allsome.bv.rrr 27 MB, 431.2364 MB/sec
+[search 472] /mnt/assemblage/sbt/clusteringSBT.compressed/1257.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0633 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313119.bf-allsome.bv.rrr 20 MB, 319.4265 MB/sec
+[search 473] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313119.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0688 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313101.bf-allsome.bv.rrr 23 MB, 345.0908 MB/sec
+[search 474] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313101.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.0735 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1645.union.bf-allsome.bv.rrr 45 MB, 617.5471 MB/sec
+[search 475] /mnt/assemblage/sbt/clusteringSBT.compressed/1645.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0777 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1568.union.bf-allsome.bv.rrr 37 MB, 484.8616 MB/sec
+[search 476] /mnt/assemblage/sbt/clusteringSBT.compressed/1568.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0829 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1254.union.bf-allsome.bv.rrr 27 MB, 331.9445 MB/sec
+[search 477] /mnt/assemblage/sbt/clusteringSBT.compressed/1254.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0671 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313170.bf-allsome.bv.rrr 23 MB, 353.1683 MB/sec
+[search 478] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313170.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0708 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313159.bf-allsome.bv.rrr 20 MB, 291.6238 MB/sec
+[search 479] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313159.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.0609 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313109.bf-allsome.bv.rrr 29 MB, 488.0528 MB/sec
+[search 480] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313109.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.0767 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1522.union.bf-allsome.bv.rrr 41 MB, 535.4790 MB/sec
+[search 481] /mnt/assemblage/sbt/clusteringSBT.compressed/1522.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0634 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1408.union.bf-allsome.bv.rrr 32 MB, 508.7543 MB/sec
+[search 482] /mnt/assemblage/sbt/clusteringSBT.compressed/1408.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0665 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313216.bf-allsome.bv.rrr 28 MB, 431.0328 MB/sec
+[search 483] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313216.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.0809 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1126.union.bf-allsome.bv.rrr 25 MB, 316.5712 MB/sec
+[search 484] /mnt/assemblage/sbt/clusteringSBT.compressed/1126.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0883 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313202.bf-allsome.bv.rrr 21 MB, 246.1930 MB/sec
+[search 485] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313202.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.1146 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313130.bf-allsome.bv.rrr 21 MB, 183.8163 MB/sec
+[search 486] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313130.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0804 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1436.union.bf-allsome.bv.rrr 36 MB, 452.2276 MB/sec
+[search 487] /mnt/assemblage/sbt/clusteringSBT.compressed/1436.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0605 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313116.bf-allsome.bv.rrr 23 MB, 390.6376 MB/sec
+[search 488] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313116.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0652 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313091.bf-allsome.bv.rrr 22 MB, 347.4605 MB/sec
+[search 489] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313091.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.1428 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2184.union.bf-allsome.bv.rrr 65 MB, 456.7839 MB/sec
+[search 490] /mnt/assemblage/sbt/clusteringSBT.compressed/2184.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1024 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1926.union.bf-allsome.bv.rrr 54 MB, 528.8232 MB/sec
+[search 491] /mnt/assemblage/sbt/clusteringSBT.compressed/1926.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1520 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1709.union.bf-allsome.bv.rrr 48 MB, 319.3741 MB/sec
+[search 492] /mnt/assemblage/sbt/clusteringSBT.compressed/1709.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1381 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1636.union.bf-allsome.bv.rrr 34 MB, 247.6489 MB/sec
+[search 493] /mnt/assemblage/sbt/clusteringSBT.compressed/1636.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0820 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313118.bf-allsome.bv.rrr 24 MB, 304.0024 MB/sec
+[search 494] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313118.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.0360 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313110.bf-allsome.bv.rrr 24 MB, 668.1539 MB/sec
+[search 495] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313110.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0857 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1525.union.bf-allsome.bv.rrr 33 MB, 394.4995 MB/sec
+[search 496] /mnt/assemblage/sbt/clusteringSBT.compressed/1525.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.0831 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1854.union.bf-allsome.bv.rrr 44 MB, 538.2205 MB/sec
+[search 497] /mnt/assemblage/sbt/clusteringSBT.compressed/1854.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0848 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1623.union.bf-allsome.bv.rrr 39 MB, 461.5103 MB/sec
+[search 498] /mnt/assemblage/sbt/clusteringSBT.compressed/1623.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0941 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313126.bf-allsome.bv.rrr 22 MB, 242.7078 MB/sec
+[search 499] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313126.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0970 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313095.bf-allsome.bv.rrr 25 MB, 266.1996 MB/sec
+[search 500] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313095.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.0768 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1712.union.bf-allsome.bv.rrr 37 MB, 482.9559 MB/sec
+[search 501] /mnt/assemblage/sbt/clusteringSBT.compressed/1712.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0630 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313067.bf-allsome.bv.rrr 31 MB, 496.8354 MB/sec
+[search 502] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313067.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.0815 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1426.union.bf-allsome.bv.rrr 28 MB, 349.5341 MB/sec
+[search 503] /mnt/assemblage/sbt/clusteringSBT.compressed/1426.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.0916 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2009.union.bf-allsome.bv.rrr 57 MB, 628.0629 MB/sec
+[search 504] /mnt/assemblage/sbt/clusteringSBT.compressed/2009.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0723 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1875.union.bf-allsome.bv.rrr 45 MB, 628.8460 MB/sec
+[search 505] /mnt/assemblage/sbt/clusteringSBT.compressed/1875.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1073 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1642.union.bf-allsome.bv.rrr 33 MB, 311.5229 MB/sec
+[search 506] /mnt/assemblage/sbt/clusteringSBT.compressed/1642.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0675 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313105.bf-allsome.bv.rrr 22 MB, 339.5020 MB/sec
+[search 507] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313105.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0580 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313103.bf-allsome.bv.rrr 26 MB, 455.2584 MB/sec
+[search 508] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313103.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.1244 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313097.bf-allsome.bv.rrr 29 MB, 238.4104 MB/sec
+[search 509] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313097.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.1191 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1850.union.bf-allsome.bv.rrr 45 MB, 385.9849 MB/sec
+[search 510] /mnt/assemblage/sbt/clusteringSBT.compressed/1850.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1247 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1693.union.bf-allsome.bv.rrr 40 MB, 321.8117 MB/sec
+[search 511] /mnt/assemblage/sbt/clusteringSBT.compressed/1693.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0654 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1388.union.bf-allsome.bv.rrr 31 MB, 481.9966 MB/sec
+[search 512] /mnt/assemblage/sbt/clusteringSBT.compressed/1388.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.0797 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1528.union.bf-allsome.bv.rrr 35 MB, 440.3852 MB/sec
+[search 513] /mnt/assemblage/sbt/clusteringSBT.compressed/1528.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0447 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313104.bf-allsome.bv.rrr 21 MB, 478.8004 MB/sec
+[search 514] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313104.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0491 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313102.bf-allsome.bv.rrr 25 MB, 526.8599 MB/sec
+[search 515] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313102.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.0845 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1669.union.bf-allsome.bv.rrr 37 MB, 438.1690 MB/sec
+[search 516] /mnt/assemblage/sbt/clusteringSBT.compressed/1669.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0410 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313106.bf-allsome.bv.rrr 26 MB, 650.4190 MB/sec
+[search 517] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313106.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0587 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313090.bf-allsome.bv.rrr 22 MB, 391.0000 MB/sec
+[search 518] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313090.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.1040 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2415.union.bf-allsome.bv.rrr 92 MB, 889.9793 MB/sec
+[search 519] /mnt/assemblage/sbt/clusteringSBT.compressed/2415.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1248 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2303.union.bf-allsome.bv.rrr 79 MB, 637.6574 MB/sec
+[search 520] /mnt/assemblage/sbt/clusteringSBT.compressed/2303.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1480 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2239.union.bf-allsome.bv.rrr 64 MB, 434.3020 MB/sec
+[search 521] /mnt/assemblage/sbt/clusteringSBT.compressed/2239.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1279 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1982.union.bf-allsome.bv.rrr 49 MB, 388.8636 MB/sec
+[search 522] /mnt/assemblage/sbt/clusteringSBT.compressed/1982.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0750 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1780.union.bf-allsome.bv.rrr 42 MB, 561.8195 MB/sec
+[search 523] /mnt/assemblage/sbt/clusteringSBT.compressed/1780.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0912 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313149.bf-allsome.bv.rrr 31 MB, 349.8514 MB/sec
+[search 524] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313149.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0951 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1686.union.bf-allsome.bv.rrr 34 MB, 367.1052 MB/sec
+[search 525] /mnt/assemblage/sbt/clusteringSBT.compressed/1686.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0595 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1064.union.bf-allsome.bv.rrr 26 MB, 448.4959 MB/sec
+[search 526] /mnt/assemblage/sbt/clusteringSBT.compressed/1064.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.0602 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313134.bf-allsome.bv.rrr 29 MB, 489.7610 MB/sec
+[search 527] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313134.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.1258 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1801.union.bf-allsome.bv.rrr 41 MB, 329.5876 MB/sec
+[search 528] /mnt/assemblage/sbt/clusteringSBT.compressed/1801.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0773 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1586.union.bf-allsome.bv.rrr 30 MB, 397.6555 MB/sec
+[search 529] /mnt/assemblage/sbt/clusteringSBT.compressed/1586.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0920 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313173.bf-allsome.bv.rrr 24 MB, 269.0339 MB/sec
+[search 530] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313173.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0469 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313172.bf-allsome.bv.rrr 23 MB, 498.8723 MB/sec
+[search 531] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313172.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.0736 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313131.bf-allsome.bv.rrr 31 MB, 431.6139 MB/sec
+[search 532] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313131.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0898 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2024.union.bf-allsome.bv.rrr 56 MB, 624.4526 MB/sec
+[search 533] /mnt/assemblage/sbt/clusteringSBT.compressed/2024.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0787 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1893.union.bf-allsome.bv.rrr 37 MB, 479.4581 MB/sec
+[search 534] /mnt/assemblage/sbt/clusteringSBT.compressed/1893.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.0660 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313145.bf-allsome.bv.rrr 36 MB, 547.8041 MB/sec
+[search 535] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313145.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.0925 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2204.union.bf-allsome.bv.rrr 69 MB, 748.3007 MB/sec
+[search 536] /mnt/assemblage/sbt/clusteringSBT.compressed/2204.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0941 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2034.union.bf-allsome.bv.rrr 55 MB, 589.7026 MB/sec
+[search 537] /mnt/assemblage/sbt/clusteringSBT.compressed/2034.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1063 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1914.union.bf-allsome.bv.rrr 48 MB, 457.6636 MB/sec
+[search 538] /mnt/assemblage/sbt/clusteringSBT.compressed/1914.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0804 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313162.bf-allsome.bv.rrr 24 MB, 310.2958 MB/sec
+[search 539] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313162.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.0798 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313148.bf-allsome.bv.rrr 29 MB, 373.0536 MB/sec
+[search 540] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313148.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0874 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1861.union.bf-allsome.bv.rrr 46 MB, 532.0752 MB/sec
+[search 541] /mnt/assemblage/sbt/clusteringSBT.compressed/1861.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0832 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313155.bf-allsome.bv.rrr 38 MB, 464.5472 MB/sec
+[search 542] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313155.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0799 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1758.union.bf-allsome.bv.rrr 40 MB, 503.2126 MB/sec
+[search 543] /mnt/assemblage/sbt/clusteringSBT.compressed/1758.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0767 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1441.union.bf-allsome.bv.rrr 32 MB, 426.4650 MB/sec
+[search 544] /mnt/assemblage/sbt/clusteringSBT.compressed/1441.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.0591 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1466.union.bf-allsome.bv.rrr 35 MB, 601.5862 MB/sec
+[search 545] /mnt/assemblage/sbt/clusteringSBT.compressed/1466.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0762 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1330.union.bf-allsome.bv.rrr 29 MB, 380.7510 MB/sec
+[search 546] /mnt/assemblage/sbt/clusteringSBT.compressed/1330.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0818 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313158.bf-allsome.bv.rrr 23 MB, 284.7630 MB/sec
+[search 547] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313158.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.0695 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1039.union.bf-allsome.bv.rrr 26 MB, 376.6670 MB/sec
+[search 548] /mnt/assemblage/sbt/clusteringSBT.compressed/1039.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.0680 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313136.bf-allsome.bv.rrr 29 MB, 439.4829 MB/sec
+[search 549] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313136.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.1247 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2104.union.bf-allsome.bv.rrr 60 MB, 488.8851 MB/sec
+[search 550] /mnt/assemblage/sbt/clusteringSBT.compressed/2104.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0919 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1970.union.bf-allsome.bv.rrr 48 MB, 523.3134 MB/sec
+[search 551] /mnt/assemblage/sbt/clusteringSBT.compressed/1970.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0719 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1793.union.bf-allsome.bv.rrr 39 MB, 543.8332 MB/sec
+[search 552] /mnt/assemblage/sbt/clusteringSBT.compressed/1793.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0741 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313151.bf-allsome.bv.rrr 26 MB, 353.2503 MB/sec
+[search 553] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313151.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0944 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313146.bf-allsome.bv.rrr 25 MB, 268.6667 MB/sec
+[search 554] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313146.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.0933 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1867.union.bf-allsome.bv.rrr 38 MB, 415.3433 MB/sec
+[search 555] /mnt/assemblage/sbt/clusteringSBT.compressed/1867.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.0825 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1943.union.bf-allsome.bv.rrr 45 MB, 552.3615 MB/sec
+[search 556] /mnt/assemblage/sbt/clusteringSBT.compressed/1943.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.0994 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2359.union.bf-allsome.bv.rrr 71 MB, 720.1312 MB/sec
+[search 557] /mnt/assemblage/sbt/clusteringSBT.compressed/2359.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0870 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2002.union.bf-allsome.bv.rrr 59 MB, 679.1853 MB/sec
+[search 558] /mnt/assemblage/sbt/clusteringSBT.compressed/2002.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0917 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1825.union.bf-allsome.bv.rrr 46 MB, 509.4531 MB/sec
+[search 559] /mnt/assemblage/sbt/clusteringSBT.compressed/1825.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0625 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1605.union.bf-allsome.bv.rrr 33 MB, 539.4928 MB/sec
+[search 560] /mnt/assemblage/sbt/clusteringSBT.compressed/1605.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0788 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313120.bf-allsome.bv.rrr 25 MB, 328.8842 MB/sec
+[search 561] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313120.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0582 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313099.bf-allsome.bv.rrr 22 MB, 386.7933 MB/sec
+[search 562] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313099.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0650 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313094.bf-allsome.bv.rrr 26 MB, 414.4442 MB/sec
+[search 563] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313094.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.1000 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1948.union.bf-allsome.bv.rrr 48 MB, 483.6660 MB/sec
+[search 564] /mnt/assemblage/sbt/clusteringSBT.compressed/1948.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.0955 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2208.union.bf-allsome.bv.rrr 54 MB, 566.5640 MB/sec
+[search 565] /mnt/assemblage/sbt/clusteringSBT.compressed/2208.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1122 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR353648.bf-allsome.bv.rrr 40 MB, 361.9487 MB/sec
+[search 566] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR353648.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.1084 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1990.union.bf-allsome.bv.rrr 42 MB, 391.4466 MB/sec
+[search 567] /mnt/assemblage/sbt/clusteringSBT.compressed/1990.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0663 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1286.union.bf-allsome.bv.rrr 33 MB, 502.5488 MB/sec
+[search 568] /mnt/assemblage/sbt/clusteringSBT.compressed/1286.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0506 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313078.bf-allsome.bv.rrr 23 MB, 455.2709 MB/sec
+[search 569] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313078.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0553 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313077.bf-allsome.bv.rrr 21 MB, 381.6703 MB/sec
+[search 570] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1313077.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0939 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1411.union.bf-allsome.bv.rrr 33 MB, 351.9102 MB/sec
+[search 571] /mnt/assemblage/sbt/clusteringSBT.compressed/1411.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.1904 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2562.union.bf-allsome.bv.rrr 157 MB, 827.3732 MB/sec
+[search 572] /mnt/assemblage/sbt/clusteringSBT.compressed/2562.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1325 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2509.union.bf-allsome.bv.rrr 115 MB, 870.1561 MB/sec
+[search 573] /mnt/assemblage/sbt/clusteringSBT.compressed/2509.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1077 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2428.union.bf-allsome.bv.rrr 84 MB, 785.4379 MB/sec
+[search 574] /mnt/assemblage/sbt/clusteringSBT.compressed/2428.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.1232 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2455.union.bf-allsome.bv.rrr 91 MB, 745.1250 MB/sec
+[search 575] /mnt/assemblage/sbt/clusteringSBT.compressed/2455.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0981 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2344.union.bf-allsome.bv.rrr 67 MB, 690.9477 MB/sec
+[search 576] /mnt/assemblage/sbt/clusteringSBT.compressed/2344.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0710 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1997.union.bf-allsome.bv.rrr 46 MB, 659.0790 MB/sec
+[search 577] /mnt/assemblage/sbt/clusteringSBT.compressed/1997.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.0789 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2212.union.bf-allsome.bv.rrr 56 MB, 711.1947 MB/sec
+[search 578] /mnt/assemblage/sbt/clusteringSBT.compressed/2212.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0984 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1869.union.bf-allsome.bv.rrr 43 MB, 438.4875 MB/sec
+[search 579] /mnt/assemblage/sbt/clusteringSBT.compressed/1869.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0807 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR306848.bf-allsome.bv.rrr 33 MB, 419.9243 MB/sec
+[search 580] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR306848.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0881 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1595.union.bf-allsome.bv.rrr 36 MB, 414.3880 MB/sec
+[search 581] /mnt/assemblage/sbt/clusteringSBT.compressed/1595.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0677 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1129.union.bf-allsome.bv.rrr 30 MB, 444.0650 MB/sec
+[search 582] /mnt/assemblage/sbt/clusteringSBT.compressed/1129.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.0800 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1240.union.bf-allsome.bv.rrr 32 MB, 406.1715 MB/sec
+[search 583] /mnt/assemblage/sbt/clusteringSBT.compressed/1240.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.0804 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1647.union.bf-allsome.bv.rrr 46 MB, 574.7780 MB/sec
+[search 584] /mnt/assemblage/sbt/clusteringSBT.compressed/1647.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.1461 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2358.union.bf-allsome.bv.rrr 72 MB, 497.2601 MB/sec
+[search 585] /mnt/assemblage/sbt/clusteringSBT.compressed/2358.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.1680 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2518.union.bf-allsome.bv.rrr 130 MB, 776.4351 MB/sec
+[search 586] /mnt/assemblage/sbt/clusteringSBT.compressed/2518.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1512 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2468.union.bf-allsome.bv.rrr 109 MB, 724.5271 MB/sec
+[search 587] /mnt/assemblage/sbt/clusteringSBT.compressed/2468.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1261 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2377.union.bf-allsome.bv.rrr 83 MB, 664.9145 MB/sec
+[search 588] /mnt/assemblage/sbt/clusteringSBT.compressed/2377.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.1385 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2385.union.bf-allsome.bv.rrr 92 MB, 668.9124 MB/sec
+[search 589] /mnt/assemblage/sbt/clusteringSBT.compressed/2385.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1121 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2263.union.bf-allsome.bv.rrr 76 MB, 684.0362 MB/sec
+[search 590] /mnt/assemblage/sbt/clusteringSBT.compressed/2263.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1031 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2193.union.bf-allsome.bv.rrr 70 MB, 684.8800 MB/sec
+[search 591] /mnt/assemblage/sbt/clusteringSBT.compressed/2193.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1097 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1866.union.bf-allsome.bv.rrr 51 MB, 473.7511 MB/sec
+[search 592] /mnt/assemblage/sbt/clusteringSBT.compressed/1866.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0902 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1186053.bf-allsome.bv.rrr 42 MB, 475.4484 MB/sec
+[search 593] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1186053.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.0837 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1628.union.bf-allsome.bv.rrr 35 MB, 419.3447 MB/sec
+[search 594] /mnt/assemblage/sbt/clusteringSBT.compressed/1628.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.0841 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1937.union.bf-allsome.bv.rrr 54 MB, 650.6832 MB/sec
+[search 595] /mnt/assemblage/sbt/clusteringSBT.compressed/1937.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0852 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1820.union.bf-allsome.bv.rrr 45 MB, 536.5976 MB/sec
+[search 596] /mnt/assemblage/sbt/clusteringSBT.compressed/1820.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0718 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1627.union.bf-allsome.bv.rrr 36 MB, 508.4684 MB/sec
+[search 597] /mnt/assemblage/sbt/clusteringSBT.compressed/1627.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.0932 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR962601.bf-allsome.bv.rrr 41 MB, 443.0752 MB/sec
+[search 598] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR962601.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.0979 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1763.union.bf-allsome.bv.rrr 46 MB, 475.4081 MB/sec
+[search 599] /mnt/assemblage/sbt/clusteringSBT.compressed/1763.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0404 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR962602.bf-allsome.bv.rrr 25 MB, 619.4504 MB/sec
+[search 600] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR962602.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.0745 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1186059.bf-allsome.bv.rrr 26 MB, 350.3855 MB/sec
+[search 601] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1186059.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0891 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2038.union.bf-allsome.bv.rrr 60 MB, 683.8824 MB/sec
+[search 602] /mnt/assemblage/sbt/clusteringSBT.compressed/2038.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0992 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1919.union.bf-allsome.bv.rrr 56 MB, 568.8067 MB/sec
+[search 603] /mnt/assemblage/sbt/clusteringSBT.compressed/1919.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.1481 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1877.union.bf-allsome.bv.rrr 52 MB, 352.5053 MB/sec
+[search 604] /mnt/assemblage/sbt/clusteringSBT.compressed/1877.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1109 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1676.union.bf-allsome.bv.rrr 49 MB, 442.4825 MB/sec
+[search 605] /mnt/assemblage/sbt/clusteringSBT.compressed/1676.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0919 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1540.union.bf-allsome.bv.rrr 37 MB, 412.8935 MB/sec
+[search 606] /mnt/assemblage/sbt/clusteringSBT.compressed/1540.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0730 secs /mnt/assemblage/sbt/clusteringSBT.compressed/992.union.bf-allsome.bv.rrr 26 MB, 356.5779 MB/sec
+[search 607] /mnt/assemblage/sbt/clusteringSBT.compressed/992.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.0919 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1286930.bf-allsome.bv.rrr 27 MB, 297.9546 MB/sec
+[search 608] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR1286930.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0901 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1376.union.bf-allsome.bv.rrr 39 MB, 438.1472 MB/sec
+[search 609] /mnt/assemblage/sbt/clusteringSBT.compressed/1376.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.1059 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1708.union.bf-allsome.bv.rrr 43 MB, 412.0727 MB/sec
+[search 610] /mnt/assemblage/sbt/clusteringSBT.compressed/1708.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.0976 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2337.union.bf-allsome.bv.rrr 77 MB, 797.2690 MB/sec
+[search 611] /mnt/assemblage/sbt/clusteringSBT.compressed/2337.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0930 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2241.union.bf-allsome.bv.rrr 65 MB, 703.1600 MB/sec
+[search 612] /mnt/assemblage/sbt/clusteringSBT.compressed/2241.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1098 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1934.union.bf-allsome.bv.rrr 48 MB, 437.1861 MB/sec
+[search 613] /mnt/assemblage/sbt/clusteringSBT.compressed/1934.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0740 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1777.union.bf-allsome.bv.rrr 36 MB, 487.3310 MB/sec
+[search 614] /mnt/assemblage/sbt/clusteringSBT.compressed/1777.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0675 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1442.union.bf-allsome.bv.rrr 29 MB, 440.5613 MB/sec
+[search 615] /mnt/assemblage/sbt/clusteringSBT.compressed/1442.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.0472 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR557138.bf-allsome.bv.rrr 28 MB, 600.8299 MB/sec
+[search 616] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR557138.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.0904 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR962604.bf-allsome.bv.rrr 35 MB, 396.9056 MB/sec
+[search 617] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR962604.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.1109 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2029.union.bf-allsome.bv.rrr 55 MB, 499.0244 MB/sec
+[search 618] /mnt/assemblage/sbt/clusteringSBT.compressed/2029.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0656 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1707.union.bf-allsome.bv.rrr 43 MB, 657.6760 MB/sec
+[search 619] /mnt/assemblage/sbt/clusteringSBT.compressed/1707.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0584 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR449361.bf-allsome.bv.rrr 28 MB, 493.9705 MB/sec
+[search 620] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR449361.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.0630 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1596.union.bf-allsome.bv.rrr 32 MB, 509.3599 MB/sec
+[search 621] /mnt/assemblage/sbt/clusteringSBT.compressed/1596.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0625 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR445374.bf-allsome.bv.rrr 27 MB, 448.1969 MB/sec
+[search 622] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR445374.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.0740 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR449360.bf-allsome.bv.rrr 20 MB, 272.6677 MB/sec
+[search 623] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR449360.bf-allsome.bv.rrr leaf 0/1
+[BF load] 0.0968 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1841.union.bf-allsome.bv.rrr 47 MB, 493.1430 MB/sec
+[search 624] /mnt/assemblage/sbt/clusteringSBT.compressed/1841.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0635 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1287.union.bf-allsome.bv.rrr 36 MB, 567.3211 MB/sec
+[search 625] /mnt/assemblage/sbt/clusteringSBT.compressed/1287.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.0841 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1572.union.bf-allsome.bv.rrr 43 MB, 522.4696 MB/sec
+[search 626] /mnt/assemblage/sbt/clusteringSBT.compressed/1572.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0634 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1414.union.bf-allsome.bv.rrr 37 MB, 587.7858 MB/sec
+[search 627] /mnt/assemblage/sbt/clusteringSBT.compressed/1414.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.0923 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1394.union.bf-allsome.bv.rrr 41 MB, 449.7231 MB/sec
+[search 628] /mnt/assemblage/sbt/clusteringSBT.compressed/1394.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1218 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1243.union.bf-allsome.bv.rrr 35 MB, 291.3575 MB/sec
+[search 629] /mnt/assemblage/sbt/clusteringSBT.compressed/1243.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0802 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1154.union.bf-allsome.bv.rrr 25 MB, 322.1552 MB/sec
+[search 630] /mnt/assemblage/sbt/clusteringSBT.compressed/1154.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.0978 secs /mnt/assemblage/sbt/clusteringSBT.compressed/SRR846941.bf-allsome.bv.rrr 25 MB, 265.1358 MB/sec
+[search 631] /mnt/assemblage/sbt/clusteringSBT.compressed/SRR846941.bf-allsome.bv.rrr leaf 1/1
+[BF load] 0.1129 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1295.union.bf-allsome.bv.rrr 36 MB, 325.5430 MB/sec
+[search 632] /mnt/assemblage/sbt/clusteringSBT.compressed/1295.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.1243 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2182.union.bf-allsome.bv.rrr 62 MB, 504.4743 MB/sec
+[search 633] /mnt/assemblage/sbt/clusteringSBT.compressed/2182.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1128 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1807.union.bf-allsome.bv.rrr 55 MB, 492.6033 MB/sec
+[search 634] /mnt/assemblage/sbt/clusteringSBT.compressed/1807.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.0877 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1968.union.bf-allsome.bv.rrr 50 MB, 576.8172 MB/sec
+[search 635] /mnt/assemblage/sbt/clusteringSBT.compressed/1968.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.1180 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2440.union.bf-allsome.bv.rrr 98 MB, 836.5217 MB/sec
+[search 636] /mnt/assemblage/sbt/clusteringSBT.compressed/2440.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1225 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2328.union.bf-allsome.bv.rrr 83 MB, 683.7249 MB/sec
+[search 637] /mnt/assemblage/sbt/clusteringSBT.compressed/2328.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.1575 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2160.union.bf-allsome.bv.rrr 70 MB, 448.9513 MB/sec
+[search 638] /mnt/assemblage/sbt/clusteringSBT.compressed/2160.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.1235 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2237.union.bf-allsome.bv.rrr 69 MB, 566.4189 MB/sec
+[search 639] /mnt/assemblage/sbt/clusteringSBT.compressed/2237.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0980 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2030.union.bf-allsome.bv.rrr 55 MB, 566.0332 MB/sec
+[search 640] /mnt/assemblage/sbt/clusteringSBT.compressed/2030.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.0860 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1971.union.bf-allsome.bv.rrr 61 MB, 718.9226 MB/sec
+[search 641] /mnt/assemblage/sbt/clusteringSBT.compressed/1971.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0960 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1922.union.bf-allsome.bv.rrr 53 MB, 562.3564 MB/sec
+[search 642] /mnt/assemblage/sbt/clusteringSBT.compressed/1922.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.1095 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1734.union.bf-allsome.bv.rrr 55 MB, 507.4811 MB/sec
+[search 643] /mnt/assemblage/sbt/clusteringSBT.compressed/1734.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.0754 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1251.union.bf-allsome.bv.rrr 51 MB, 678.4229 MB/sec
+[search 644] /mnt/assemblage/sbt/clusteringSBT.compressed/1251.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.0849 secs /mnt/assemblage/sbt/clusteringSBT.compressed/1660.union.bf-allsome.bv.rrr 49 MB, 584.1212 MB/sec
+[search 645] /mnt/assemblage/sbt/clusteringSBT.compressed/1660.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.1742 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2363.union.bf-allsome.bv.rrr 76 MB, 437.5033 MB/sec
+[search 646] /mnt/assemblage/sbt/clusteringSBT.compressed/2363.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.2973 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2650.union.bf-allsome.bv.rrr 237 MB, 798.3992 MB/sec
+[search 647] /mnt/assemblage/sbt/clusteringSBT.compressed/2650.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.3050 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2638.union.bf-allsome.bv.rrr 252 MB, 827.4762 MB/sec
+[search 648] /mnt/assemblage/sbt/clusteringSBT.compressed/2638.union.bf-allsome.bv.rrr internal 1/1
+[BF load] 0.3232 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2623.union.bf-allsome.bv.rrr 221 MB, 686.1834 MB/sec
+[search 649] /mnt/assemblage/sbt/clusteringSBT.compressed/2623.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.2839 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2621.union.bf-allsome.bv.rrr 227 MB, 802.4485 MB/sec
+[search 650] /mnt/assemblage/sbt/clusteringSBT.compressed/2621.union.bf-allsome.bv.rrr internal 0/1
+[BF load] 0.2944 secs /mnt/assemblage/sbt/clusteringSBT.compressed/2633.union.bf-allsome.bv.rrr 236 MB, 803.6492 MB/sec
+[search 651] /mnt/assemblage/sbt/clusteringSBT.compressed/2633.union.bf-allsome.bv.rrr internal 0/1
+(main program) Done.
+0.20user 16.70system 1:08.48elapsed 24%CPU (0avgtext+0avgdata 308428maxresident)k
+72988672inputs+376outputs (4major+90000minor)pagefaults 0swaps

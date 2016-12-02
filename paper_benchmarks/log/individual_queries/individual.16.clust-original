@@ -1,0 +1,463 @@
+Starting Bloom Tree
+Kmer size = 20 (but we will use the k from a hashfile if we read one)
+Loading bloom tree topology: /mnt/assemblage/sbt/clusteringSBT.conversion/sbt-rrr.txt
+Loading hashes from /mnt/assemblage/sbt/clusteringSBT.conversion/hashfile
+# Hash applications=1
+Read hashes for k=20
+Read 5303 nodes in union Bloom Tree
+In memory limit = 1
+Querying...
+Read 1 queries.
+[BF load] 0.0922 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2651.union.bf.bv.rrr 24 MB, 269.7959 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2651.union.bf.bv.rrr internal 1
+[BF load] 0.0976 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2649.union.bf.bv.rrr 38 MB, 397.3448 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2649.union.bf.bv.rrr internal 1
+[BF load] 0.7526 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2648.union.bf.bv.rrr 232 MB, 308.8298 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2648.union.bf.bv.rrr internal 1
+[BF load] 0.7913 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2639.union.bf.bv.rrr 241 MB, 304.7163 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2639.union.bf.bv.rrr internal 1
+[BF load] 0.8608 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2617.union.bf.bv.rrr 190 MB, 221.4222 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2617.union.bf.bv.rrr internal 1
+[BF load] 0.5970 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2574.union.bf.bv.rrr 131 MB, 220.3286 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2574.union.bf.bv.rrr internal 0
+[BF load] 0.4520 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2573.union.bf.bv.rrr 138 MB, 306.1994 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2573.union.bf.bv.rrr internal 1
+[BF load] 0.1670 secs /mnt/assemblage/sbt/clusteringSBT.conversion/SRR537130.bf.bv.rrr 95 MB, 571.1169 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/SRR537130.bf.bv.rrr leaf 0
+[BF load] 0.2176 secs /mnt/assemblage/sbt/clusteringSBT.conversion/SRR770719.bf.bv.rrr 97 MB, 448.2526 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/SRR770719.bf.bv.rrr leaf 1
+[BF load] 0.7125 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2630.union.bf.bv.rrr 215 MB, 303.0531 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2630.union.bf.bv.rrr internal 0
+[BF load] 0.3124 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2634.union.bf.bv.rrr 231 MB, 741.1047 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2634.union.bf.bv.rrr internal 0
+[BF load] 0.1741 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2647.union.bf.bv.rrr 61 MB, 353.8629 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2647.union.bf.bv.rrr internal 1
+[BF load] 0.4493 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2644.union.bf.bv.rrr 240 MB, 535.1275 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2644.union.bf.bv.rrr internal 0
+[BF load] 0.2818 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2646.union.bf.bv.rrr 96 MB, 341.6298 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2646.union.bf.bv.rrr internal 1
+[BF load] 0.5925 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2643.union.bf.bv.rrr 229 MB, 388.0415 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2643.union.bf.bv.rrr internal 0
+[BF load] 0.5037 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2645.union.bf.bv.rrr 169 MB, 336.0794 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2645.union.bf.bv.rrr internal 1
+[BF load] 0.5945 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2641.union.bf.bv.rrr 242 MB, 408.5362 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2641.union.bf.bv.rrr internal 0
+[BF load] 0.5611 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2642.union.bf.bv.rrr 219 MB, 390.6658 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2642.union.bf.bv.rrr internal 1
+[BF load] 0.4853 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2640.union.bf.bv.rrr 243 MB, 500.9510 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2640.union.bf.bv.rrr internal 1
+[BF load] 0.4797 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2629.union.bf.bv.rrr 224 MB, 467.7578 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2629.union.bf.bv.rrr internal 1
+[BF load] 0.6828 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2595.union.bf.bv.rrr 175 MB, 256.6262 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2595.union.bf.bv.rrr internal 0
+[BF load] 0.6668 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2606.union.bf.bv.rrr 186 MB, 279.5789 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2606.union.bf.bv.rrr internal 0
+[BF load] 1.1581 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2626.union.bf.bv.rrr 228 MB, 197.2199 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2626.union.bf.bv.rrr internal 1
+[BF load] 0.6709 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2596.union.bf.bv.rrr 181 MB, 271.2098 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2596.union.bf.bv.rrr internal 0
+[BF load] 0.8191 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2615.union.bf.bv.rrr 195 MB, 238.9833 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2615.union.bf.bv.rrr internal 1
+[BF load] 0.6664 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2580.union.bf.bv.rrr 149 MB, 224.5789 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2580.union.bf.bv.rrr internal 0
+[BF load] 0.5594 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2579.union.bf.bv.rrr 144 MB, 257.6777 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2579.union.bf.bv.rrr internal 1
+[BF load] 0.1818 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2506.union.bf.bv.rrr 91 MB, 504.8763 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2506.union.bf.bv.rrr internal 0
+[BF load] 0.1386 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2522.union.bf.bv.rrr 110 MB, 800.9326 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2522.union.bf.bv.rrr internal 1
+[BF load] 0.1620 secs /mnt/assemblage/sbt/clusteringSBT.conversion/SRR948739.bf.bv.rrr 72 MB, 444.5232 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/SRR948739.bf.bv.rrr leaf 0
+[BF load] 0.1488 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2471.union.bf.bv.rrr 90 MB, 605.7104 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2471.union.bf.bv.rrr internal 1
+[BF load] 0.1058 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2369.union.bf.bv.rrr 63 MB, 603.9581 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2369.union.bf.bv.rrr internal 0
+[BF load] 0.1070 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2402.union.bf.bv.rrr 69 MB, 650.7457 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2402.union.bf.bv.rrr internal 0
+[BF load] 0.4585 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2635.union.bf.bv.rrr 242 MB, 528.7085 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2635.union.bf.bv.rrr internal 1
+[BF load] 0.9708 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2618.union.bf.bv.rrr 217 MB, 223.6197 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2618.union.bf.bv.rrr internal 0
+[BF load] 0.7785 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2622.union.bf.bv.rrr 215 MB, 276.9965 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2622.union.bf.bv.rrr internal 1
+[BF load] 0.7518 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2592.union.bf.bv.rrr 165 MB, 219.8824 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2592.union.bf.bv.rrr internal 1
+[BF load] 0.6558 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2533.union.bf.bv.rrr 118 MB, 181.1948 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2533.union.bf.bv.rrr internal 1
+[BF load] 0.1413 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2472.union.bf.bv.rrr 94 MB, 669.6585 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2472.union.bf.bv.rrr internal 1
+[BF load] 0.1168 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2426.union.bf.bv.rrr 75 MB, 644.4919 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2426.union.bf.bv.rrr internal 0
+[BF load] 0.1520 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2383.union.bf.bv.rrr 67 MB, 445.7667 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2383.union.bf.bv.rrr internal 1
+[BF load] 0.1016 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2309.union.bf.bv.rrr 53 MB, 525.6282 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2309.union.bf.bv.rrr internal 0
+[BF load] 0.0910 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2234.union.bf.bv.rrr 47 MB, 527.0411 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2234.union.bf.bv.rrr internal 0
+[BF load] 0.1441 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2456.union.bf.bv.rrr 79 MB, 554.4574 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2456.union.bf.bv.rrr internal 1
+[BF load] 0.1172 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2350.union.bf.bv.rrr 58 MB, 500.5770 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2350.union.bf.bv.rrr internal 0
+[BF load] 0.0935 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2342.union.bf.bv.rrr 55 MB, 590.6133 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2342.union.bf.bv.rrr internal 0
+[BF load] 0.6462 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2545.union.bf.bv.rrr 122 MB, 188.8984 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2545.union.bf.bv.rrr internal 0
+[BF load] 0.7127 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2587.union.bf.bv.rrr 178 MB, 250.2620 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2587.union.bf.bv.rrr internal 1
+[BF load] 0.6127 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2544.union.bf.bv.rrr 135 MB, 221.2434 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2544.union.bf.bv.rrr internal 1
+[BF load] 0.1890 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2489.union.bf.bv.rrr 105 MB, 560.1952 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2489.union.bf.bv.rrr internal 1
+[BF load] 0.1203 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2395.union.bf.bv.rrr 79 MB, 659.4833 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2395.union.bf.bv.rrr internal 1
+[BF load] 0.1296 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2307.union.bf.bv.rrr 57 MB, 443.1861 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2307.union.bf.bv.rrr internal 0
+[BF load] 0.1196 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2266.union.bf.bv.rrr 67 MB, 567.2491 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2266.union.bf.bv.rrr internal 1
+[BF load] 0.1275 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2166.union.bf.bv.rrr 56 MB, 441.9549 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2166.union.bf.bv.rrr internal 1
+[BF load] 0.1120 secs /mnt/assemblage/sbt/clusteringSBT.conversion/1938.union.bf.bv.rrr 45 MB, 407.1375 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/1938.union.bf.bv.rrr internal 1
+[BF load] 0.0877 secs /mnt/assemblage/sbt/clusteringSBT.conversion/1714.union.bf.bv.rrr 37 MB, 428.0214 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/1714.union.bf.bv.rrr internal 0
+[BF load] 0.1128 secs /mnt/assemblage/sbt/clusteringSBT.conversion/1776.union.bf.bv.rrr 39 MB, 350.8536 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/1776.union.bf.bv.rrr internal 1
+[BF load] 0.1155 secs /mnt/assemblage/sbt/clusteringSBT.conversion/1651.union.bf.bv.rrr 31 MB, 274.2628 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/1651.union.bf.bv.rrr internal 0
+[BF load] 0.1069 secs /mnt/assemblage/sbt/clusteringSBT.conversion/1603.union.bf.bv.rrr 35 MB, 332.4253 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/1603.union.bf.bv.rrr internal 1
+[BF load] 0.0841 secs /mnt/assemblage/sbt/clusteringSBT.conversion/1368.union.bf.bv.rrr 30 MB, 368.4552 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/1368.union.bf.bv.rrr internal 0
+[BF load] 0.0792 secs /mnt/assemblage/sbt/clusteringSBT.conversion/1472.union.bf.bv.rrr 29 MB, 377.9837 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/1472.union.bf.bv.rrr internal 1
+[BF load] 0.0836 secs /mnt/assemblage/sbt/clusteringSBT.conversion/SRR925716.bf.bv.rrr 24 MB, 297.6034 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/SRR925716.bf.bv.rrr leaf 1
+[BF load] 0.0704 secs /mnt/assemblage/sbt/clusteringSBT.conversion/1308.union.bf.bv.rrr 26 MB, 372.5222 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/1308.union.bf.bv.rrr internal 0
+[BF load] 0.1025 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2001.union.bf.bv.rrr 48 MB, 471.2389 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2001.union.bf.bv.rrr internal 0
+[BF load] 0.1081 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2112.union.bf.bv.rrr 56 MB, 520.4968 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2112.union.bf.bv.rrr internal 1
+[BF load] 0.0878 secs /mnt/assemblage/sbt/clusteringSBT.conversion/1962.union.bf.bv.rrr 50 MB, 569.6607 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/1962.union.bf.bv.rrr internal 1
+[BF load] 0.0918 secs /mnt/assemblage/sbt/clusteringSBT.conversion/1789.union.bf.bv.rrr 43 MB, 470.9022 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/1789.union.bf.bv.rrr internal 1
+[BF load] 0.1124 secs /mnt/assemblage/sbt/clusteringSBT.conversion/1664.union.bf.bv.rrr 35 MB, 320.1552 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/1664.union.bf.bv.rrr internal 1
+[BF load] 0.1007 secs /mnt/assemblage/sbt/clusteringSBT.conversion/SRR925724.bf.bv.rrr 28 MB, 280.3656 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/SRR925724.bf.bv.rrr leaf 0
+[BF load] 0.1286 secs /mnt/assemblage/sbt/clusteringSBT.conversion/1495.union.bf.bv.rrr 32 MB, 254.6714 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/1495.union.bf.bv.rrr internal 1
+[BF load] 0.1286 secs /mnt/assemblage/sbt/clusteringSBT.conversion/1315.union.bf.bv.rrr 28 MB, 221.0245 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/1315.union.bf.bv.rrr internal 1
+[BF load] 0.0727 secs /mnt/assemblage/sbt/clusteringSBT.conversion/SRR925708.bf.bv.rrr 22 MB, 312.0385 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/SRR925708.bf.bv.rrr leaf 1
+[BF load] 0.0942 secs /mnt/assemblage/sbt/clusteringSBT.conversion/1186.union.bf.bv.rrr 26 MB, 281.9476 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/1186.union.bf.bv.rrr internal 0
+[BF load] 0.0934 secs /mnt/assemblage/sbt/clusteringSBT.conversion/1333.union.bf.bv.rrr 28 MB, 302.6893 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/1333.union.bf.bv.rrr internal 0
+[BF load] 0.1095 secs /mnt/assemblage/sbt/clusteringSBT.conversion/1582.union.bf.bv.rrr 38 MB, 355.1267 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/1582.union.bf.bv.rrr internal 0
+[BF load] 0.0802 secs /mnt/assemblage/sbt/clusteringSBT.conversion/1782.union.bf.bv.rrr 42 MB, 529.3059 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/1782.union.bf.bv.rrr internal 1
+[BF load] 0.0822 secs /mnt/assemblage/sbt/clusteringSBT.conversion/1592.union.bf.bv.rrr 36 MB, 448.2277 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/1592.union.bf.bv.rrr internal 0
+[BF load] 0.1204 secs /mnt/assemblage/sbt/clusteringSBT.conversion/1631.union.bf.bv.rrr 36 MB, 304.1699 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/1631.union.bf.bv.rrr internal 1
+[BF load] 0.1020 secs /mnt/assemblage/sbt/clusteringSBT.conversion/1492.union.bf.bv.rrr 32 MB, 316.0452 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/1492.union.bf.bv.rrr internal 1
+[BF load] 0.0793 secs /mnt/assemblage/sbt/clusteringSBT.conversion/SRR925726.bf.bv.rrr 28 MB, 358.0427 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/SRR925726.bf.bv.rrr leaf 1
+[BF load] 0.1295 secs /mnt/assemblage/sbt/clusteringSBT.conversion/SRR925697.bf.bv.rrr 27 MB, 212.1084 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/SRR925697.bf.bv.rrr leaf 1
+[BF load] 0.0922 secs /mnt/assemblage/sbt/clusteringSBT.conversion/1467.union.bf.bv.rrr 30 MB, 334.2627 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/1467.union.bf.bv.rrr internal 0
+[BF load] 0.1398 secs /mnt/assemblage/sbt/clusteringSBT.conversion/1883.union.bf.bv.rrr 44 MB, 321.7201 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/1883.union.bf.bv.rrr internal 1
+[BF load] 0.0929 secs /mnt/assemblage/sbt/clusteringSBT.conversion/1749.union.bf.bv.rrr 40 MB, 434.6011 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/1749.union.bf.bv.rrr internal 0
+[BF load] 0.0840 secs /mnt/assemblage/sbt/clusteringSBT.conversion/1577.union.bf.bv.rrr 36 MB, 440.4491 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/1577.union.bf.bv.rrr internal 1
+[BF load] 0.0821 secs /mnt/assemblage/sbt/clusteringSBT.conversion/1417.union.bf.bv.rrr 29 MB, 358.3680 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/1417.union.bf.bv.rrr internal 1
+[BF load] 0.0720 secs /mnt/assemblage/sbt/clusteringSBT.conversion/SRR791072.bf.bv.rrr 24 MB, 345.5356 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/SRR791072.bf.bv.rrr leaf 1
+[BF load] 0.0901 secs /mnt/assemblage/sbt/clusteringSBT.conversion/1337.union.bf.bv.rrr 25 MB, 284.1003 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/1337.union.bf.bv.rrr internal 0
+[BF load] 0.0975 secs /mnt/assemblage/sbt/clusteringSBT.conversion/1387.union.bf.bv.rrr 35 MB, 359.5448 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/1387.union.bf.bv.rrr internal 1
+[BF load] 0.0688 secs /mnt/assemblage/sbt/clusteringSBT.conversion/1164.union.bf.bv.rrr 31 MB, 461.8751 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/1164.union.bf.bv.rrr internal 1
+[BF load] 0.0608 secs /mnt/assemblage/sbt/clusteringSBT.conversion/1038.union.bf.bv.rrr 28 MB, 474.5965 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/1038.union.bf.bv.rrr internal 1
+[BF load] 0.0953 secs /mnt/assemblage/sbt/clusteringSBT.conversion/SRR791067.bf.bv.rrr 25 MB, 269.7823 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/SRR791067.bf.bv.rrr leaf 1
+[BF load] 0.0766 secs /mnt/assemblage/sbt/clusteringSBT.conversion/SRR791068.bf.bv.rrr 26 MB, 346.2888 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/SRR791068.bf.bv.rrr leaf 1
+[BF load] 0.0694 secs /mnt/assemblage/sbt/clusteringSBT.conversion/1088.union.bf.bv.rrr 28 MB, 414.4448 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/1088.union.bf.bv.rrr internal 1
+[BF load] 0.1211 secs /mnt/assemblage/sbt/clusteringSBT.conversion/SRR791069.bf.bv.rrr 25 MB, 213.8219 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/SRR791069.bf.bv.rrr leaf 1
+[BF load] 0.0626 secs /mnt/assemblage/sbt/clusteringSBT.conversion/SRR791073.bf.bv.rrr 25 MB, 411.3808 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/SRR791073.bf.bv.rrr leaf 1
+[BF load] 0.0615 secs /mnt/assemblage/sbt/clusteringSBT.conversion/1320.union.bf.bv.rrr 30 MB, 503.2291 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/1320.union.bf.bv.rrr internal 1
+[BF load] 0.0802 secs /mnt/assemblage/sbt/clusteringSBT.conversion/SRR791066.bf.bv.rrr 26 MB, 335.0125 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/SRR791066.bf.bv.rrr leaf 1
+[BF load] 0.0630 secs /mnt/assemblage/sbt/clusteringSBT.conversion/SRR791070.bf.bv.rrr 27 MB, 443.3142 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/SRR791070.bf.bv.rrr leaf 1
+[BF load] 0.1293 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2409.union.bf.bv.rrr 84 MB, 654.1480 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2409.union.bf.bv.rrr internal 1
+[BF load] 0.0872 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2291.union.bf.bv.rrr 68 MB, 782.6616 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2291.union.bf.bv.rrr internal 0
+[BF load] 0.1317 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2349.union.bf.bv.rrr 67 MB, 511.2068 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2349.union.bf.bv.rrr internal 1
+[BF load] 0.1638 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2171.union.bf.bv.rrr 47 MB, 290.2550 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2171.union.bf.bv.rrr internal 0
+[BF load] 0.1195 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2101.union.bf.bv.rrr 58 MB, 487.1022 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2101.union.bf.bv.rrr internal 1
+[BF load] 0.1083 secs /mnt/assemblage/sbt/clusteringSBT.conversion/1927.union.bf.bv.rrr 49 MB, 453.6581 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/1927.union.bf.bv.rrr internal 0
+[BF load] 0.0856 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2012.union.bf.bv.rrr 50 MB, 585.8378 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2012.union.bf.bv.rrr internal 1
+[BF load] 0.0895 secs /mnt/assemblage/sbt/clusteringSBT.conversion/1828.union.bf.bv.rrr 42 MB, 470.4708 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/1828.union.bf.bv.rrr internal 1
+[BF load] 0.0763 secs /mnt/assemblage/sbt/clusteringSBT.conversion/1512.union.bf.bv.rrr 34 MB, 453.3897 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/1512.union.bf.bv.rrr internal 1
+[BF load] 0.1264 secs /mnt/assemblage/sbt/clusteringSBT.conversion/1100.union.bf.bv.rrr 33 MB, 263.9720 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/1100.union.bf.bv.rrr internal 0
+[BF load] 0.0926 secs /mnt/assemblage/sbt/clusteringSBT.conversion/SRR1027188.bf.bv.rrr 26 MB, 289.8966 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/SRR1027188.bf.bv.rrr leaf 0
+[BF load] 0.0952 secs /mnt/assemblage/sbt/clusteringSBT.conversion/1717.union.bf.bv.rrr 37 MB, 391.2895 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/1717.union.bf.bv.rrr internal 0
+[BF load] 0.0740 secs /mnt/assemblage/sbt/clusteringSBT.conversion/1826.union.bf.bv.rrr 41 MB, 565.0783 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/1826.union.bf.bv.rrr internal 0
+[BF load] 0.1257 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2465.union.bf.bv.rrr 100 MB, 802.6782 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2465.union.bf.bv.rrr internal 1
+[BF load] 0.1248 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2345.union.bf.bv.rrr 77 MB, 617.1529 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2345.union.bf.bv.rrr internal 1
+[BF load] 0.1209 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2205.union.bf.bv.rrr 62 MB, 516.2433 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2205.union.bf.bv.rrr internal 1
+[BF load] 0.0925 secs /mnt/assemblage/sbt/clusteringSBT.conversion/1888.union.bf.bv.rrr 53 MB, 577.0270 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/1888.union.bf.bv.rrr internal 1
+[BF load] 0.1338 secs /mnt/assemblage/sbt/clusteringSBT.conversion/1729.union.bf.bv.rrr 50 MB, 379.4236 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/1729.union.bf.bv.rrr internal 1
+[BF load] 0.0786 secs /mnt/assemblage/sbt/clusteringSBT.conversion/1499.union.bf.bv.rrr 44 MB, 562.4209 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/1499.union.bf.bv.rrr internal 1
+[BF load] 0.0902 secs /mnt/assemblage/sbt/clusteringSBT.conversion/1433.union.bf.bv.rrr 40 MB, 450.3499 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/1433.union.bf.bv.rrr internal 1
+[BF load] 0.0701 secs /mnt/assemblage/sbt/clusteringSBT.conversion/1283.union.bf.bv.rrr 36 MB, 526.4008 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/1283.union.bf.bv.rrr internal 1
+[BF load] 0.0890 secs /mnt/assemblage/sbt/clusteringSBT.conversion/SRR1313219.bf.bv.rrr 32 MB, 370.0776 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/SRR1313219.bf.bv.rrr leaf 1
+[BF load] 0.1105 secs /mnt/assemblage/sbt/clusteringSBT.conversion/SRR1313215.bf.bv.rrr 34 MB, 312.0728 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/SRR1313215.bf.bv.rrr leaf 1
+[BF load] 0.0736 secs /mnt/assemblage/sbt/clusteringSBT.conversion/1360.union.bf.bv.rrr 36 MB, 502.4041 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/1360.union.bf.bv.rrr internal 0
+[BF load] 0.0848 secs /mnt/assemblage/sbt/clusteringSBT.conversion/1482.union.bf.bv.rrr 39 MB, 467.6524 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/1482.union.bf.bv.rrr internal 0
+[BF load] 0.1226 secs /mnt/assemblage/sbt/clusteringSBT.conversion/1570.union.bf.bv.rrr 47 MB, 383.4732 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/1570.union.bf.bv.rrr internal 0
+[BF load] 0.1284 secs /mnt/assemblage/sbt/clusteringSBT.conversion/1860.union.bf.bv.rrr 43 MB, 340.3814 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/1860.union.bf.bv.rrr internal 0
+[BF load] 0.1004 secs /mnt/assemblage/sbt/clusteringSBT.conversion/1902.union.bf.bv.rrr 51 MB, 514.4468 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/1902.union.bf.bv.rrr internal 0
+[BF load] 0.0929 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2220.union.bf.bv.rrr 65 MB, 708.9034 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2220.union.bf.bv.rrr internal 0
+[BF load] 0.1547 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2415.union.bf.bv.rrr 83 MB, 540.5111 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2415.union.bf.bv.rrr internal 0
+[BF load] 0.7974 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2562.union.bf.bv.rrr 148 MB, 185.9140 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2562.union.bf.bv.rrr internal 1
+[BF load] 0.2038 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2509.union.bf.bv.rrr 106 MB, 520.4062 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2509.union.bf.bv.rrr internal 1
+[BF load] 0.1375 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2428.union.bf.bv.rrr 74 MB, 543.5229 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2428.union.bf.bv.rrr internal 1
+[BF load] 0.0947 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2250.union.bf.bv.rrr 54 MB, 579.7786 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2250.union.bf.bv.rrr internal 0
+[BF load] 0.1072 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2338.union.bf.bv.rrr 54 MB, 513.0726 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2338.union.bf.bv.rrr internal 0
+[BF load] 0.1189 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2455.union.bf.bv.rrr 82 MB, 695.9362 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2455.union.bf.bv.rrr internal 0
+[BF load] 0.1617 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2518.union.bf.bv.rrr 121 MB, 749.9205 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2518.union.bf.bv.rrr internal 1
+[BF load] 0.1415 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2468.union.bf.bv.rrr 100 MB, 708.5738 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2468.union.bf.bv.rrr internal 0
+[BF load] 0.1269 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2440.union.bf.bv.rrr 89 MB, 705.9207 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2440.union.bf.bv.rrr internal 1
+[BF load] 0.1070 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2328.union.bf.bv.rrr 74 MB, 692.5000 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2328.union.bf.bv.rrr internal 1
+[BF load] 0.1327 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2160.union.bf.bv.rrr 62 MB, 467.1469 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2160.union.bf.bv.rrr internal 1
+[BF load] 0.1069 secs /mnt/assemblage/sbt/clusteringSBT.conversion/1942.union.bf.bv.rrr 52 MB, 489.1343 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/1942.union.bf.bv.rrr internal 1
+[BF load] 0.0887 secs /mnt/assemblage/sbt/clusteringSBT.conversion/1679.union.bf.bv.rrr 45 MB, 508.5275 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/1679.union.bf.bv.rrr internal 1
+[BF load] 0.0787 secs /mnt/assemblage/sbt/clusteringSBT.conversion/1597.union.bf.bv.rrr 39 MB, 501.4742 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/1597.union.bf.bv.rrr internal 1
+[BF load] 0.0746 secs /mnt/assemblage/sbt/clusteringSBT.conversion/1553.union.bf.bv.rrr 34 MB, 460.8842 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/1553.union.bf.bv.rrr internal 1
+[BF load] 0.0904 secs /mnt/assemblage/sbt/clusteringSBT.conversion/SRR925717.bf.bv.rrr 29 MB, 324.1202 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/SRR925717.bf.bv.rrr leaf 0
+[BF load] 0.0811 secs /mnt/assemblage/sbt/clusteringSBT.conversion/685.union.bf.bv.rrr 30 MB, 371.2979 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/685.union.bf.bv.rrr internal 1
+[BF load] 0.0769 secs /mnt/assemblage/sbt/clusteringSBT.conversion/649.union.bf.bv.rrr 29 MB, 385.8894 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/649.union.bf.bv.rrr internal 1
+[BF load] 0.0819 secs /mnt/assemblage/sbt/clusteringSBT.conversion/561.union.bf.bv.rrr 28 MB, 346.1982 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/561.union.bf.bv.rrr internal 1
+[BF load] 0.1254 secs /mnt/assemblage/sbt/clusteringSBT.conversion/SRR1513333.bf.bv.rrr 27 MB, 217.8521 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/SRR1513333.bf.bv.rrr leaf 1
+[BF load] 0.0966 secs /mnt/assemblage/sbt/clusteringSBT.conversion/SRR1513332.bf.bv.rrr 26 MB, 275.7763 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/SRR1513332.bf.bv.rrr leaf 1
+[BF load] 0.1249 secs /mnt/assemblage/sbt/clusteringSBT.conversion/574.union.bf.bv.rrr 27 MB, 224.0518 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/574.union.bf.bv.rrr internal 1
+[BF load] 0.0836 secs /mnt/assemblage/sbt/clusteringSBT.conversion/SRR1513331.bf.bv.rrr 26 MB, 322.5163 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/SRR1513331.bf.bv.rrr leaf 1
+[BF load] 0.0930 secs /mnt/assemblage/sbt/clusteringSBT.conversion/SRR1513330.bf.bv.rrr 26 MB, 284.6203 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/SRR1513330.bf.bv.rrr leaf 1
+[BF load] 0.0966 secs /mnt/assemblage/sbt/clusteringSBT.conversion/684.union.bf.bv.rrr 27 MB, 284.9423 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/684.union.bf.bv.rrr internal 1
+[BF load] 0.1127 secs /mnt/assemblage/sbt/clusteringSBT.conversion/SRR1513334.bf.bv.rrr 25 MB, 229.1818 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/SRR1513334.bf.bv.rrr leaf 1
+[BF load] 0.0672 secs /mnt/assemblage/sbt/clusteringSBT.conversion/SRR1513329.bf.bv.rrr 25 MB, 385.9083 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/SRR1513329.bf.bv.rrr leaf 0
+[BF load] 0.0829 secs /mnt/assemblage/sbt/clusteringSBT.conversion/SRR1300548.bf.bv.rrr 35 MB, 424.4552 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/SRR1300548.bf.bv.rrr leaf 1
+[BF load] 0.0614 secs /mnt/assemblage/sbt/clusteringSBT.conversion/1371.union.bf.bv.rrr 40 MB, 664.0038 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/1371.union.bf.bv.rrr internal 1
+[BF load] 0.1094 secs /mnt/assemblage/sbt/clusteringSBT.conversion/996.union.bf.bv.rrr 37 MB, 345.2993 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/996.union.bf.bv.rrr internal 0
+[BF load] 0.0905 secs /mnt/assemblage/sbt/clusteringSBT.conversion/1359.union.bf.bv.rrr 37 MB, 409.0779 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/1359.union.bf.bv.rrr internal 0
+[BF load] 0.0874 secs /mnt/assemblage/sbt/clusteringSBT.conversion/1868.union.bf.bv.rrr 46 MB, 527.6984 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/1868.union.bf.bv.rrr internal 1
+[BF load] 0.0759 secs /mnt/assemblage/sbt/clusteringSBT.conversion/1695.union.bf.bv.rrr 38 MB, 506.6913 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/1695.union.bf.bv.rrr internal 1
+[BF load] 0.1472 secs /mnt/assemblage/sbt/clusteringSBT.conversion/949.union.bf.bv.rrr 33 MB, 227.0837 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/949.union.bf.bv.rrr internal 1
+[BF load] 0.0899 secs /mnt/assemblage/sbt/clusteringSBT.conversion/SRR499844.bf.bv.rrr 31 MB, 355.5112 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/SRR499844.bf.bv.rrr leaf 1
+[BF load] 0.0925 secs /mnt/assemblage/sbt/clusteringSBT.conversion/897.union.bf.bv.rrr 30 MB, 328.4824 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/897.union.bf.bv.rrr internal 1
+[BF load] 0.0772 secs /mnt/assemblage/sbt/clusteringSBT.conversion/SRR500125.bf.bv.rrr 29 MB, 385.4025 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/SRR500125.bf.bv.rrr leaf 1
+[BF load] 0.0585 secs /mnt/assemblage/sbt/clusteringSBT.conversion/SRR492714.bf.bv.rrr 26 MB, 454.9459 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/SRR492714.bf.bv.rrr leaf 1
+[BF load] 0.0662 secs /mnt/assemblage/sbt/clusteringSBT.conversion/1349.union.bf.bv.rrr 32 MB, 494.8943 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/1349.union.bf.bv.rrr internal 1
+[BF load] 0.1096 secs /mnt/assemblage/sbt/clusteringSBT.conversion/SRR496397.bf.bv.rrr 31 MB, 285.1912 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/SRR496397.bf.bv.rrr leaf 1
+[BF load] 0.0725 secs /mnt/assemblage/sbt/clusteringSBT.conversion/SRR496398.bf.bv.rrr 27 MB, 373.3067 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/SRR496398.bf.bv.rrr leaf 0
+[BF load] 0.0901 secs /mnt/assemblage/sbt/clusteringSBT.conversion/1781.union.bf.bv.rrr 41 MB, 457.8562 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/1781.union.bf.bv.rrr internal 1
+[BF load] 0.0843 secs /mnt/assemblage/sbt/clusteringSBT.conversion/1056.union.bf.bv.rrr 36 MB, 434.5552 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/1056.union.bf.bv.rrr internal 0
+[BF load] 0.0712 secs /mnt/assemblage/sbt/clusteringSBT.conversion/1753.union.bf.bv.rrr 34 MB, 481.5897 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/1753.union.bf.bv.rrr internal 1
+[BF load] 0.0855 secs /mnt/assemblage/sbt/clusteringSBT.conversion/SRR403019.bf.bv.rrr 28 MB, 331.8709 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/SRR403019.bf.bv.rrr leaf 1
+[BF load] 0.0908 secs /mnt/assemblage/sbt/clusteringSBT.conversion/SRR925693.bf.bv.rrr 28 MB, 309.0380 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/SRR925693.bf.bv.rrr leaf 0
+[BF load] 0.0841 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2040.union.bf.bv.rrr 54 MB, 643.1292 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2040.union.bf.bv.rrr internal 1
+[BF load] 0.0884 secs /mnt/assemblage/sbt/clusteringSBT.conversion/1908.union.bf.bv.rrr 44 MB, 500.5739 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/1908.union.bf.bv.rrr internal 1
+[BF load] 0.0926 secs /mnt/assemblage/sbt/clusteringSBT.conversion/1489.union.bf.bv.rrr 35 MB, 387.3735 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/1489.union.bf.bv.rrr internal 1
+[BF load] 0.0635 secs /mnt/assemblage/sbt/clusteringSBT.conversion/1093.union.bf.bv.rrr 32 MB, 515.5850 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/1093.union.bf.bv.rrr internal 1
+[BF load] 0.0570 secs /mnt/assemblage/sbt/clusteringSBT.conversion/835.union.bf.bv.rrr 30 MB, 526.9492 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/835.union.bf.bv.rrr internal 1
+[BF load] 0.1240 secs /mnt/assemblage/sbt/clusteringSBT.conversion/SRR1286929.bf.bv.rrr 28 MB, 233.4395 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/SRR1286929.bf.bv.rrr leaf 1
+[BF load] 0.0821 secs /mnt/assemblage/sbt/clusteringSBT.conversion/SRR1286928.bf.bv.rrr 27 MB, 333.1966 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/SRR1286928.bf.bv.rrr leaf 1
+[BF load] 0.1048 secs /mnt/assemblage/sbt/clusteringSBT.conversion/SRR1286927.bf.bv.rrr 30 MB, 287.2515 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/SRR1286927.bf.bv.rrr leaf 1
+[BF load] 0.0695 secs /mnt/assemblage/sbt/clusteringSBT.conversion/1289.union.bf.bv.rrr 30 MB, 443.8973 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/1289.union.bf.bv.rrr internal 1
+[BF load] 0.0906 secs /mnt/assemblage/sbt/clusteringSBT.conversion/986.union.bf.bv.rrr 27 MB, 305.5348 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/986.union.bf.bv.rrr internal 0
+[BF load] 0.0646 secs /mnt/assemblage/sbt/clusteringSBT.conversion/829.union.bf.bv.rrr 27 MB, 418.6825 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/829.union.bf.bv.rrr internal 1
+[BF load] 0.0913 secs /mnt/assemblage/sbt/clusteringSBT.conversion/SRR1143451.bf.bv.rrr 25 MB, 276.6256 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/SRR1143451.bf.bv.rrr leaf 1
+[BF load] 0.0628 secs /mnt/assemblage/sbt/clusteringSBT.conversion/SRR1143450.bf.bv.rrr 24 MB, 393.2053 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/SRR1143450.bf.bv.rrr leaf 1
+[BF load] 0.0735 secs /mnt/assemblage/sbt/clusteringSBT.conversion/1829.union.bf.bv.rrr 39 MB, 530.9647 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/1829.union.bf.bv.rrr internal 1
+[BF load] 0.0789 secs /mnt/assemblage/sbt/clusteringSBT.conversion/1474.union.bf.bv.rrr 33 MB, 428.7482 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/1474.union.bf.bv.rrr internal 0
+[BF load] 0.0693 secs /mnt/assemblage/sbt/clusteringSBT.conversion/1347.union.bf.bv.rrr 31 MB, 453.3065 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/1347.union.bf.bv.rrr internal 1
+[BF load] 0.1184 secs /mnt/assemblage/sbt/clusteringSBT.conversion/640.union.bf.bv.rrr 26 MB, 220.9848 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/640.union.bf.bv.rrr internal 0
+[BF load] 0.0813 secs /mnt/assemblage/sbt/clusteringSBT.conversion/1260.union.bf.bv.rrr 29 MB, 358.1895 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/1260.union.bf.bv.rrr internal 1
+[BF load] 0.0616 secs /mnt/assemblage/sbt/clusteringSBT.conversion/568.union.bf.bv.rrr 26 MB, 433.6691 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/568.union.bf.bv.rrr internal 0
+[BF load] 0.0829 secs /mnt/assemblage/sbt/clusteringSBT.conversion/577.union.bf.bv.rrr 24 MB, 297.1146 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/577.union.bf.bv.rrr internal 1
+[BF load] 0.0942 secs /mnt/assemblage/sbt/clusteringSBT.conversion/SRR243576.bf.bv.rrr 23 MB, 249.5410 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/SRR243576.bf.bv.rrr leaf 1
+[BF load] 0.0857 secs /mnt/assemblage/sbt/clusteringSBT.conversion/SRR243575.bf.bv.rrr 22 MB, 266.9768 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/SRR243575.bf.bv.rrr leaf 1
+[BF load] 0.0762 secs /mnt/assemblage/sbt/clusteringSBT.conversion/1903.union.bf.bv.rrr 47 MB, 626.4623 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/1903.union.bf.bv.rrr internal 1
+[BF load] 0.0910 secs /mnt/assemblage/sbt/clusteringSBT.conversion/1461.union.bf.bv.rrr 40 MB, 448.7397 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/1461.union.bf.bv.rrr internal 1
+[BF load] 0.0886 secs /mnt/assemblage/sbt/clusteringSBT.conversion/1279.union.bf.bv.rrr 39 MB, 445.6022 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/1279.union.bf.bv.rrr internal 1
+[BF load] 0.1009 secs /mnt/assemblage/sbt/clusteringSBT.conversion/SRR770715.bf.bv.rrr 34 MB, 343.7447 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/SRR770715.bf.bv.rrr leaf 1
+[BF load] 0.0380 secs /mnt/assemblage/sbt/clusteringSBT.conversion/SRR770716.bf.bv.rrr 37 MB, 996.8518 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/SRR770716.bf.bv.rrr leaf 0
+[BF load] 0.1368 secs /mnt/assemblage/sbt/clusteringSBT.conversion/SRR770714.bf.bv.rrr 34 MB, 251.9936 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/SRR770714.bf.bv.rrr leaf 1
+[BF load] 0.0933 secs /mnt/assemblage/sbt/clusteringSBT.conversion/1299.union.bf.bv.rrr 41 MB, 444.5431 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/1299.union.bf.bv.rrr internal 0
+[BF load] 0.1068 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2237.union.bf.bv.rrr 61 MB, 573.9937 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2237.union.bf.bv.rrr internal 0
+[BF load] 0.1059 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2363.union.bf.bv.rrr 67 MB, 634.6601 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2363.union.bf.bv.rrr internal 1
+[BF load] 0.0938 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2174.union.bf.bv.rrr 53 MB, 568.8304 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2174.union.bf.bv.rrr internal 1
+[BF load] 0.0777 secs /mnt/assemblage/sbt/clusteringSBT.conversion/1912.union.bf.bv.rrr 44 MB, 577.3328 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/1912.union.bf.bv.rrr internal 0
+[BF load] 0.1151 secs /mnt/assemblage/sbt/clusteringSBT.conversion/1929.union.bf.bv.rrr 42 MB, 366.1225 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/1929.union.bf.bv.rrr internal 1
+[BF load] 0.0835 secs /mnt/assemblage/sbt/clusteringSBT.conversion/SRR1313068.bf.bv.rrr 30 MB, 360.0489 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/SRR1313068.bf.bv.rrr leaf 0
+[BF load] 0.0888 secs /mnt/assemblage/sbt/clusteringSBT.conversion/1760.union.bf.bv.rrr 39 MB, 442.2621 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/1760.union.bf.bv.rrr internal 1
+[BF load] 0.1098 secs /mnt/assemblage/sbt/clusteringSBT.conversion/SRR1313084.bf.bv.rrr 32 MB, 299.3545 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/SRR1313084.bf.bv.rrr leaf 1
+[BF load] 0.0894 secs /mnt/assemblage/sbt/clusteringSBT.conversion/1578.union.bf.bv.rrr 33 MB, 379.3371 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/1578.union.bf.bv.rrr internal 0
+[BF load] 0.1467 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2224.union.bf.bv.rrr 50 MB, 342.0238 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2224.union.bf.bv.rrr internal 1
+[BF load] 0.0881 secs /mnt/assemblage/sbt/clusteringSBT.conversion/SRR403018.bf.bv.rrr 36 MB, 411.9966 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/SRR403018.bf.bv.rrr leaf 1
+[BF load] 0.0997 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2020.union.bf.bv.rrr 40 MB, 408.1664 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2020.union.bf.bv.rrr internal 1
+[BF load] 0.0830 secs /mnt/assemblage/sbt/clusteringSBT.conversion/1774.union.bf.bv.rrr 29 MB, 352.5965 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/1774.union.bf.bv.rrr internal 0
+[BF load] 0.1212 secs /mnt/assemblage/sbt/clusteringSBT.conversion/1808.union.bf.bv.rrr 33 MB, 279.4806 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/1808.union.bf.bv.rrr internal 1
+[BF load] 0.0732 secs /mnt/assemblage/sbt/clusteringSBT.conversion/1392.union.bf.bv.rrr 27 MB, 376.4974 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/1392.union.bf.bv.rrr internal 1
+[BF load] 0.0669 secs /mnt/assemblage/sbt/clusteringSBT.conversion/SRR201986.bf.bv.rrr 22 MB, 338.7280 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/SRR201986.bf.bv.rrr leaf 0
+[BF load] 0.0536 secs /mnt/assemblage/sbt/clusteringSBT.conversion/SRR201985.bf.bv.rrr 23 MB, 447.9781 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/SRR201985.bf.bv.rrr leaf 0
+[BF load] 0.0532 secs /mnt/assemblage/sbt/clusteringSBT.conversion/1515.union.bf.bv.rrr 26 MB, 505.0211 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/1515.union.bf.bv.rrr internal 0
+[BF load] 0.6590 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2650.union.bf.bv.rrr 228 MB, 345.9704 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2650.union.bf.bv.rrr internal 1
+[BF load] 0.3583 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2638.union.bf.bv.rrr 243 MB, 678.4628 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2638.union.bf.bv.rrr internal 0
+[BF load] 0.2798 secs /mnt/assemblage/sbt/clusteringSBT.conversion/2633.union.bf.bv.rrr 227 MB, 812.3915 MB/sec
+/mnt/assemblage/sbt/clusteringSBT.conversion/2633.union.bf.bv.rrr internal 0
+(main program) Done.
+0.57user 7.26system 0:41.12elapsed 19%CPU (0avgtext+0avgdata 293768maxresident)k
+30578672inputs+112outputs (4major+41241minor)pagefaults 0swaps
