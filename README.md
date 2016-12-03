@@ -46,13 +46,15 @@ First, an SBT-AS must be built using the following pipeline:
 6. Compress the SBT-AS bit vectors (`bt compress-rrr-double`)
 
 
-Then, to query the SBT-AS, either the `bt query` or `squery` is used. 
+Then, to query the SBT-AS, either the `bt query` or `squery` is used.
+
+A step-by-step example of the pipeline is shown in example/README.md.  
 
 
 # Usage Details
 
 
-To build an RRR-compressed SBT-AS, follow these steps:
+To build an SBT-AS, follow these steps:
 
 
 1.  `bt hashes [-k 20] hashfile`  
@@ -112,13 +114,16 @@ For optimal performance, the bf_size parameter in `bt count` should be approxima
 ```bash
 get_bfsize.sh fastalistfile
 ```
-Given a list of gzipped fasta files, report the distribution of kmer abundance. If a cutoff of _c_ is to be used for `bt count`, then the kmer count for abundances _c_ or greater should be used for bf_size.
+Given a list of gzipped fasta files, report the distribution of kmer abundance. If the default cutoff of _c_ is to be used, the kmer count for abundances _c_ should be used for bf_size.
 
 
 # Building a ROAR-compressed tree
 
 
-The default compression scheme for SBT-AS is RRR. Alternatively, ROAR may be used. To use ROAR,  you just need to change the pipeline to use `bt compress-roar` instead of `bt compress-rrr-double`.
+The default compression scheme for SBT-AS is RRR. Alternatively, ROAR may be used. To use ROAR, you just need to change the pipeline to use `bt compress-roar-single` instead of `bt compress-rrr-double`.
+
+However, there are some subtle differences in node management for ROAR-compressed trees.  These are described in the step-by-step examples in example/README.md.  
+
 
 
 # Parallel speedup of tree construction

@@ -1,20 +1,20 @@
 # Tutorial, Creating an Allsome Bloomtree
 
-Initialize the hash function.
+(1) Initialize the hash function.
 
 ```bash  
 bt hashes --k 20 example.hashfile
 ```
 
-Estimate the best bloom filter size ... note that kmerSize 20 is hardwired in
+(2) Estimate the best bloom filter size.  Note that kmerSize 20 is hardwired in
 get_bfsize.sh.
 
 ```bash  
 ls experiment*.fa \
   | while read f ; do
-	  echo "=== gzipping ${f} ==="
-	  cat ${f} | gzip > ${f}.gz
-	  done
+      echo "=== gzipping ${f} ==="
+      cat ${f} | gzip > ${f}.gz
+      done
 ls experiment*.fa.gz > experimentfiles
 ../src/get_bfsize.sh experimentfiles
 ```
@@ -29,32 +29,34 @@ Output from get_bfsize.sh:
 
 So we want to use a bf_size of about 500,000.
 
-Count kmers in each experiment.
+(3) Convert the fasta files to bloom filter bit vectors.
 
 ```bash  
 bf_size=500000
 ls experiment*.fa \
   | while read f ; do
-	  bv=`echo ${f} | sed "s/\.fa/.bf.bv/"`
-	  echo "=== converting ${f} to ${bv} ==="
-	  bt count --cutoff 3 example.hashfile ${bf_size} ${f} ${bv}
-	  done
+      bv=`echo ${f} | sed "s/\.fa/.bf.bv/"`
+      echo "=== converting ${f} to ${bv} ==="
+      bt count --cutoff 3 example.hashfile ${bf_size} ${f} ${bv}
+      done
 ```
 
-Build the SBT.
+(4) Build an uncompressed SBT of the bit vectors.
 
 ```bash  
 ls experiment*.bf.bv | sed "s/\.bf\.bv//" > bitvectornames
 ../bfcluster/sbuild -f example.hashfile -p . -l bitvectornames -o . -b sbt.txt
 ```
 
-Split the SBT nodes to create an SBT-AS.
+(5) Split the SBT nodes to create an SBT-AS.
 
 ```bash  
 bt split sbt.txt sbt-as.txt
 ```
 
-Compress the SBT-AS bit vectors, creating the node files for a compressed ABT-AS.
+(6a) Compress the SBT-AS bit vectors, creating the node files for a compressed ABT-AS.
+
+Each node is represented in the uncompressed SBT-AS as two files, with extensions .bf-all.bv and .bf-some.bv. These are converted to a single file with extension .bf-allsome.bv.rrr.
 
 ```bash  
 cat sbt.txt \
@@ -62,15 +64,15 @@ cat sbt.txt \
   | sed "s/,.*//" \
   | sed "s/\.bf\.bv//" \
   | while read node ; do
-	  echo "=== compressing split ${node} to allsome ==="
-	  bt compress-rrr-double example.hashfile \
-		${node}.bf-all.bv \
-		${node}.bf-some.bv \
-		${node}.bf-allsome.bv
-	  done
+      echo "=== compressing split ${node} to allsome ==="
+      bt compress-rrr-double example.hashfile \
+        ${node}.bf-all.bv \
+        ${node}.bf-some.bv \
+        ${node}.bf-allsome.bv
+      done
 ```
 
-Create the topology file for the compressed ABT-AS.
+(6b) Create the topology file for the compressed ABT-AS.
 
 ```bash  
 cat sbt.txt \
@@ -78,8 +80,42 @@ cat sbt.txt \
   > sbt-rrr-allsome.txt
 ```
 
-Run a batch of queries.
+(7) Run a batch of queries.
 
 ```bash  
 bt query -t 0.5 sbt-rrr-allsome.txt queries queryresults
+```
+
+# Creating an ROAR-compressed Allsome Bloomtree
+
+Steps 1 through 5 are the same as above.
+
+(6a-ROAR) Compress the SBT-AS bit vectors, creating the node files for a compressed ABT-AS.
+
+Unlike the RRR-compression step above, the two files representing a node in the uncompressed SBT-AS are converted to two files, with extensions .bf-all.bv.roar and .bf-some.roar.
+
+```bash  
+    cat sbt.txt \
+      | tr -d "*" \
+      | sed "s/,.*//" \
+      | sed "s/\.bf\.bv//" \
+      | while read node ; do
+          echo "=== ROAR-compressing split ${node} ==="
+          ${bt} compress-roar-single example.hashfile ${node}.bf-all.bv
+          ${bt} compress-roar-single example.hashfile ${node}.bf-some.bv
+          done
+```
+
+(6b-ROAR) Create the topology file for the compressed ABT-AS.
+
+```bash  
+cat sbt-as.txt \
+  | sed "s/\.bv/.bv.roar/" \
+  > sbt-roar-allsome.txt
+```
+
+(7-ROAR) Run a batch of queries.
+
+```bash  
+bt query -t 0.5 sbt-roar-allsome.txt queries queryresults
 ```
