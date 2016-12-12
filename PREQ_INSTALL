@@ -23,10 +23,13 @@ cd ..
 
 
 # sdsl lite
+# note: older versions of sdsl-lite (before Nov/8/2016) required a patch. The
+# patch has been commented out in the step below, because the modification has
+# been committed to the sdsl-lite repositiory
 
 git clone --recursive https://github.com/simongog/sdsl-lite.git
 cd sdsl-lite
-patch  -p1 -i ../../INSTALL.sdsl-lite.patch # apply a special patch to support more operations, coded by Bob, but not commited to SDSL-lite yet
+#patch  -p1 -i ../PREQ_INSTALL.sdsl-lite.patch
 ./install.sh
 cd ..
 
