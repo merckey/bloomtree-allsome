@@ -1,7 +1,7 @@
 # SBT-AS (AllSome Sequence Bloom Tree).
 
 
-This package implements the SBT-AS data structure presented in [1]. SBT-AS is a variant of the SBT data structure introduced by Solomon and Kingsford [2]. An SBT is a data structure that indexes a set of short-read sequencing experiments and supports fast sequence queries. SBT-AS improves the running time and space usage of the original SBT. 
+This package implements the SBT-AS data structure presented in [1]. SBT-AS is a variant of the SBT data structure introduced by Solomon and Kingsford [2]. An SBT is a data structure that indexes a set of short-read sequencing experiments and supports fast sequence queries. SBT-AS improves the running time and space usage of the original SBT. The code of SBT-AS is built on top of and uses the original SBT code [1].
 
 
 # Installation
