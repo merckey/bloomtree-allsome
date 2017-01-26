@@ -761,10 +761,14 @@ void write_bloom_tree(
     const std::string & matrix_file
 ) {
     std::cerr << "Writing to " << outfile << std::endl;
-    std::ofstream out(outfile.c_str());
-    out << root->name() << "," << matrix_file << std::endl;
-    write_bloom_tree_helper(out, root);
-    std::cerr << "Done writing " << outfile << "." << std::endl;
+    if (root == nullptr) {
+        std::cerr << "WARNING: there is no tree, so we aren't writing anything" << std::endl;
+    } else {
+        std::ofstream out(outfile.c_str());
+        out << root->name() << "," << matrix_file << std::endl;
+        write_bloom_tree_helper(out, root);
+        std::cerr << "Done writing " << outfile << "." << std::endl;
+    }
 }
 
 std::string strip_compression_from_name(std::string filename) {
@@ -793,11 +797,14 @@ void write_compressed_bloom_tree(
     const std::string & matrix_file
 ) {
     std::cerr << "Writing to " << outfile << std::endl;
-
-    std::ofstream out(outfile.c_str());
-    out << strip_compression_from_name(root->name()) << "." << compression_name << "," << matrix_file << std::endl;
-    write_compressed_bloom_tree_helper(out, compression_name, root);
-    std::cerr << "Done writing " << outfile << "." << std::endl;
+    if (root == nullptr) {
+        std::cerr << "WARNING: there is no tree, so we aren't writing anything" << std::endl;
+    } else {
+        std::ofstream out(outfile.c_str());
+        out << strip_compression_from_name(root->name()) << "." << compression_name << "," << matrix_file << std::endl;
+        write_compressed_bloom_tree_helper(out, compression_name, root);
+        std::cerr << "Done writing " << outfile << "." << std::endl;
+    }
 }
 
 
@@ -827,20 +834,23 @@ void write_split_bloom_tree(
     const std::string & matrix_file
 ) {
     std::cerr << "Writing to " << outfile << std::endl;
-
-    std::string compression_ext;
-    if ((compression_name.empty()) || (compression_name == "none")) {
-        compression_ext = "";
+    if (root == nullptr) {
+        std::cerr << "WARNING: there is no tree, so we aren't writing anything" << std::endl;
     } else {
-        compression_ext = "." + compression_name;
-    }
+        std::string compression_ext;
+        if ((compression_name.empty()) || (compression_name == "none")) {
+            compression_ext = "";
+        } else {
+            compression_ext = "." + compression_name;
+        }
 
-    std::ofstream out(outfile.c_str());
-    out << strip_compression_from_name(root->name_all()) << compression_ext
-        << "," << strip_compression_from_name(root->name()) << compression_ext
-        << "," << matrix_file << std::endl;
-    write_split_bloom_tree_helper(out, compression_ext, root);
-    std::cerr << "Done writing " << outfile << "." << std::endl;
+        std::ofstream out(outfile.c_str());
+        out << strip_compression_from_name(root->name_all()) << compression_ext
+            << "," << strip_compression_from_name(root->name()) << compression_ext
+            << "," << matrix_file << std::endl;
+        write_split_bloom_tree_helper(out, compression_ext, root);
+        std::cerr << "Done writing " << outfile << "." << std::endl;
+    }
 }
 
 /*============================================*/

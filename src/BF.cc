@@ -136,6 +136,9 @@ uint64_t BF::hash_function_range() const {
 void BF::update_hash_function_range() {
     // we assume (without checking) that num_filter_bits is a multiple of filter_partitions
     hash_function_modulus = num_filter_bits() / filter_partitions;
+    if (hash_function_modulus == 0) {
+        std::cerr << "WARNING: zero-length bitvector detected -- floating point exception is imminent!" << std::endl;
+    }
 }
 
 void BF::set_filter_partitions(uint64_t partitions) {
@@ -165,9 +168,11 @@ void BF::load(uint64_t partitions) {
     // read the actual bits
     bits = new sdsl_rrr_vector();
     auto start_time = get_wall_time();
-    sdsl::load_from_file(*bits, filename);
+    if (!sdsl::load_from_file(*bits, filename)) {
+        std::cerr << "WARNING: Attempt to load \"" << filename << "\" failed!" << std::endl;
+    }
     auto elapsed_time = elapsed_wall_time(start_time);
-    uint64_t fsize= filesize(filename);
+    uint64_t fsize = filesize(filename);
     std::cerr << std::setiosflags(std::ios::fixed) << std::setprecision(4)  << "[BF load] " << elapsed_time << " secs " << filename << " " << fsize/1024/1024 << " MB, " << fsize / elapsed_time /1024/1024 << " MB/sec" << std::endl;
 
     set_filter_partitions(partitions);
@@ -445,7 +450,9 @@ void UncompressedBF::load(uint64_t partitions) {
     // std::cerr << "Loading uncompressed BF from " << filename << std::endl;
     bv = new sdsl::bit_vector();
     auto start_time = get_wall_time();
-    sdsl::load_from_file(*bv, filename);
+    if (!sdsl::load_from_file(*bv, filename)) {
+        std::cerr << "WARNING: Attempt to load \"" << filename << "\" failed!" << std::endl;
+    }
     auto elapsed_time = elapsed_wall_time(start_time);
     std::cerr << "[BF load] " << elapsed_time << " secs " << filename << std::endl;
 

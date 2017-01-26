@@ -76,6 +76,9 @@ std::vector<std::string> read_filter_list(const std::string & inf) {
         v.emplace_back(Trim(line));
     }
     std::cerr << "Building tree on " << v.size() << " bloom filters." << std::endl;
+    if (v.size() == 0) {
+        std::cerr << "WARNING: \"" << inf << "\" is an empty file!" << std::endl;
+    }
     return v;
 }
 
@@ -445,7 +448,9 @@ void dynamic_build(
     
     // delete the tree (which saves it)
     std::cerr << "Freeing tree (and saving dirty filters)" << std::endl;
-    delete_bloom_tree(root);
+    if (root != nullptr) {
+        delete_bloom_tree(root);
+    }
 }
 
 

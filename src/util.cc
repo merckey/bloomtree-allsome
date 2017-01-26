@@ -137,9 +137,20 @@ bool ends_with(const std::string& haystack, const std::string& needle) {
     return std::equal(needle.rbegin(), needle.rend(), haystack.rbegin());
 }
 
-// http://stackoverflow.com/questions/5840148/how-can-i-get-a-files-size-in-c
+// this code was originally taken from
+//   http://stackoverflow.com/questions/5840148/how-can-i-get-a-files-size-in-c
+// RSH: however, that code neglected to detect whether the file actually
+//      exists, and this caused problems downstream because tellg returns -1
+//      which then gets interpreted as 2^64-1; the "fix" here is to report the
+//      size as zero, but a better bulletproof option would be to raise an
+//      exception
 std::ifstream::pos_type filesize(std::string filename)
 {
     std::ifstream in(filename, std::ifstream::ate | std::ifstream::binary);
-    return in.tellg(); 
+    if (in.good()) {
+        return in.tellg();
+    } else {
+        std::cerr << "WARNING: \"" << filename << "\" does not exist!" << std::endl;
+        return 0;
+    }
 }

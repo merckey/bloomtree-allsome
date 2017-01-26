@@ -821,6 +821,7 @@ void split_batch_query_by_reduction(BloomTree* root, QueryStateSet active_querie
 void split_batch_query_by_reduction_start(BloomTree* root, QuerySet & qs) {
     // construct a state for each query, reducing kmers to bf-positions
     QueryStateSet active_queries;
+
     for (auto & q : qs) {
         QueryState* q_state = new QueryState(root->bf(),q);
         q_state->pass_thresh = ceil(QUERY_THRESHOLD * q->query_kmers.size());
@@ -904,6 +905,7 @@ void allsome_batch_query_by_reduction(BloomTree* root, QueryStateSet active_quer
 void allsome_batch_query_by_reduction_start(BloomTree* root, QuerySet & qs) {
     // construct a state for each query, reducing kmers to bf-positions
     QueryStateSet active_queries;
+
     for (auto & q : qs) {
         QueryState* q_state = new QueryState(root->bf(),q);
         q_state->pass_thresh = ceil(QUERY_THRESHOLD * q->query_kmers.size());
