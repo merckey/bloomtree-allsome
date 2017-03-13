@@ -5,7 +5,7 @@
 # tested on centos 7, gcc 4.8.6
 
 
-mkdir deps
+mkdir -p deps
 cd deps
 set -e
 
@@ -13,7 +13,6 @@ set -e
 # jellyfish
 
 
-wget https://github.com/gmarcais/Jellyfish/releases/download/v2.2.6/jellyfish-2.2.6.tar.gz
 tar xf jellyfish-2.2.6.tar.gz
 cd jellyfish-2.2.6
 ./configure --prefix=$HOME
@@ -30,12 +29,17 @@ cd ..
 git clone --recursive https://github.com/simongog/sdsl-lite.git
 cd sdsl-lite
 #patch  -p1 -i ../PREQ_INSTALL.sdsl-lite.patch
+# Need updated cmake 
+# Need g++ 4.7 above
+# On uky hpc
+# module load gcc/4.9.1
 ./install.sh
 cd ..
 
 # roaring
 # note:  if the cmake step fails with this error
 #   cc1: error: unrecognized command line option "-std=c11"
+# Yeah, I get this error
 # you probably need to change the cmake command line to this:
 #   cmake -DCMAKE_INSTALL_PREFIX:PATH=$HOME -DCMAKE_C_COMPILER=gcc -DCMAKE_CXX_COMPILER=g++ ..
 
@@ -43,7 +47,8 @@ git clone https://github.com/RoaringBitmap/CRoaring.git
 cd CRoaring
 mkdir build
 cd build
-cmake -DCMAKE_INSTALL_PREFIX:PATH=$HOME .. 
+# cmake -DCMAKE_INSTALL_PREFIX:PATH=$HOME .. 
+cmake -DCMAKE_INSTALL_PREFIX:PATH=$HOME -DCMAKE_C_COMPILER=gcc -DCMAKE_CXX_COMPILER=g++ ..
 make install
 cd ..
 cd ..
